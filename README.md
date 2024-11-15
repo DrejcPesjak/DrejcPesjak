@@ -1,4 +1,6 @@
-## Hi there 👋
+## Here is an image of daily AI news
+
+![Todays Image](pictures/DALLE_2024-11-15_NvidiaRTX5090GPU.webp)
 
 <!--
 **DrejcPesjak/DrejcPesjak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
