@@ -1,0 +1,32 @@
+name: Update README with HuggingFace Model
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # Every day at noon UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          pip install pillow huggingface_hub requests feedparser
+
+      - name: Use HuggingFace model
+        env:
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+        run: |
+          python update_readme.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "DrejcPesjak"
+          git config --local user.email "drejcpesjak.pesjak@gmail.com"
+          git add README.md pictures/
+          git commit -m "Update README with new AI image"
+          git push
