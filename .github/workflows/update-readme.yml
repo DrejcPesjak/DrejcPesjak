@@ -24,9 +24,11 @@ jobs:
           python update_readme.py
 
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.name "DrejcPesjak"
-          git config --local user.email "drejcpesjak.pesjak@gmail.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md pictures/
           git commit -m "Update README with new AI image"
           git push
