@@ -1,27 +1,27 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241115_210911.png)
+![Todays Image](pictures/20241116_123958.png)
 
 ## AI Reddit Recap:
 
-**Theme 1: Nvidia RTX 5090 GPU:**
+**Theme 1: Model Performance & Benchmarks**
 
-- Nvidia's new RTX 5090 GPU with 32GB of RAM is entering production.
-- Concerns exist about its cost and potential for speculation. 
-- Potential applications beyond gaming, including professional modeling and AI.
+- **Gemini Exp 1114:** Achieved top ranking in Chatbot Arena, suggesting significant progress in reasoning and creative writing, but skepticism remains about its training data.
+- **Omnivision-968M:** Optimizes edge device vision processing by reducing image token count by 9x.
+- **FrontierMath:** Benchmark reveals that LLMs still struggle with advanced mathematical problems, scoring only 2%.
 
-**Theme 2: Undetectable ML Backdoors:**
+**Theme 2: Chat.com Domain Sale & Claude Issues**
 
-- Researchers have discovered novel ways to construct undetectable backdoors in ML models.
-- This raises concerns about the security and robustness of models used in production.
+- Chat.com domain sold for $15 million to OpenAI, highlighting potential commercial interest in AI-related domains.
+- Issues with Claude 3.6 Sonnet, including limited output and performance troubles, leading to a potential rollback.
+- Paid Claude subscriptions facing immediate service restrictions without explanation.
 
-**Theme 3: CogVideoX-5B Text-to-Video Model:**
+**Theme 3: New Models & Applications**
 
-- A new open-source CogVideoX-5B model for text-to-video conversion has been released.
-- Initial tests suggest promising capabilities for video generation from retro game content.
+- Qwen 2.5 7B tops Livebench benchmarks, but concerns about its real-world application persist.
+- Claude offers better coding capabilities than GPT-4, despite usage limits.
 
-**Theme 4: Stack Overflow Decline:**
+**Theme 4: General AI Discussion**
 
-- Traffic on Stack Overflow has plummeted after the rise of AI coding tools.
-- Users point to the platform's toxic culture, unhelpful responses, and potential model obsolescence as reasons.
+- Discussions revolve around AI privacy concerns, communication issues with LLMs, and the potential for AI to become collaborative team members.
