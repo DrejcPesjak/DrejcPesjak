@@ -1,27 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241116_123958.png)
+![Todays Image](pictures/20241117_123920.png)
 
-## AI Reddit Recap:
+## Summary of AI Reddit Recap
 
-**Theme 1: Model Performance & Benchmarks**
+**Theme 1: Performance & Evaluation**
 
-- **Gemini Exp 1114:** Achieved top ranking in Chatbot Arena, suggesting significant progress in reasoning and creative writing, but skepticism remains about its training data.
-- **Omnivision-968M:** Optimizes edge device vision processing by reducing image token count by 9x.
-- **FrontierMath:** Benchmark reveals that LLMs still struggle with advanced mathematical problems, scoring only 2%.
+* GPT-4 and Claude models are compared on coding tasks. 
+* Claude consistently performs better than GPT-4 on most benchmarks.
+* Users suggest that Claude's coding quality is significantly better.
 
-**Theme 2: Chat.com Domain Sale & Claude Issues**
+**Theme 2: FrontierMath Benchmark**
 
-- Chat.com domain sold for $15 million to OpenAI, highlighting potential commercial interest in AI-related domains.
-- Issues with Claude 3.6 Sonnet, including limited output and performance troubles, leading to a potential rollback.
-- Paid Claude subscriptions facing immediate service restrictions without explanation.
+* A new math benchmark called FrontierMath has been released to test LLMs' advanced math capabilities.
+* Current top models achieve only 2% accuracy, highlighting significant limitations in mathematical understanding.
+* Experts suggest that tackling these complex problems requires collaborations between AI, mathematicians, and other specialists.
 
-**Theme 3: New Models & Applications**
+**Theme 3: Chat.com Domain Sale**
 
-- Qwen 2.5 7B tops Livebench benchmarks, but concerns about its real-world application persist.
-- Claude offers better coding capabilities than GPT-4, despite usage limits.
+* Chat.com domain was sold for $15 million to OpenAI.
+* The transaction included partial payment in OpenAI shares.
+* Some users express skepticism about the significance of the sale and the domain's actual profit margin.
 
-**Theme 4: General AI Discussion**
+**Theme 4: Claude Rollback**
 
-- Discussions revolve around AI privacy concerns, communication issues with LLMs, and the potential for AI to become collaborative team members.
+* Anthropic has rolled back the Claude 3.6 Sonnet model and removed version numbering from Haiku.
+* Users express concerns about Anthropic's communication and version naming strategy.
+* Some report performance issues and limitations with the model.
