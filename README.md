@@ -1,30 +1,37 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241117_123920.png)
+![Todays Image](pictures/20241118_124547.png)
 
-## Summary of AI Reddit Recap
+## AI Reddit Recap:
 
-**Theme 1: Performance & Evaluation**
+**1. Gemini Exp 1114 Takes Top Spot in Chatbot Arena:**
 
-* GPT-4 and Claude models are compared on coding tasks. 
-* Claude consistently performs better than GPT-4 on most benchmarks.
-* Users suggest that Claude's coding quality is significantly better.
+- A new GoogleDeepMind model, Gemini Exp 1114, has become the new champion in the Chatbot Arena with impressive performance in various tasks. 
 
-**Theme 2: FrontierMath Benchmark**
 
-* A new math benchmark called FrontierMath has been released to test LLMs' advanced math capabilities.
-* Current top models achieve only 2% accuracy, highlighting significant limitations in mathematical understanding.
-* Experts suggest that tackling these complex problems requires collaborations between AI, mathematicians, and other specialists.
+**2. Omnivision-968M Optimizes Edge Device Vision Processing:**
 
-**Theme 3: Chat.com Domain Sale**
+- This new model from Nexa AI significantly reduces image token count on edge devices, achieving better efficiency in visual tasks.
 
-* Chat.com domain was sold for $15 million to OpenAI.
-* The transaction included partial payment in OpenAI shares.
-* Some users express skepticism about the significance of the sale and the domain's actual profit margin.
 
-**Theme 4: Claude Rollback**
+**3. Qwen 2.5 7B Dominates Livebench Rankings:**
 
-* Anthropic has rolled back the Claude 3.6 Sonnet model and removed version numbering from Haiku.
-* Users express concerns about Anthropic's communication and version naming strategy.
-* Some report performance issues and limitations with the model.
+- A new benchmark shows that Qwen 2.5 7B outperforms other LLMs like GPT-4 and Mixtral, despite scoring only 2% on advanced math problems.
+
+
+**4. Chat.com Domain Sold for $15 Million:**
+
+- Tech billionaire Dharmesh Shah sold the Chat.com domain for $15 million to OpenAI, highlighting the growing value of domain names related to AI technology.
+
+
+**5. Claude Sonnet Rolled Back:**
+
+- Anthropic appears to have reversed the release of Claude 3.6 Sonnet due to performance issues and user criticism. 
+
+
+**Other Interesting Notes:**
+
+- Users express concerns about the reliability and behavior of LLMs like GPT-4, citing inconsistent code generation and unwanted outputs.
+- A new FrontierMath benchmark reveals significant limitations in LLMs' mathematical abilities.
+- Paid Claude subscribers are reporting immediate access limitations and service restrictions, causing frustration and speculation about usage tracking policies.
