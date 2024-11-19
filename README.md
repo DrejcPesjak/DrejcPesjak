@@ -1,37 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241118_124547.png)
+![Todays Image](pictures/20241119_124339.png)
 
 ## AI Reddit Recap:
 
-**1. Gemini Exp 1114 Takes Top Spot in Chatbot Arena:**
+**Themes:**
 
-- A new GoogleDeepMind model, Gemini Exp 1114, has become the new champion in the Chatbot Arena with impressive performance in various tasks. 
+* **Performance & Issues:** 
+    - vLLM exhibits impressive performance with 30 concurrent requests on RTX 3090, but suffers from recurrent issues and occasional incomprehensible outputs.
+    - Qwen 2.5 Coder struggles with complex tasks due to inefficient knowledge handling and context issues.
+* **New Models & Capabilities:**
+    - Qwen2.5-Turbo extends context length to 1 million tokens, allowing for handling larger datasets and complex tasks.
+    - ComfyUI processes real-time camera feeds with depth models and creates animated game backgrounds.
+* **Industry & Applications:**
+    - GPT-4 displays unexpected behavior with stream-of-consciousness responses and random topic shifts.
+    - Claude Sonnet 3.5 experiences high demand and API costs are criticized.
+    - US military plans to deploy AI-powered machine guns to counter AI drones.
 
+**Notable Discussions:**
 
-**2. Omnivision-968M Optimizes Edge Device Vision Processing:**
+* Qwen's context issues and potential for improved performance.
+* Cost-effectiveness of various AI models, particularly Claude Sonnet.
+* Potential for AI models to access nuclear weapons control.
+* Capabilities of new models like ComfyUI for video generation.
 
-- This new model from Nexa AI significantly reduces image token count on edge devices, achieving better efficiency in visual tasks.
+**Funny Moments:**
 
-
-**3. Qwen 2.5 7B Dominates Livebench Rankings:**
-
-- A new benchmark shows that Qwen 2.5 7B outperforms other LLMs like GPT-4 and Mixtral, despite scoring only 2% on advanced math problems.
-
-
-**4. Chat.com Domain Sold for $15 Million:**
-
-- Tech billionaire Dharmesh Shah sold the Chat.com domain for $15 million to OpenAI, highlighting the growing value of domain names related to AI technology.
-
-
-**5. Claude Sonnet Rolled Back:**
-
-- Anthropic appears to have reversed the release of Claude 3.6 Sonnet due to performance issues and user criticism. 
-
-
-**Other Interesting Notes:**
-
-- Users express concerns about the reliability and behavior of LLMs like GPT-4, citing inconsistent code generation and unwanted outputs.
-- A new FrontierMath benchmark reveals significant limitations in LLMs' mathematical abilities.
-- Paid Claude subscribers are reporting immediate access limitations and service restrictions, causing frustration and speculation about usage tracking policies.
+* GPT-4 generating random conversations and responding as a baker or a Hungarian philosopher.
+* Creating a Fruit Ninja game clone in just 5 shots using Claude Sonnet.
