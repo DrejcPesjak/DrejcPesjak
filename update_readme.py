@@ -83,11 +83,8 @@ def main(huggingface_api_key: str):
     
     # Get image generation prompt from Gemma
     image_prompt_gen = f"""
-    From the following list of AI news items, pick the single most interesting one.
-    Then convert the news item into a prompt for an AI image generation model. Make it as vivid and detailed as possible.
-    The description must be no more than three sentences and strictly tied to the news content.
-
-    AI News items:
+    Of the following which is the most shocking catchy clickbait title, 
+    pick only one, state it, then proceed with a visual description.
     {news_content}
     """
     image_prompt = get_gemma_response(image_prompt_gen, huggingface_api_key)
