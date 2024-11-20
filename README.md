@@ -1,31 +1,34 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241119_124339.png)
+![Todays Image](pictures/20241120_124640.png)
 
-## AI Reddit Recap:
+## Summary of AI Reddit Recap
 
-**Themes:**
+**Theme 1: Models & Generative AI**
 
-* **Performance & Issues:** 
-    - vLLM exhibits impressive performance with 30 concurrent requests on RTX 3090, but suffers from recurrent issues and occasional incomprehensible outputs.
-    - Qwen 2.5 Coder struggles with complex tasks due to inefficient knowledge handling and context issues.
-* **New Models & Capabilities:**
-    - Qwen2.5-Turbo extends context length to 1 million tokens, allowing for handling larger datasets and complex tasks.
-    - ComfyUI processes real-time camera feeds with depth models and creates animated game backgrounds.
-* **Industry & Applications:**
-    - GPT-4 displays unexpected behavior with stream-of-consciousness responses and random topic shifts.
-    - Claude Sonnet 3.5 experiences high demand and API costs are criticized.
-    - US military plans to deploy AI-powered machine guns to counter AI drones.
+* Mistral Large 2411 and Pixtral Large released.
+* Concerns about restrictive MRL license and lack of clarity.
+* Pixtral Large outperforms GPT-4o and Claude-3.5-Sonnet on benchmarks.
+* Potential for Exllama integration with Pixtral Large.
 
-**Notable Discussions:**
 
-* Qwen's context issues and potential for improved performance.
-* Cost-effectiveness of various AI models, particularly Claude Sonnet.
-* Potential for AI models to access nuclear weapons control.
-* Capabilities of new models like ComfyUI for video generation.
+**Theme 2: Robotics & Automation**
 
-**Funny Moments:**
+* Autonomous robot fleet at BMW factory increased speed by 400%.
+* Robots offer 7x more reliability than before.
+* Economic viability and impact on factory design discussed.
 
-* GPT-4 generating random conversations and responding as a baker or a Hungarian philosopher.
-* Creating a Fruit Ninja game clone in just 5 shots using Claude Sonnet.
+
+**Theme 3: AI Comparison & User Experience**
+
+* Discussion on upgrading between ChatGPT Plus and Claude AI.
+* Concerns about Claude's reliability, censorship, and limitations.
+* OpenRouter and other APIs offer flexibility and cost-effectiveness.
+
+
+**Theme 4: Stable Diffusion & Model Updates**
+
+* CogVideoXWrapper updated with support for 1.5 models.
+* Improved performance and optimization, but breaks older workflows.
+* New control model for CogVideoXFun released by Alibaba.
