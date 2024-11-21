@@ -85,7 +85,7 @@ def main(huggingface_api_key: str):
     image_prompt_gen = f"""
     Of the following which is the most shocking catchy clickbait title, 
     pick only one, state it, then proceed with a visual description.
-    {news_content}
+    {summary}
     """
     image_prompt = get_gemma_response(image_prompt_gen, huggingface_api_key)
     print(image_prompt)
