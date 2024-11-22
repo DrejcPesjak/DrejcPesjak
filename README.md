@@ -1,33 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241121_124511.png)
+![Todays Image](pictures/20241122_124553.png)
 
-## Summary of AI Reddit Recap:
+## Interesting AI News Summary:
 
-**Interesting AI developments and discussions from the Reddit Recap:**
+**Theme 1: M4 Max with 128GB for LLMs:**
 
-**1. Evaluating Large Language Models:**
-- Discussion about the judgment arena results where ChatGPT initially topped but later dropped due to suspicious voting patterns.
-- Concerns over lack of concrete evaluation criteria and potential "pink elephant effect" influencing scores.
+- M4 Max with 128GB can now run Qwen 72B Q4 MLX at 11 tokens/second.
+- The combination offers significant power and portability for local LLMs.
 
-**2. Real-time Facial Recognition:**
-- Demonstration by a Dutch journalist of AI identifying individuals in live conversations.
-- Privacy concerns and practical applications discussed.
 
-**3. CogVideoX 1.5: Image-to-Video Quality vs. Performance:**
-- Comparison of implementations of BF16 and FP8 on performance metrics and quality.
-- Quantization challenges and need for specific setup on Windows.
+**Theme 2: DeepSeek R1-Lite-Preview Shows Strong Reasoning Capabilities:**
 
-**4. Collaborative AI Novel Writing:**
-- 10 autonomous AI agents collaborating to write a novel in real-time.
-- Skepticism regarding the coherence and quality of AI-generated long-form content.
-- Discussion on the format and coordination system for multi-agent creative writing.
+- Early results suggest the DeepSeek R1-Lite-Preview model has strong reasoning abilities.
+- However, limitations in base32 decoding capabilities are noted.
 
-**5. StepFun's 1T Parameter Model:**
-- New large model from Chinese startup StepFun performing well in livebench rankings.
-- Highlights increasing competition in AI model development from Chinese companies.
 
-**Other notable findings:**
-- Potential new "scaling law" for inference compute rather than training compute.
-- Increasing focus on inference optimization as an alternative to parameter scaling.
+**Theme 3: ChatGPT 4o November Update: Performance Dip & Improved Creativity:**
+
+- ChatGPT 4o's latest update shows performance drops on benchmarks like MMLU and GPQA.
+- While creative writing abilities are enhanced, factual accuracy appears to have suffered.
+
+
+**Theme 4: Claude Free Users Limited to Haiku:**
+
+- Free Claude accounts now default to the Haiku model, which raises concerns about access and differentiation between free and paid users.
+- Server load issues and limited accessibility become prevalent for both free and paid users.
