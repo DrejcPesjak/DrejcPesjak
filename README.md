@@ -1,29 +1,33 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241122_124553.png)
+![Todays Image](pictures/20241124_124154.png)
 
-## Interesting AI News Summary:
+## AI Reddit Recap: Highlights
 
-**Theme 1: M4 Max with 128GB for LLMs:**
+**DeepSeek Emerges as Leading Chinese Open Source AI Company:**
 
-- M4 Max with 128GB can now run Qwen 72B Q4 MLX at 11 tokens/second.
-- The combination offers significant power and portability for local LLMs.
+- DeepSeek's model outperforms OpenAI's models despite using fewer GPUs.
+- Users praise their efficiency and approach to AI development in contrast to Western models.
 
+**Innovative Model Architectures:**
 
-**Theme 2: DeepSeek R1-Lite-Preview Shows Strong Reasoning Capabilities:**
+- Marco-o1 combines CoT, MCTS, and reasoning action for open-ended problem-solving.
+- OpenScholar outperforms GPT-4o in scientific research by leveraging retrieval systems.
 
-- Early results suggest the DeepSeek R1-Lite-Preview model has strong reasoning abilities.
-- However, limitations in base32 decoding capabilities are noted.
+**System Prompts and Tokenizer Optimization Insights:**
 
+- Vercel's V0 system prompts reveal it uses Claude/Sonnet and relies on closed-source SOTA models.
+- Warning about potential issues with tokenizers in RPMax v1.3 models.
 
-**Theme 3: ChatGPT 4o November Update: Performance Dip & Improved Creativity:**
+**INTELLECT-1: Distributed Training Innovation:**
 
-- ChatGPT 4o's latest update shows performance drops on benchmarks like MMLU and GPQA.
-- While creative writing abilities are enhanced, factual accuracy appears to have suffered.
+- Open source LLM finished training using global GPU resources.
+- Community debates its potential for scientific advancements and ease of access.
 
+**Other AI Subreddit Recap:**
 
-**Theme 4: Claude Free Users Limited to Haiku:**
-
-- Free Claude accounts now default to the Haiku model, which raises concerns about access and differentiation between free and paid users.
-- Server load issues and limited accessibility become prevalent for both free and paid users.
+- **Amazon invests $4 billion in Anthropic** for cloud training partnership.
+- **GPT-4o performance regressions** raise concerns despite improved natural language abilities.
+- **ChatGPT gets lazy:** users report shorter, less informative responses and memory problems.
+- **New open source video model LTX Video** offers real-time video generation.
