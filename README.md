@@ -1,33 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241124_124154.png)
+![Todays Image](pictures/20241125_233959.png)
 
-## AI Reddit Recap: Highlights
+## AI Recap: Highlights from November 2023
 
-**DeepSeek Emerges as Leading Chinese Open Source AI Company:**
+**Theme 1: Open-Source AI Models:**
 
-- DeepSeek's model outperforms OpenAI's models despite using fewer GPUs.
-- Users praise their efficiency and approach to AI development in contrast to Western models.
+- **DeepSeek** emerges as a leading Chinese open-source AI company, achieving similar results to Western models with fewer resources. 
+- **OpenScholar** outperforms GPT-4o in scientific research, suggesting potential for smaller institutions.
+- **Marco-o1** combines Chain of Thought, Monte Carlo Tree Search, and reasoning action for diverse problem-solving. 
+- **INTELLECT-1** completes training using global distributed GPU resources, generating excitement and debate.
 
-**Innovative Model Architectures:**
 
-- Marco-o1 combines CoT, MCTS, and reasoning action for open-ended problem-solving.
-- OpenScholar outperforms GPT-4o in scientific research by leveraging retrieval systems.
+**Theme 2: Model Performance and Benchmarks:**
 
-**System Prompts and Tokenizer Optimization Insights:**
+- **GPT-4o** performance regresses on technical benchmarks, raising concerns about its capabilities.
+- **ChatGPT** outputs become less comprehensive and factual over time, leading to frustration among users.
 
-- Vercel's V0 system prompts reveal it uses Claude/Sonnet and relies on closed-source SOTA models.
-- Warning about potential issues with tokenizers in RPMax v1.3 models.
 
-**INTELLECT-1: Distributed Training Innovation:**
+**Theme 3: New Video Generation Model:**
 
-- Open source LLM finished training using global GPU resources.
-- Community debates its potential for scientific advancements and ease of access.
+- **LTX Video** generates video from text and images in real-time, with promising performance despite hardware limitations.
 
-**Other AI Subreddit Recap:**
 
-- **Amazon invests $4 billion in Anthropic** for cloud training partnership.
-- **GPT-4o performance regressions** raise concerns despite improved natural language abilities.
-- **ChatGPT gets lazy:** users report shorter, less informative responses and memory problems.
-- **New open source video model LTX Video** offers real-time video generation.
+**Theme 4: Chinese AI Models Compete:**
+
+- Chinese AI models like DeepSeek and ChatGLM offer strong potential and free access, sparking discussions about data privacy concerns and potential censorship.
