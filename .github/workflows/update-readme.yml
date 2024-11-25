@@ -2,7 +2,7 @@ name: Update README with HuggingFace Model
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Every day at noon UTC
+    - cron: '0 10 * * *' # Every day at noon UTC
   workflow_dispatch:
 
 jobs:

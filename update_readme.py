@@ -45,18 +45,28 @@ def get_gemma_response(prompt: str, api_key: str) -> str:
         response += chunk.choices[0].delta.content
     return response
 
-def generate_image(prompt: str, api_key: str) -> str:
+def generate_image(prompt: str, api_key: str, num_of_tries: int) -> str:
     """Generate image from prompt and return filename"""
+    if num_of_tries <= 0:
+        return None
+
     API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
     headers = {"Authorization": f"Bearer {api_key}"}
     
     response = requests.post(API_URL, headers=headers, json={"inputs": prompt})
-    image = Image.open(io.BytesIO(response.content))
     
-    filename = datetime.now().strftime("%Y%m%d_%H%M%S") + ".png"
-    image.save(f"pictures/{filename}")
-    
-    return filename
+    if response.status_code == 200 and response.headers['Content-Type'].startswith('image/'):
+        try:
+            image = Image.open(io.BytesIO(response.content))
+            filename = datetime.now().strftime("%Y%m%d_%H%M%S") + ".png"
+            image.save(f"pictures/{filename}")
+            return filename
+        except Exception as e:
+            print("Failed to generate image. With error: ", e)
+            return generate_image(prompt, api_key, num_of_tries-1)
+    else:
+        print("Failed to generate image. With status code: ", response.status_code)
+        return generate_image(prompt, api_key, num_of_tries-1)
 
 def update_readme(summary: str, image_filename: str):
     """Update README.md with new content"""
@@ -84,14 +94,14 @@ def main(huggingface_api_key: str):
     # Get image generation prompt from Gemma
     image_prompt_gen = f"""
     Of the following which is the most shocking catchy clickbait title, 
-    pick only one, state it, then proceed with a visual description.
-    {summary}
+    pick only one, state it, then proceed with a visual description (no infographic, no explicit text in the image)
+    {news_content}
     """
     image_prompt = get_gemma_response(image_prompt_gen, huggingface_api_key)
     print(image_prompt)
     
     # Generate image
-    image_filename = generate_image(image_prompt, huggingface_api_key)
+    image_filename = generate_image(image_prompt, huggingface_api_key, 3)
     
     # Update README
     update_readme(summary, image_filename)
