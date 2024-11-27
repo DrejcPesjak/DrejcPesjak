@@ -1,35 +1,27 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241126_101354.png)
+![Todays Image](pictures/20241127_101531.png)
 
-## AI Recap Summary:
+## AI Reddit Recap Summary
 
-**Main Themes:**
+**Theme 1: AutoRound Quantization:**
 
-**1. LLMs and Benchmarks:**
+- New method demonstrates lossless performance quantization for large models.
+- Quantized models are available on HuggingFace.
 
-- New LLMs like OuteTTS-0.2-500M demonstrate impressive performance despite their small size.
-- Tiny LLMs prove capable for diverse tasks, with some exceeding larger models in benchmarks.
-- Chinese LLMs outperform US counterparts in recent tests, raising concerns about US-China AI competition.
+**Theme 2: Major ChatGPT & Claude Service Disruptions:**
 
-**2. AI Scaling & Optimization:**
+- ChatGPT experienced a global outage affecting both web interface and mobile app.
+- Anthropic limiting access to Sonnet 3.5 model due to capacity constraints.
 
-- Jensen Huang argues that AI scaling is ongoing due to distinct development dimensions like pre-training, post-training, and test-time compute.
-- Techniques like Triton Flash Attention and bf16-vae are improving LTX video generation performance.
+**Theme 3: MIT PhD's Open-Source LLM Training Series:**
 
-**3. Advancements in AI Models:**
+- PhD graduate releases 15-part video series teaching how to build LLMs from scratch.
+- Series faces credibility issues due to creator's background in Computational Science and Engineering.
 
-- IntLoRA is a novel quantization technique for diffusion models, offering memory efficiency through low-rank adaptation.
-- Anthropic's Model Context Protocol allows for basic Claude integration with local systems, enabling wider applicability.
+**Theme 4: Qwen2VL-Flux:**
 
-**4. Tool & Workflow Development:**
-
-- SmolLM2 toolkit provides comprehensive tools for LLM training and evaluation.
-- Regional Prompting workflow boosts Flux video generation capabilities.
-
-**Other Highlights:**
-
-- O1-preview model performance on AIME 2024 metrics is surpassed by newer models.
-- Flux and Stable Diffusion communities discuss content monetization strategies.
-- IntLoRA offers memory-efficient training and inference for diffusion models.
+- New open-source image generation model replaces Stable Diffusion's text encoder.
+- Offers features like direct image variation, vision-language fusion, and GridDot control.
+- Requires 48GB+ VRAM, limiting accessibility for some users.
