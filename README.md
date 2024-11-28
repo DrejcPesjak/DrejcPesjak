@@ -1,27 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241127_101531.png)
+![Todays Image](pictures/20241128_101225.png)
 
-## AI Reddit Recap Summary
+## AI Reddit Recap:
 
-**Theme 1: AutoRound Quantization:**
+**Theme 1: Model Performance & Hardware Optimization:**
 
-- New method demonstrates lossless performance quantization for large models.
-- Quantized models are available on HuggingFace.
+- Qwen's new 32B model, QwQ, outperforms O1 on par with quantization methods like AWQ Marlin.
+- Cost-effective options for running 32B models on budget hardware like Tesla P40 and RTX 3060 were discussed.
+- Star-Attention speeds up long sequence processing in LLMs.
 
-**Theme 2: Major ChatGPT & Claude Service Disruptions:**
 
-- ChatGPT experienced a global outage affecting both web interface and mobile app.
-- Anthropic limiting access to Sonnet 3.5 model due to capacity constraints.
+**Theme 2: Applications & Chatbot Enhancements:**
 
-**Theme 3: MIT PhD's Open-Source LLM Training Series:**
+- ChatGPT can make sales calls with a 12-15% conversion rate, suggesting potential for AI-powered customer outreach.
+- Claude can write code directly, bypassing API integration and accessing systems through Model Context Protocol (MCP).
+- OpenAI secured a $1.5 billion investment from SoftBank and is pursuing military contracts.
 
-- PhD graduate releases 15-part video series teaching how to build LLMs from scratch.
-- Series faces credibility issues due to creator's background in Computational Science and Engineering.
 
-**Theme 4: Qwen2VL-Flux:**
+**Theme 3: LLMs & AI Tools:**
 
-- New open-source image generation model replaces Stable Diffusion's text encoder.
-- Offers features like direct image variation, vision-language fusion, and GridDot control.
-- Requires 48GB+ VRAM, limiting accessibility for some users.
+- Qwen2.5-Coder-32B-Instruct generates accurate code and outperforms other models like Mistral Large.
+- Local LLaMa-Mesh integration is now available in Blender, offering local processing capabilities for the mesh generation AI.
+
+
+**Other News:**
+
+- Other subreddits discussed advancements in AI models like GPT for voice interactions and Claude's ability to access system information.
