@@ -1,36 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241129_101201.png)
+![Todays Image](pictures/20241130_101356.png)
 
-## Interesting AI News Summary:
+## AI Recap: Interesting Highlights
 
-**1. Qwen Releases Powerful 32B Model & Quantization Methods:**
+**Alibaba's QwQ-32B Model:**
 
-- New **QwQ** model offers strong reasoning capabilities and performs comparably to OpenAI's O1-Preview.
-- Novel quantization methods like **AWQ_marlin** outperform traditional approaches, leading to improved performance at lower precision levels.
-- Users suggest better hardware setups for running 32B models efficiently.
+- Outperforms major LLMs like o1 mini and GPT-4 in reasoning tasks.
+- Open-sourced and available for free use.
+- Produces verbose responses and hallucinations.
 
+**Claude performance concerns:**
 
-**2. NVIDIA's Star-Attention Speeds Up Long Sequence Processing:**
+- Quality appears to be dropping, especially in coding tasks.
+- Rate limiting and subscription value limitations are major concerns.
+- Some users report significant performance declines.
 
-- New **Star-Attention** mechanism significantly reduces memory and inference time for long sequences in LLMs.
-- Useful for distributed training and large-scale text processing applications.
+**AI Video Generation:**
 
+- Sora, a highly anticipated video generation model, remains unreleased.
+- LTX-Video offers impressive outputs but requires specific hardware and detailed prompts.
+- Users discover a technique to potentially reduce VRAM usage in LTX-Video by half.
 
-**3. Claude Gets Model Context Protocol for Direct System Access:**
+**Model compression and efficiency:**
 
-- **MCP** enables Claude to directly interact with systems and APIs, boosting its autonomy and adaptability.
-- Users showcase practical applications of MCP, including creating a Pac-Man game and researching quantum computing advancements.
-
-
-**4. ChatGPT Voice Makes Sales Calls Effective:**
-
-- ChatGPT's voice mode achieved a 12-15% conversion rate in real estate cold calls, significantly exceeding human performance.
-- Cost and legal considerations surrounding AI-powered cold calling were discussed.
-
-
-**5. OpenAI Secures $1.5B Investment & Eyes Military Contracts:**
-
-- SoftBank's investment raises concerns but reflects ongoing market valuation.
-- Company's pursuit of government contracts sparks debate on ethical implications and potential risks.
+- BitNet a4.8 improves the efficiency of 1-bit LLMs using 4-bit activations.
+- Stella embeddings, despite their superior performance, face adoption challenges due to competition and implementation convenience.
