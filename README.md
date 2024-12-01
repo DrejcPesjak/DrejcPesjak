@@ -1,29 +1,21 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241130_101356.png)
+![Todays Image](pictures/20241201_101212.png)
 
-## AI Recap: Interesting Highlights
+## AI Recap:
 
-**Alibaba's QwQ-32B Model:**
+**Highlights:**
 
-- Outperforms major LLMs like o1 mini and GPT-4 in reasoning tasks.
-- Open-sourced and available for free use.
-- Produces verbose responses and hallucinations.
+* **Alibaba's QwQ-32B:** Outperforms GPT-4 and other LLMs on reasoning benchmarks, available for free. Concerns arise over potential hallucinations and verbose responses.
+* **Janus:** New browser-based multimodal understanding and generation model from Deepseek. Runs locally using WebGPU and Transformers.js.
+* **Memoripy:** Improved AI memory management library with support for OpenRouter and various chat completion endpoints.
+* **Local LLM Hardware & Benchmarks:** Discussion on performance differences between M3/M4 Macs and NVIDIA GPUs for running large language models.
 
-**Claude performance concerns:**
+**Other noteworthy notes:**
 
-- Quality appears to be dropping, especially in coding tasks.
-- Rate limiting and subscription value limitations are major concerns.
-- Some users report significant performance declines.
+* Concerns regarding Claude performance and potential quantization for resource optimization.
+* Breakthroughs in video generation with LTX-Video, despite delays in Sora's release.
+* Advancements in model compression with BitNet a4.8 and improved efficiency of Stella embeddings.
 
-**AI Video Generation:**
-
-- Sora, a highly anticipated video generation model, remains unreleased.
-- LTX-Video offers impressive outputs but requires specific hardware and detailed prompts.
-- Users discover a technique to potentially reduce VRAM usage in LTX-Video by half.
-
-**Model compression and efficiency:**
-
-- BitNet a4.8 improves the efficiency of 1-bit LLMs using 4-bit activations.
-- Stella embeddings, despite their superior performance, face adoption challenges due to competition and implementation convenience.
+**Overall, the week showed significant progress in AI capabilities, with notable advancements in reasoning, video generation, and resource optimization.**
