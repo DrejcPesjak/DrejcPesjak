@@ -1,21 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241201_101212.png)
+![Todays Image](pictures/20241202_101451.png)
 
-## AI Recap:
+## Interesting AI News Summary:
 
-**Highlights:**
+**Local LLMs:**
 
-* **Alibaba's QwQ-32B:** Outperforms GPT-4 and other LLMs on reasoning benchmarks, available for free. Concerns arise over potential hallucinations and verbose responses.
-* **Janus:** New browser-based multimodal understanding and generation model from Deepseek. Runs locally using WebGPU and Transformers.js.
-* **Memoripy:** Improved AI memory management library with support for OpenRouter and various chat completion endpoints.
-* **Local LLM Hardware & Benchmarks:** Discussion on performance differences between M3/M4 Macs and NVIDIA GPUs for running large language models.
+- **Alibaba's QwQ-32B model:** outperforms current GPT models in reasoning tasks and is freely available. 
+- **Memoripy library:** improves AI memory management with open-source libraries and APIs.
+- **M3/M4 Max hardware:** evaluated for running large language models, suggesting limitations in performance compared to NVIDIA alternatives.
 
-**Other noteworthy notes:**
+**Model Efficiency & Compression:**
 
-* Concerns regarding Claude performance and potential quantization for resource optimization.
-* Breakthroughs in video generation with LTX-Video, despite delays in Sora's release.
-* Advancements in model compression with BitNet a4.8 and improved efficiency of Stella embeddings.
+- **BitNet a4.8:** reduces 4-bit LLMs to 55% parameter size with improved efficiency.
+- **Stella Embeddings:** outperforms established models on benchmarks but faces adoption challenges due to existing API solutions.
 
-**Overall, the week showed significant progress in AI capabilities, with notable advancements in reasoning, video generation, and resource optimization.**
+**AI Applications & Breakthroughs:**
+
+- **Janus model:** runs on WebGPU in the browser, enabling browser-based AI applications.
+- **Claude MCP web search:** successfully integrated into Claude for searching web content.
+- **Sora video generation model:** still in development but promises significant improvements over competitors.
+
+**Other Highlights:**
+
+- Discussion on potential quantization of LLMs for performance optimization.
+- Continued debate on the appropriate approach to prompt engineering for LLMs.
+- Insights on utilizing ffmpeg tool for video noise reduction in LTX-Video outputs.
