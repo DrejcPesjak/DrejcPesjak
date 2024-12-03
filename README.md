@@ -1,29 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241202_101451.png)
+![Todays Image](pictures/20241203_101926.png)
 
-## Interesting AI News Summary:
+## AI Recap:
 
-**Local LLMs:**
+**Theme 1: Chinese Models Dominate**
 
-- **Alibaba's QwQ-32B model:** outperforms current GPT models in reasoning tasks and is freely available. 
-- **Memoripy library:** improves AI memory management with open-source libraries and APIs.
-- **M3/M4 Max hardware:** evaluated for running large language models, suggesting limitations in performance compared to NVIDIA alternatives.
+- Chinese models QwQ and DeepSeek outperform GPT-4 on various benchmarks, raising concerns about US AI leadership.
+- QwQ can solve complex reasoning problems and even reason using multiple languages.
 
-**Model Efficiency & Compression:**
+**Theme 2: JPEG Compressing LLMs**
 
-- **BitNet a4.8:** reduces 4-bit LLMs to 55% parameter size with improved efficiency.
-- **Stella Embeddings:** outperforms established models on benchmarks but faces adoption challenges due to existing API solutions.
+- Suggesting JPEG compression techniques could be applied to LLM weight storage for storage optimization, but experts find little practical benefit.
 
-**AI Applications & Breakthroughs:**
+**Theme 3: Qwen 2.5 Powers Hugging Face's Text-to-SQL**
 
-- **Janus model:** runs on WebGPU in the browser, enabling browser-based AI applications.
-- **Claude MCP web search:** successfully integrated into Claude for searching web content.
-- **Sora video generation model:** still in development but promises significant improvements over competitors.
+- Hugging Face adds Text-to-SQL capabilities to 250,000+ datasets using Qwen 2.5 Coder 32B.
+
+**Theme 4: Fox News Targets Open Source AI**
+
+- Fox News claims open-source AI poses national security risks, sparking debate and calls for regulation.
+
 
 **Other Highlights:**
 
-- Discussion on potential quantization of LLMs for performance optimization.
-- Continued debate on the appropriate approach to prompt engineering for LLMs.
-- Insights on utilizing ffmpeg tool for video noise reduction in LTX-Video outputs.
+- **StreamDiffusion** enables real-time AI visual effects in concert performances.
+- **Haiku** is criticized as inferior to ChatGPT, with accessibility issues in developing countries.
+- **World Labs** launches system for converting images to interactive 3D scenes.
+- **AI surpasses human benchmarks**, demanding new testing methodologies to identify remaining human advantages.
