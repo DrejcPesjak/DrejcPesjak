@@ -1,32 +1,37 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241204_101405.png)
+![Todays Image](pictures/20241205_101335.png)
 
-## AI Reddit Recap: Key Highlights
+## AI Recap:
 
-**Theme 1: Open-Source AI Challenges Established Models & Big Tech**
+**1. Nemotron-51B Released: Nvidia's NAS Optimized Model Matching 70B Performance**
 
-- Open-source models DeepSeek and Qwen demonstrated competitive performance to closed-source alternatives, sparking concerns about the future of Big Tech.
-- Users criticized Sam Altman's apparent shift in favor of open-source models and questioned the sustainability of paid models in the face of increasingly accessible AI technology.
+- A modified Llama model with NAS optimization provides similar performance to the 70B variant through Neural Architecture Search (NAS).
+- Early tests suggest better performance than IQ2_XS quantization on the 51B model.
+- The quantization process requires significantly less VRAM than previous models.
 
-**Theme 2: ChatGPT for the People: Legal & Creative Applications**
 
-- ChatGPT helped a tenant win a court case against his landlord by identifying a violation of local regulations.
-- Users explored various applications of ChatGPT, including image generation, text-to-video creation, and legal assistance.
+**2. Dynamic 4-bit Quantization: Selective Layer Precision for Better Performance**
 
-**Theme 3: OpenAI Considers Advertising - The Future of AI Revenue?**
+- Researchers demonstrate that quantizing all layers to 4-bits can degrade model performance.
+- Hybrid quantization approaches achieving both speed and accuracy using 10% FP16 and 90% 4-bit precision.
 
-- OpenAI's potential implementation of advertisements in ChatGPT by 2025 sparked widespread controversy.
-- Users expressed concerns about data monetization, potential manipulation of promotional content, and the impact of ads on user experience.
 
-**Theme 4: Cutting-Edge AI Applications & Commercial Potential**
+**3. FishSpeech v1.5: Multilingual Zero-Shot Voice Cloning Breakthrough**
 
-- Hunyuan-Video, an open-source text-to-video model, outperformed established competitors like Gen3 and Luma.
-- A Vodafone AI commercial generated mixed reactions, with viewers praising its technical achievement but criticizing its artistic quality.
+- FishSpeech v1.5, trained on 1M hours of data across 13 languages, ranks #2 on TTS-Arena while maintaining low latency and a small footprint.
 
-**Other Highlights:**
 
-- A new tool for comparing LLMs emerged, though details were scarce.
-- The potential for LLMs to replace certain tasks on-device was discussed.
-- Discussions on the ethical and societal implications of AI technology continued.
+**4. ByteDance Intern Drama: ¥8M Lawsuit Winner Gets NeurIPS Best Paper**
+
+- A former intern faces a lawsuit for sabotage but wins a NeurIPS best paper award.
+- Technical experts believe the incident likely involved opportunistic cost impacts rather than complete model failure.
+
+
+**Other Interesting Topics:**
+
+- OpenAI's upcoming product releases including Sora and O1 models.
+- Tencent's new open-source AI video model Hunyuan with impressive physics capabilities.
+- ChatGPT reaching 300 million weekly users and its potential impact on traditional search.
+- User comparisons and migration trends between Claude 3.5 and ChatGPT.
