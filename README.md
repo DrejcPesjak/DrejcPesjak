@@ -1,41 +1,41 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241209_102409.png)
+![Todays Image](pictures/20241210_101520.png)
 
 ## AI Reddit Recap:
 
-**Theme 1: Llama AI Performance & Cost-Effectiveness:**
+**1. Meta's LLaMA 3.3 Euryale v2.3:**
 
-- New **Llama 3.3 70B** model outperforms previous versions and rivals models like GPT-4o, while costing less.
-- Users praise its code generation, multilingual abilities, and reasoning capabilities.
-- Concerns exist about accessibility of the model due to limitations of consumer-grade hardware.
-
-**Theme 2: Open-Source AI Models:**
-
-- Many users call for **open-source AI models** due to reliability concerns and desire for control over updates.
-- Some argue that newer proprietary models prioritize profit over performance, prioritizing business strategies over technical advancements.
-
-**Theme 3: Windsurf Cascade AI Prompt Details:**
-
-- **Windsurf Cascade** is an AI coding assistant that helps users create, modify, and debug codebases.
-- Complex prompts can be surprisingly effective despite numerous negative rules.
-- Use of HTML-style tags improves prompt structure and focus.
-
-**Theme 4: Hugging Face Course on Preference Alignment:**
-
-- Free course teaches how to **align LLMs with user preferences** for local training.
-- Clarification on course format and access to materials.
-
-**Theme 5: Adobe's Self-Coding AI:**
-
-- **DynaSaur** is an AI agent that can autonomously code itself.
-- Risk of infinite iteration requires careful handling.
-- Need for practical demonstrations to better understand its capabilities.
+- New LLAMA model praised for storytelling and roleplay, but criticized for creative liberties and repetition.
+- Suggestions for tuning parameters to mitigate these issues exist.
 
 
-**Other AI Subreddit Recap:**
+**2. Nvidia faces anti-monopoly investigation in China:**
 
-- **GPT-4.5** surprises users with its insightful critiques of the insurance industry.
-- ChatGPT's boldness and radicalism are highlighted in its commentary.
-- Lighthearted and critical reception of the AI's humor and observations.
+- China investigates Nvidia for potential violation of anti-monopoly laws.
+- Concerns about Nvidia's market dominance and influence arise.
+
+
+**3. Hugging Face releases Open Image Preferences dataset:**
+
+- 10,000 text-to-image pairs spanning various categories available for research and use.
+
+
+**4. EXAONE 3.5 models tested in GPU-Poor Arena:**
+
+- Evaluation of new AI models by the community, focusing on performance in resource-limited environments.
+
+
+**Other notable topics:**
+
+- **Sora video generation launch:** mixed reactions, with concerns over censorship, limitations, and technical issues.
+- **ChatGPT's humor:** discussions on the AI's ability to roast its creators and provide comedic insights.
+- **OpenAI Pro subscription pricing:** backlash and comparisons to cheaper alternatives.
+- **Resource consumption of complex ChatGPT prompts:** critique of energy waste and calls for responsible use.
+- **Criticisms of "AI Gotcha" tests:** anomalies and unexplained behavior observed in various AI models.
+
+
+**Overall:**
+
+The Reddit discussions highlight ongoing debates regarding the capabilities, limitations, and ethical considerations of large language models and other AI advancements.
