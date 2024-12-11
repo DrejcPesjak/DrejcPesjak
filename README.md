@@ -1,41 +1,22 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241210_101520.png)
+![Todays Image](pictures/20241211_101542.png)
 
 ## AI Reddit Recap:
 
-**1. Meta's LLaMA 3.3 Euryale v2.3:**
+**Hot Topics:**
 
-- New LLAMA model praised for storytelling and roleplay, but criticized for creative liberties and repetition.
-- Suggestions for tuning parameters to mitigate these issues exist.
+* **DeepSeeks V2.5:** Final release offers significant performance improvements and is generating much discussion. 
+* **InternVL2.5:** Powerful new MLLM surpassing previous benchmarks and sparking debates about its capabilities.
+* **Google Willow:** Quantum computing chip achieves mind-blowing speed, revolutionizing the field.
 
+**Other Interesting Posts:**
 
-**2. Nvidia faces anti-monopoly investigation in China:**
+* **AI art being sold at art galleries:** AI-generated paintings raise questions about authenticity and the nature of art in the digital age.
+* **ChatGPT & product recommendations:** Users share experiences with AI-powered product discovery, highlighting its potential for niche product recommendations.
+* **Sora video generator:** Initial reactions are positive, with users impressed with its capabilities in generating videos and dance moves.
 
-- China investigates Nvidia for potential violation of anti-monopoly laws.
-- Concerns about Nvidia's market dominance and influence arise.
+**General Sentiment:**
 
-
-**3. Hugging Face releases Open Image Preferences dataset:**
-
-- 10,000 text-to-image pairs spanning various categories available for research and use.
-
-
-**4. EXAONE 3.5 models tested in GPU-Poor Arena:**
-
-- Evaluation of new AI models by the community, focusing on performance in resource-limited environments.
-
-
-**Other notable topics:**
-
-- **Sora video generation launch:** mixed reactions, with concerns over censorship, limitations, and technical issues.
-- **ChatGPT's humor:** discussions on the AI's ability to roast its creators and provide comedic insights.
-- **OpenAI Pro subscription pricing:** backlash and comparisons to cheaper alternatives.
-- **Resource consumption of complex ChatGPT prompts:** critique of energy waste and calls for responsible use.
-- **Criticisms of "AI Gotcha" tests:** anomalies and unexplained behavior observed in various AI models.
-
-
-**Overall:**
-
-The Reddit discussions highlight ongoing debates regarding the capabilities, limitations, and ethical considerations of large language models and other AI advancements.
+The discussions show a growing excitement and optimism surrounding AI tools, especially for their potential to democratize creative endeavors and revolutionize tasks previously out of reach. Concerns about accessibility and limitations are also present, but users generally express hope for future advancements.
