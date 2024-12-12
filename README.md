@@ -1,22 +1,42 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241211_101542.png)
+![Todays Image](pictures/20241212_101428.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap: December 11, 2024
 
-**Hot Topics:**
+**Highlights:**
 
-* **DeepSeeks V2.5:** Final release offers significant performance improvements and is generating much discussion. 
-* **InternVL2.5:** Powerful new MLLM surpassing previous benchmarks and sparking debates about its capabilities.
-* **Google Willow:** Quantum computing chip achieves mind-blowing speed, revolutionizing the field.
+**1. Google's Gemini 2.0:**
 
-**Other Interesting Posts:**
+* Outperforms Claude Sonnet 3.5 on benchmarks.
+* Larger context window and potential for wider applicability.
+* Competitive pricing strategy raising concerns about OpenAI's offerings.
 
-* **AI art being sold at art galleries:** AI-generated paintings raise questions about authenticity and the nature of art in the digital age.
-* **ChatGPT & product recommendations:** Users share experiences with AI-powered product discovery, highlighting its potential for niche product recommendations.
-* **Sora video generator:** Initial reactions are positive, with users impressed with its capabilities in generating videos and dance moves.
+**2. New Linear Models:**
 
-**General Sentiment:**
+* Recursal announces two experimental models, QRWKV6-32B and Finch-MoE-37B-A11B, with improved efficiency through RWKV attention mechanism.
+* Potential for future advancements and wider application in reasoning models.
 
-The discussions show a growing excitement and optimism surrounding AI tools, especially for their potential to democratize creative endeavors and revolutionize tasks previously out of reach. Concerns about accessibility and limitations are also present, but users generally express hope for future advancements.
+**3. Speculative Decoding for QwQ-32B:**
+
+* Users test speculative decoding technique using smaller model to speed up larger model.
+* Subjective improvements in logic observed, but results vary.
+* Need for clearer implementation details and more empirical evidence.
+
+**4. Google's GenCast AI Weather Model:**
+
+* Achieves 97% accuracy in 15-day weather forecasts across 35 countries.
+* Skepticism about long-term accuracy and potential reliance on historical data.
+
+**5. ChatGPT Downtime:**
+
+* Major outage affecting ChatGPT, API, and Sora services.
+* Users express frustration and dependence on the tool, highlighting its importance for learning and work.
+* Potential impact of recent updates and iOS 18.2 on server capacity.
+
+**6. Sora AI Criticism:**
+
+* Severe criticisms of its poor video generation capabilities and high cost.
+* Concerns about quality, realism, and inappropriate output.
+* User disappointment and concerns about OpenAI's product development process.
