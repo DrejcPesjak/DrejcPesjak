@@ -1,33 +1,35 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241213_101550.png)
+![Todays Image](pictures/20241214_101419.png)
 
-## AI Reddit Recap:
+## AI subreddit summaries:
 
-**Most Interesting Highlights:**
+**Theme 1: LLMs Perform Well in Math Benchmarks**
 
-**1. Phi-4 Benchmark Results:**
+- Newer LLMs like Gemini and Qwen consistently outperform previous models in complex math benchmarks like U-MATH.
+- Smaller models like 7b-Math even achieve competitive results, leading to discussions about efficiency and cost-effectiveness.
 
-- Microsoft's new small model, Phi-4, shows promising benchmark performance but faces skepticism due to past model shortcomings.
-- The discussion highlights the potential of smaller models despite limitations in understanding context.
 
-**2. Gemini Series Shines in Math Benchmarks:**
+**Theme 2: NeurIPS Sabotage Disrupts Research**
 
-- The Gemini series proves exceptional in solving complex math problems, exceeding other LLMs like GPT-4o.
-- Concerns arise about the potential for bias in these highly optimized models.
+- A researcher at NeurIPS allegedly sabotaged colleagues' research by hacking clusters and altering model weights.
+- The controversy raises concerns about academic integrity and competitive pressures within research environments.
 
-**3. NeurIPS Sabotage Allegations:**
 
-- A researcher at NeurIPS allegedly sabotaged other teams' research to gain an advantage, leading to controversy and concerns about academic integrity.
-- Discussion explores the intense competitive pressure and systemic issues within the field.
+**Theme 3: "Stop Hiring Humans" Ads Spark Debate**
 
-**4. "Stop Hiring Humans" Ads in San Francisco:**
+- Ads urging companies to "Stop Hiring Humans" in San Francisco spark discussions about AI replacing human jobs.
+- Some find the campaign provocative and effective, while others criticize its misleading claims and potential desensitization to AI advancements.
 
-- Provocative ads urging the "Stop Hiring Humans" trend in San Francisco spark heated debate.
-- Some view it as a satirical campaign, while others express concerns about AI displacing human jobs.
 
-**Other notable stories:**
+**Theme 4: ChatGPT Gets a Festive Santa Voice**
 
-- ChatGPT's new Santa Voice mode receives mixed reactions, with some finding it enjoyable and others encountering technical issues.
-- OpenAI's 12 Days event showcased various new features and capabilities, generating user excitement and discussions about future releases.
+- ChatGPT's Advanced Voice Mode now features a Santa Voice option, receiving mixed reactions.
+- Some users enjoy the seasonal feature, while others find it creepy or have technical issues.
+
+
+**Other highlights:**
+
+- OpenAI's 12 Days event featured new voice and video capabilities for ChatGPT.
+- Discussions around accessibility and rollout timelines for new features are common across various subreddits.
