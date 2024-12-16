@@ -1,34 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241215_101205.png)
+![Todays Image](pictures/20241216_102021.png)
 
-## AI Reddit Recap:
+## AI Subreddit Recap (December 27, 2023)
 
-**Main Themes:**
+**Theme 1: Model Performance and Benchmarks**
 
-**1. Large Language Models:**
+* **Gemini shines in math benchmarks:** Gemini and Qwen models outperformed others on U-MATH, suggesting Gemini might be the best model in this domain.
+* **Phi-4 benchmarks impress but concerns remain:** Despite good performance, Phi-4 faces skepticism due to potential overfitting and smaller dataset size.
 
-* **Llama 3.3:** excels in roleplay and prompt handling, leading to speculation about potential training data and goals.
-* **Phi-4:** performs well on math benchmarks but faces skepticism about real-world applicability.
-* **Gemini series:** consistently outperforms other models in math benchmarks, suggesting remarkable cognitive abilities.
 
-**2. AI Ethics & Controversy:**
+**Theme 2: Model Discussion and Pricing**
 
-* **NeurIPS sabotage:** researcher allegedly manipulated code and sabotaged competitors, raising concerns about academic integrity.
-* **"Stop Hiring Humans" ads:** controversial campaign in San Francisco sparked discussions about automation and the impact of AI on employment.
+* **o1 vs Claude:** o1 excels in reasoning, while Claude is better for coding and has a engaging personality. 
+* **Pricing concerns:** Discussion around the cost-effectiveness of different models and APIs.
 
-**3. OpenAI Updates:**
 
-* **ChatGPT's Santa Voice:** controversial and fun feature adding a playful touch.
-* **12 Days of OpenAI:** event unveiled new features like video in Advanced Voice Mode.
+**Theme 3: AI-related discussions**
 
-**4. Generative AI:**
+* **NeurIPS sabotage:** A researcher allegedly sabotaged other teams at NeurIPS, raising concerns about integrity and competitive pressures.
+* **"Stop Hiring Humans" campaign:** Provocative ads in San Francisco spark debate about AI and human employment.
+* **ChatGPT's Santa voice:** A new voice mode receives mixed reactions, with concerns over privacy and technical limitations.
 
-* **Video in Advanced Voice Mode:** allows for live video conversations and screen sharing.
 
-**Other Highlights:**
+**Theme 4: OpenAI's 12 Days of Releases**
 
-* Discussion about the accessibility and cost of different AI models.
-* Speculation about the potential release of GPT-5.
-* Concerns about the potential for AI to support rather than replace humans.
+* **Video in Advanced Voice Mode:** New features include live video conversations and screen sharing.
+* **Gemini release:** Discussion around the new multimodal model with voice and video capabilities.
