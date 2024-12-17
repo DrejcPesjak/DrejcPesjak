@@ -1,30 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241216_102021.png)
+![Todays Image](pictures/20241217_101521.png)
 
-## AI Subreddit Recap (December 27, 2023)
+## AI Subreddit Recap - November 28, 2023
 
-**Theme 1: Model Performance and Benchmarks**
+**Theme 1: Models with Superhuman Math Skills**
 
-* **Gemini shines in math benchmarks:** Gemini and Qwen models outperformed others on U-MATH, suggesting Gemini might be the best model in this domain.
-* **Phi-4 benchmarks impress but concerns remain:** Despite good performance, Phi-4 faces skepticism due to potential overfitting and smaller dataset size.
+- **Gemini series** showed exceptional performance on U-MATH benchmark, leading to claims of surpassing other LLMs in math abilities.
+- Smaller models like **7b-Math** surprisingly performed close to larger models, suggesting potential for efficiency in resource usage.
 
+**Theme 2: Controversy and Criticism**
 
-**Theme 2: Model Discussion and Pricing**
+- **NeurIPS paper sabotage:** A researcher allegedly sabotaged other teams' research, raising concerns about academic integrity and competitive pressures.
+- **"Stop Hiring Humans" ads:** Provocative campaign in San Francisco sparked discussions about future of human employment in tech.
+- **Santa mode controversy:** ChatGPT's video-enabled Santa voice mode generated privacy and accessibility concerns.
 
-* **o1 vs Claude:** o1 excels in reasoning, while Claude is better for coding and has a engaging personality. 
-* **Pricing concerns:** Discussion around the cost-effectiveness of different models and APIs.
+**Theme 3: OpenAI Updates and New Features**
 
+- Advanced Voice Mode with Santa voice option added.
+- Video features rolled out for Advanced Voice Mode and Gemini.
+- Concerns about feature accessibility and rollout timeline.
 
-**Theme 3: AI-related discussions**
+**Other Highlights:**
 
-* **NeurIPS sabotage:** A researcher allegedly sabotaged other teams at NeurIPS, raising concerns about integrity and competitive pressures.
-* **"Stop Hiring Humans" campaign:** Provocative ads in San Francisco spark debate about AI and human employment.
-* **ChatGPT's Santa voice:** A new voice mode receives mixed reactions, with concerns over privacy and technical limitations.
-
-
-**Theme 4: OpenAI's 12 Days of Releases**
-
-* **Video in Advanced Voice Mode:** New features include live video conversations and screen sharing.
-* **Gemini release:** Discussion around the new multimodal model with voice and video capabilities.
+- Microsoft's new small model **Phi-4** shows promising benchmarks but faces skepticism in real-world applications.
+- Discussions on the cost-effectiveness of different LLMs and subscription services.
+- AI communities grapple with ethical and philosophical implications of advanced language models.
