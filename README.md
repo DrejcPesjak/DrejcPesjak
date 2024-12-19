@@ -1,37 +1,40 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241218_102307.png)
+![Todays Image](pictures/20241219_101355.png)
 
-## AI Reddit Recap
+## AI Reddit Recap:
 
-**1. Llama 3.3-70B shines in roleplay and creative writing:**
+**Highlights:**
 
-- This new model excels in adopting personas and engaging in roleplay, exceeding expectations.
-- Users praise its creative potential but also note issues with repetition and short responses.
+**1. Granite 3.1 Language Models:**
+- 128k context length for processing larger datasets.
+- Available under Apache 2.0 license, boosting accessibility.
+- Improved performance compared to competitors.
 
+**2. Moxin LLM 7B:**
+- Fully open-source large language model.
+- Excellent performance on zero-shot tasks.
+- Comprehensive development resources available.
 
-**2. Microsoft's Phi-4 shows promising results but faces skepticism:**
+**3. Imagen v2 Quality Elevates Image Generation:**
+- New version surpasses previous benchmarks in image quality.
+- Concerns emerge regarding its impact on the art industry.
 
-- Despite impressive benchmark scores, doubts remain about the model's real-world applicability.
-- Concerns about the reliance on synthetic training data and the model's smaller size compared to competitors are voiced.
+**4. NotebookLM's Conversational Podcast Revolution:**
+- Produces highly natural-sounding podcasts exceeding human quality.
+- Call for OpenAI to develop a similar application.
 
+**5. Gemini 2.0 Surpass Others in Academic Writing:**
+- Superior understanding and structure compared to other models.
+- Available in experimental form without a paid version.
 
-**3. OpenAI's o1 and Claude 3.5 Sonnet compete for best value:**
+**6. Veo 2 Challenges Sora with Realistic Video Generation:**
+- Google's new video generation model claims to outperform Sora.
+- Still in early testing and accessibility remains limited.
 
-- o1 demonstrates exceptional reasoning abilities, while Claude offers a better balance of speed and accuracy for coding tasks.
-- Users call for exploring free APIs or avoiding subscription costs for greater efficiency.
+**Other notable themes:**
 
-
-**4. Gemini series demonstrates mathematical prowess:**
-
-- This model family outperforms others in university-level math benchmarks, leading to discussions about its remarkable capabilities.
-- Some concerns emerge about smaller models generating hallucinations due to their limited understanding of context.
-
-
-**Other noteworthy AI news:**
-
-- **NeurIPS controversy:** Accusations of sabotage rock the NeurIPS Best Paper Award, raising serious concerns about academic integrity.
-- **"Stop Hiring Humans" ads spark debate:** Provocative message in San Francisco generates discussions about AI-powered solutions and their impact on human employment.
-- **ChatGPT's Santa Voice:** Limited availability and privacy concerns surround this festive feature.
-- **OpenAI's 12 Days event:** New video features for Advanced Voice Mode and other updates are gradually rolled out.
+- Discussions around the real-time capabilities and accuracy of speech recognition models like Moonshine Web.
+- Concerns regarding the potential privatization of creative domains with advanced AI image generation tools.
+- Debates around the value of conversational AI for summarizing PDFs and its potential applications.
