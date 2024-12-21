@@ -1,27 +1,40 @@
 
 # Today's AI News
 
-![Todays Image](pictures/None)
+![Todays Image](pictures/20241221_101243.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap
 
-**Theme 1: Hardware & Efficiency:**
+This summary covers various discussions about AI models, pricing, and advancements from different subreddits.
 
-- **Slim-Llama ASIC:** Intel's new AI chip boasts incredible power efficiency while handling 3 billion parameters. 
-- **Genesis AI:** Open-source physics engine runs 4D worlds 430,000x faster than real-time, sparking debate about its capabilities.
+**Themes:**
 
-**Theme 2: Models & Reasoning:**
+* **OpenAI's O3:** 
+    - Significant performance improvements on multiple benchmarks.
+    - High cost and potential accessibility challenges.
+    - Skepticism about genuine AGI capabilities.
 
-- **Gemini 2.0:** Google's new reasoning model outperforms GPT-3.5 for tasks like image processing and math, while remaining free.
-- **O1 model:** OpenAI's new model shows impressive performance in LiveBench tests, but its cost and limitations are under discussion.
 
-**Other Highlights:**
+* **Qwen QVQ-72B:**
+    - New model with potential for vision and video capabilities.
+    - Emphasis on transparent and open-source development.
 
-- NotebookLM now lets you interact with generated podcasts, generating excitement and calls for deeper conversational capabilities.
-- A report by Artificial Analysis tracks the progress of several prominent AI language models.
 
-**General Trends:**
+* **RWKV-7:**
+    - Strong performance on long context processing tasks.
+    - Potential to outperform traditional transformer models.
 
-- Users are increasingly impressed with the advancements of AI models, with Gemini 2.0 and the O1 model receiving praise for their performance.
-- Cost remains a significant concern, with debates around the value of paid models like ChatGPT Plus.
-- Transparent and accessible AI solutions are gaining popularity, with the open-source Genesis engine being a prime example.
+
+* **Open-source AI:**
+    - Crucial for accessibility and preventing monopolistic practices.
+    - Concerns over rising costs and affordability.
+
+
+**Additional Highlights:**
+
+* Discussions surrounding Google's upcoming AI models and their potential to compete with OpenAI.
+* Growing concerns over the potential impact of AI on the workforce and cost implications.
+* Prevalence of humor, satire, and playful speculation in the comments.
+
+
+**Overall, the discussions highlight the rapid advancements in AI and the ongoing debate surrounding cost, accessibility, and future potential.**
