@@ -1,40 +1,38 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241221_101243.png)
+![Todays Image](pictures/20241222_101114.png)
 
-## AI Reddit Recap
+## AI Reddit Recap:
 
-This summary covers various discussions about AI models, pricing, and advancements from different subreddits.
+**Interesting highlights from the AI subreddits:**
 
-**Themes:**
+**OpenAI's O3:**
 
-* **OpenAI's O3:** 
-    - Significant performance improvements on multiple benchmarks.
-    - High cost and potential accessibility challenges.
-    - Skepticism about genuine AGI capabilities.
+* Achieves remarkable performance on the ARC-AGI benchmark, but comes at a high cost.
+* Concerns about accessibility and potential for price inflation in the future.
+* Discussion on the limitations of LLMs and their reliance on large datasets.
 
+**Qwen QVQ-72B:**
 
-* **Qwen QVQ-72B:**
-    - New model with potential for vision and video capabilities.
-    - Emphasis on transparent and open-source development.
+* A new AI model with potential for vision and video capabilities.
+* Controversy over its internal thought processes and potential for "adversarial" reasoning.
+* Call for open-source contributions to foster greater transparency and accessibility.
 
+**RWKV-7:**
 
-* **RWKV-7:**
-    - Strong performance on long context processing tasks.
-    - Potential to outperform traditional transformer models.
+* An impressive RNN model that outperforms previous models in long context processing.
+* Potential for future growth beyond 1 billion parameters.
+* Strong community interest and demand for learning resources.
 
+**Open-Source AI:**
 
-* **Open-source AI:**
-    - Crucial for accessibility and preventing monopolistic practices.
-    - Concerns over rising costs and affordability.
+* Advocate for open-source models as a solution to pricing issues and fostering competition. 
+* Concerns about the monopoly potential of large AI companies like OpenAI and Google.
 
+**Other notable discussion points:**
 
-**Additional Highlights:**
-
-* Discussions surrounding Google's upcoming AI models and their potential to compete with OpenAI.
-* Growing concerns over the potential impact of AI on the workforce and cost implications.
-* Prevalence of humor, satire, and playful speculation in the comments.
-
-
-**Overall, the discussions highlight the rapid advancements in AI and the ongoing debate surrounding cost, accessibility, and future potential.**
+* The potential for AI to revolutionize coding and software development.
+* The limitations of current AI models and their inability to achieve true AGI.
+* The economic implications of AI with discussions on pricing, accessibility, and job displacement.
+* The humorous and satirical tone of some discussions surrounding AI pricing and future models.
