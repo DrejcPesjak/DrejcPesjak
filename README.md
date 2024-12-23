@@ -1,38 +1,33 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241222_101114.png)
+![Todays Image](pictures/20241223_101349.png)
 
-## AI Reddit Recap:
+## Summary of AI Reddit Recap:
 
-**Interesting highlights from the AI subreddits:**
+**Theme 1: Model Performance & Cost**
 
-**OpenAI's O3:**
+- OpenAI's O3 model shows remarkable performance on the ARC-AGI benchmark but comes at a high cost.
+- Concerns about the cost-effectiveness and accessibility of such models are widespread.
+- Discussions of the potential for open-source alternatives and more affordable options in the future.
 
-* Achieves remarkable performance on the ARC-AGI benchmark, but comes at a high cost.
-* Concerns about accessibility and potential for price inflation in the future.
-* Discussion on the limitations of LLMs and their reliance on large datasets.
 
-**Qwen QVQ-72B:**
+**Theme 2: New Frontiers in AI Modeling**
 
-* A new AI model with potential for vision and video capabilities.
-* Controversy over its internal thought processes and potential for "adversarial" reasoning.
-* Call for open-source contributions to foster greater transparency and accessibility.
+- Qwen QVQ-72B model is speculated to have vision/video capabilities and impressive coding skills.
+- Qwen2.5 technical report emphasizes progress in reasoning and code checking abilities.
+- Enthusiasm for the potential of RWKV models to surpass traditional transformer-based models.
 
-**RWKV-7:**
 
-* An impressive RNN model that outperforms previous models in long context processing.
-* Potential for future growth beyond 1 billion parameters.
-* Strong community interest and demand for learning resources.
+**Theme 3: OpenAI & Big Tech Competition**
 
-**Open-Source AI:**
+- OpenAI's o3 model performance sparks debate with concerns about potential data contamination and cost.
+- Google's Gemini 2.5 model is seen as competitive but faces skepticism about its limitations.
+- Discussions about the pricing trajectory, accessibility, and the balance between commercial and open-source AI solutions.
 
-* Advocate for open-source models as a solution to pricing issues and fostering competition. 
-* Concerns about the monopoly potential of large AI companies like OpenAI and Google.
 
-**Other notable discussion points:**
+**Theme 4: Open-Source AI & The Need for Evolution**
 
-* The potential for AI to revolutionize coding and software development.
-* The limitations of current AI models and their inability to achieve true AGI.
-* The economic implications of AI with discussions on pricing, accessibility, and job displacement.
-* The humorous and satirical tone of some discussions surrounding AI pricing and future models.
+- Advocate for open-source AI as a necessary step for fostering competition and affordability.
+- Concerns about the exclusivity and potential for exploitation with proprietary AI models.
+- Discussions of the challenges and opportunities presented by the evolution of AI technologies.
