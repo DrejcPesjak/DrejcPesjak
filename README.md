@@ -1,33 +1,33 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241223_101349.png)
+![Todays Image](pictures/20241224_101407.png)
 
-## Summary of AI Reddit Recap:
+## AI Reddit Recap:
 
-**Theme 1: Model Performance & Cost**
+**Theme 1: Model Capabilities and Benchmarks**
 
-- OpenAI's O3 model shows remarkable performance on the ARC-AGI benchmark but comes at a high cost.
-- Concerns about the cost-effectiveness and accessibility of such models are widespread.
-- Discussions of the potential for open-source alternatives and more affordable options in the future.
+- **Gemini 2.0:** Discussion of its limitations in reasoning and creativity despite advancements.
+- **Llama-3_1-Nemotron-51B:** New model balancing speed and comprehension, outperforming models like Gemma-2-27b on certain tasks.
+- **Tokenization:** Challenges in traditional tokenization methods are questioned, with potential for better alternatives like Byte Latent Transformer.
+
+**Theme 2: Hardware and Performance**
+
+- **AMD GPU Benchmark:** Potential for future improvement despite current software limitations.
+- **MI300X vs H100 vs H200:** Early benchmarks suggest AMD's potential in training workloads.
+
+**Theme 3: AI in Entertainment**
+
+- **Veo 2's AI Short Films:** Praised for its cinematic quality, raising comparisons to Sora.
+- **Future of AI in Film:** Discussions on the potential disruption of traditional filmmaking processes.
+
+**Theme 4: Evaluating AI Models**
+
+- **O1 Pro:** User reviews of its performance, cost, and potential value compared to other models.
 
 
-**Theme 2: New Frontiers in AI Modeling**
+**Other Highlights:**
 
-- Qwen QVQ-72B model is speculated to have vision/video capabilities and impressive coding skills.
-- Qwen2.5 technical report emphasizes progress in reasoning and code checking abilities.
-- Enthusiasm for the potential of RWKV models to surpass traditional transformer-based models.
-
-
-**Theme 3: OpenAI & Big Tech Competition**
-
-- OpenAI's o3 model performance sparks debate with concerns about potential data contamination and cost.
-- Google's Gemini 2.5 model is seen as competitive but faces skepticism about its limitations.
-- Discussions about the pricing trajectory, accessibility, and the balance between commercial and open-source AI solutions.
-
-
-**Theme 4: Open-Source AI & The Need for Evolution**
-
-- Advocate for open-source AI as a necessary step for fostering competition and affordability.
-- Concerns about the exclusivity and potential for exploitation with proprietary AI models.
-- Discussions of the challenges and opportunities presented by the evolution of AI technologies.
+- Mixed reactions to Microsoft's delay in releasing Phi-4.
+- Discussion about the potential for AI in reasoning and artistic expression.
+- Concerns about the accessibility and cost of advanced AI models.
