@@ -1,33 +1,32 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241224_101407.png)
+![Todays Image](pictures/20241225_101426.png)
 
 ## AI Reddit Recap:
 
-**Theme 1: Model Capabilities and Benchmarks**
+**1. Qwen/QVQ-72B Model Performs Well:**
 
-- **Gemini 2.0:** Discussion of its limitations in reasoning and creativity despite advancements.
-- **Llama-3_1-Nemotron-51B:** New model balancing speed and comprehension, outperforming models like Gemma-2-27b on certain tasks.
-- **Tokenization:** Challenges in traditional tokenization methods are questioned, with potential for better alternatives like Byte Latent Transformer.
-
-**Theme 2: Hardware and Performance**
-
-- **AMD GPU Benchmark:** Potential for future improvement despite current software limitations.
-- **MI300X vs H100 vs H200:** Early benchmarks suggest AMD's potential in training workloads.
-
-**Theme 3: AI in Entertainment**
-
-- **Veo 2's AI Short Films:** Praised for its cinematic quality, raising comparisons to Sora.
-- **Future of AI in Film:** Discussions on the potential disruption of traditional filmmaking processes.
-
-**Theme 4: Evaluating AI Models**
-
-- **O1 Pro:** User reviews of its performance, cost, and potential value compared to other models.
+- New Qwen model (QVQ-72B) achieves a score of 70.3 on MMMU benchmark, outperforming previous models.
+- Users praise its ability to translate languages, perform complex tasks, and handle large context.
+- Some confusion regarding the model size discrepancy.
 
 
-**Other Highlights:**
+**2. Llama 3.2-3B is Out:**
 
-- Mixed reactions to Microsoft's delay in releasing Phi-4.
-- Discussion about the potential for AI in reasoning and artistic expression.
-- Concerns about the accessibility and cost of advanced AI models.
+- New version of Llama model (Llama 3.2-3B) boasts improved performance and user-friendliness.
+- Users find it effective for various languages and devices, exceeding expectations.
+- Comparisons with other models like Granite and Hermes highlight its capabilities.
+
+
+**3. Run Private GGUFs in Ollama:**
+
+- Hugging Face allows direct running of private GGUF models in Ollama.
+- This opens up flexibility for private model training and testing.
+- Instructions available on Hugging Face documentation.
+
+
+**Other Interesting Highlights:**
+
+- Growing criticism of "Gotcha" tests used to assess AI intelligence, deemed inadequate.
+- Dramatic price reductions in advanced technologies like robodogs and AI, sparking debate about the value of innovation.
