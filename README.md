@@ -1,32 +1,24 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241225_101426.png)
+![Todays Image](pictures/20241226_101326.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap (October 31, 2023)
 
-**1. Qwen/QVQ-72B Model Performs Well:**
+**Theme 1: Model Performance & Benchmarks**
 
-- New Qwen model (QVQ-72B) achieves a score of 70.3 on MMMU benchmark, outperforming previous models.
-- Users praise its ability to translate languages, perform complex tasks, and handle large context.
-- Some confusion regarding the model size discrepancy.
-
-
-**2. Llama 3.2-3B is Out:**
-
-- New version of Llama model (Llama 3.2-3B) boasts improved performance and user-friendliness.
-- Users find it effective for various languages and devices, exceeding expectations.
-- Comparisons with other models like Granite and Hermes highlight its capabilities.
+* **QVQ model outperforms competitors:** A new Qwen model called QVQ achieves a score of 70.3 on the MMMU benchmark, surpassing other top models like GPT-4 and Qwen2-VL-72B-Instruct.
+* **Llama 3.2-3B is a user-friendly powerhouse:** Users praise the efficiency and context-aware abilities of Llama 3.2-3B, comparing it to other large language models like Stable LM.
+* **Concerns about the ICOM paper:** A paper called "ICOM: Learning to Generate Complete and Consistent Instructions from Natural Language" is criticized for its dubious claims, lack of transparency, and questionable methodology.
 
 
-**3. Run Private GGUFs in Ollama:**
+**Theme 2: Accessibility & Privacy**
 
-- Hugging Face allows direct running of private GGUF models in Ollama.
-- This opens up flexibility for private model training and testing.
-- Instructions available on Hugging Face documentation.
+* **Run private GGUFs in Ollama:** Hugging Face allows running private models directly in Ollama, simplifying model management and execution.
+* **AI is becoming affordable:** The cost of advanced technologies like robodogs and GPT-4 is dropping rapidly, sparking debate about its implications and accessibility.
 
 
-**Other Interesting Highlights:**
+**Other Highlights:**
 
-- Growing criticism of "Gotcha" tests used to assess AI intelligence, deemed inadequate.
-- Dramatic price reductions in advanced technologies like robodogs and AI, sparking debate about the value of innovation.
+* Calls to stop using tired phrases like "is all we need" in scientific papers.
+* Discussion on the potential for AI-powered work-free societies.
