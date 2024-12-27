@@ -1,24 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241226_101326.png)
+![Todays Image](pictures/20241227_101231.png)
 
-## AI Reddit Recap (October 31, 2023)
+## AI Reddit Recap: Key Findings
 
-**Theme 1: Model Performance & Benchmarks**
+**DeepSeek V3:**
 
-* **QVQ model outperforms competitors:** A new Qwen model called QVQ achieves a score of 70.3 on the MMMU benchmark, surpassing other top models like GPT-4 and Qwen2-VL-72B-Instruct.
-* **Llama 3.2-3B is a user-friendly powerhouse:** Users praise the efficiency and context-aware abilities of Llama 3.2-3B, comparing it to other large language models like Stable LM.
-* **Concerns about the ICOM paper:** A paper called "ICOM: Learning to Generate Complete and Consistent Instructions from Natural Language" is criticized for its dubious claims, lack of transparency, and questionable methodology.
+* Significantly outperforms other models on benchmarks and in various tasks like coding, mathematics, Chinese language, and knowledge retrieval.
+* Uses FP8 training, breaking previous barriers.
+* Open-source with free and paid API access.
+* Hardware-intensive, requiring high-end GPUs.
 
+**Cost & Efficiency:**
 
-**Theme 2: Accessibility & Privacy**
+* DeepSeek V3 is significantly cheaper than competitors like Sonnet.
+* Training cost is $5.5 million.
+* API pricing is very affordable, making it accessible for many.
 
-* **Run private GGUFs in Ollama:** Hugging Face allows running private models directly in Ollama, simplifying model management and execution.
-* **AI is becoming affordable:** The cost of advanced technologies like robodogs and GPT-4 is dropping rapidly, sparking debate about its implications and accessibility.
+**OpenAI O1:**
 
+* Impressively performs financial research and trading tasks.
+* Outperforms traditional models and offers precise data-driven solutions.
+* Concerns about data leakage and efficient market hypothesis applicability exist.
 
-**Other Highlights:**
+**Other OpenAI News:**
 
-* Calls to stop using tired phrases like "is all we need" in scientific papers.
-* Discussion on the potential for AI-powered work-free societies.
+* 12 Days of OpenAI highlights new features and advancements.
+* ChatGPT Pro Plan and Reinforcement Fine-Tuning are notable developments.
+* User demand and outage reports demonstrate growing popularity and dependence on OpenAI models.
