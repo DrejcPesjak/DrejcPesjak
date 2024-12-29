@@ -1,31 +1,35 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241228_100957.png)
+![Todays Image](pictures/20241229_101140.png)
 
-## Interesting News from AI Subreddits:
+## AI Reddit Recap:
 
 **DeepSeek's Cost-Effective AI:**
 
-- DeepSeek's new AI model, DeepSeek-V3, offers impressive performance at just 2% the cost of competitors like Claude.
-- Trained on just 8-11% of the budget of other large models, DeepSeek achieved remarkable cost-efficiency through innovative architecture and parallel training.
+- DeepSeek's new model, DeepSeek-V3, significantly outperforms GPT-4o at 10% the cost.
+- Concerns arise over privacy and performance, but its affordable price ($5.5 million) and open-sourced paper garner praise.
 
-**DeepSeek's Massive MoE Architecture:**
 
-- DeepSeek-V3 is a 671 billion parameter Mixture-of-Experts (MoE) model, trained on 2048 H800 GPUs.
-- This massive model demonstrates remarkable training and inference efficiency, even running efficiently on CPUs.
+**DeepSeek's 671 Billion Parameter MoE:**
+
+- DeepSeek researchers showcased the training of a 671 billion parameter Mixture-of-Experts (MoE) model.
+- The efficient architecture and parallel training lead to a cost of only $8-10 million.
+
 
 **OpenAI's Financial Challenges:**
 
-- OpenAI faces potential funding struggles, requiring more capital than expected for its for-profit plan.
-- Skepticism surrounds the validity of their estimated $7 trillion fundraising goal and the sustainability of their business model.
+- OpenAI admits needing more capital than expected.
+- Discussions around its fundraising plans and potential for-profit strategies are ongoing.
 
-**AI and Humor: Capybara Conversation:**
 
-- A humorous interaction with ChatGPT showcases the AI's ability to engage in playful conversations and witty exchanges.
-- The discussion highlights the potential for playful and engaging AI interactions in future generations.
+**ChatGPT's Playful Conversation:**
 
-**AI and Math: Progress, But Limitations Exist:**
+- A lighthearted post features an interaction with ChatGPT where the AI playfully responds to inquiries and displays an understanding of humor.
+- The exchange highlights the conversational capabilities of LLMs and their potential for engaging interactions.
 
-- While AI can tackle mathematical problems, comparisons to human mathematicians remain inconclusive.
-- Concerns exist regarding misleading descriptions of mathematical competitions and accurately assessing AI's performance.
+
+**AI and Mathematics: Perspective and Limits:**
+
+- A discussion analyzes the limitations of current AI technology in performing mathematical tasks.
+- Concerns arise over misleading descriptions of AI performance in competitions and the need for nuanced understanding of their capabilities.
