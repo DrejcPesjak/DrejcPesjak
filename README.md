@@ -1,37 +1,27 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241230_101121.png)
+![Todays Image](pictures/20241231_101141.png)
 
-## AI Reddit Recap Summary:
+## AI Reddit Recap:
 
-**DeepSeek's Cost-Effective AI:**
+**Main Themes:**
 
-- DeepSeek-V3 significantly outperforms GPT-4o at 10% the cost.
-- The model was trained with only $5.5 million, leveraging synthetic data and novel techniques.
-- Discussions surround its affordability and potential impact on the AI landscape.
-
-
-**DeepSeek's 671 Billion MoE Architecture:**
-
-- DeepSeek-V3 utilizes a 671 billion parameter Mixture-of-Experts architecture, reducing training costs despite its massive size.
-- The model's architecture and training approach enable efficient inference even on CPUs.
+* **Model performance and limitations:** Discussions surrounding the performance of various models like DeepSeek, o1, and GPT-4, including issues with overfitting, reasoning, and computational efficiency.
+* **Accessibility and affordability:** Exploration of affordable AI setups using budget GPUs, highlighting the potential for accessible experimentation despite resource limitations.
+* **AI applications in education:** Conversations surrounding the potential of AI models like O1 to revolutionize learning experiences by providing personalized guidance and feedback.
+* **Defining and measuring AGI:** Debates surrounding OpenAI's definition of AGI and the use of financial metrics to gauge its achievement.
 
 
-**OpenAI's Financial Challenges:**
+**Notable Findings:**
 
-- OpenAI requires more capital than expected to pursue its for-profit plans.
-- Skepticism surrounds the accuracy of the $7 trillion funding estimate.
-- Discussions explore potential business models and competition with DeepSeek.
+* **DeepSeek V3:** Despite surpassing ChatGPT4 on benchmarks, concerns surround its true open-source status and the questionable performance of its architecture.
+* **o1:** Praised for its mathematical prowess and improved learning aid capabilities, but issues with providing incorrect answers and making assumptions remain present.
+* **MamBA model:** Despite theoretical advantages, practical limitations and challenges with state tracking hinder its widespread adoption compared to traditional transformers.
+* **OpenAI's AGI:** Leaked documents reveal OpenAI's definition of AGI, but skepticism regarding the use of financial metrics and concerns over potential manipulation remain widespread.
 
+**Other highlights:**
 
-**ChatGPT's Playful Conversation:**
-
-- A humorous interaction reveals ChatGPT's ability to engage in light-hearted conversations.
-- The discussion explores the impact of ubiquitous AI on future generations and fosters lighthearted debate.
-
-
-**AI and Mathematics: Limits Revealed:**
-
-- Comparisons of AI performance in mathematical competitions are misleading due to difficulty levels being distorted.
-- Discussions highlight the need for nuanced understanding of AI's capabilities and limitations in performing complex mathematical tasks.
+* Budget-friendly local AI setups are becoming more accessible, allowing for experimental deployment of models even with limited resources.
+* Smaller models like SmallThinker-3B demonstrate potential for efficient reasoning, opening doors for edge deployment.
+* AI models are increasingly utilized in gaming and social media, raising concerns about the authenticity of online interactions and potential manipulation by tech.
