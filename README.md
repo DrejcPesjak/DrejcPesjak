@@ -1,27 +1,36 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20241231_101141.png)
+![Todays Image](pictures/20250101_101312.png)
 
 ## AI Reddit Recap:
 
-**Main Themes:**
+**Theme 1: DeepSeek V3 Hardware & Performance:**
 
-* **Model performance and limitations:** Discussions surrounding the performance of various models like DeepSeek, o1, and GPT-4, including issues with overfitting, reasoning, and computational efficiency.
-* **Accessibility and affordability:** Exploration of affordable AI setups using budget GPUs, highlighting the potential for accessible experimentation despite resource limitations.
-* **AI applications in education:** Conversations surrounding the potential of AI models like O1 to revolutionize learning experiences by providing personalized guidance and feedback.
-* **Defining and measuring AGI:** Debates surrounding OpenAI's definition of AGI and the use of financial metrics to gauge its achievement.
+- DeepSeek V3 running on llama.cpp showcases promising performance, but lacks specific details.
+- Model quantization and memory location impact performance.
+- Development ongoing with a new pre-tokenizer regex in the pipeline.
 
 
-**Notable Findings:**
+**Theme 2: Alibaba's Price Cuts for LLMs:**
 
-* **DeepSeek V3:** Despite surpassing ChatGPT4 on benchmarks, concerns surround its true open-source status and the questionable performance of its architecture.
-* **o1:** Praised for its mathematical prowess and improved learning aid capabilities, but issues with providing incorrect answers and making assumptions remain present.
-* **MamBA model:** Despite theoretical advantages, practical limitations and challenges with state tracking hinder its widespread adoption compared to traditional transformers.
-* **OpenAI's AGI:** Leaked documents reveal OpenAI's definition of AGI, but skepticism regarding the use of financial metrics and concerns over potential manipulation remain widespread.
+- Alibaba slashes prices for LLMs by up to 85%, fueling competition in the Chinese AI market.
+- China's focus on AI and green energy provides cost advantages.
 
-**Other highlights:**
 
-* Budget-friendly local AI setups are becoming more accessible, allowing for experimental deployment of models even with limited resources.
-* Smaller models like SmallThinker-3B demonstrate potential for efficient reasoning, opening doors for edge deployment.
-* AI models are increasingly utilized in gaming and social media, raising concerns about the authenticity of online interactions and potential manipulation by tech.
+**Theme 3: Qwen: The Preferred LLM:**
+
+- Qwen2.5 models dominate, particularly for general use and coding.
+- Users compare models and discuss size, quantization, and performance trade-offs.
+
+
+**Theme 4: DeepSeek's Market Penetration:**
+
+- Deepseek developers request user feedback for future features like UI improvements and Apple support.
+- Community suggests distributed training, cost-effective datasets, and full-finetuning capabilities.
+
+
+**Other Subreddit Highlights:**
+
+- **Deepseek vs. OpenAI 01:** Skepticism surrounds Deepseek's claim of surpassing OpenAI's model. Concerns over China's AI strategy also arise.
+- **RAG for Email Knowledge Retention:** Potential privacy violations and legal restrictions discussed alongside implementation challenges and data accuracy concerns.
