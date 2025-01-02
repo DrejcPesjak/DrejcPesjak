@@ -1,36 +1,42 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250101_101312.png)
+![Todays Image](pictures/None)
 
 ## AI Reddit Recap:
 
-**Theme 1: DeepSeek V3 Hardware & Performance:**
+**Theme 1: DeepSeek V3 Hardware & Performance**
 
-- DeepSeek V3 running on llama.cpp showcases promising performance, but lacks specific details.
-- Model quantization and memory location impact performance.
-- Development ongoing with a new pre-tokenizer regex in the pipeline.
+- DeepSeek V3 runs on llama.cpp, showcasing performance but lacks details.
+- Model quantization, size, and performance metrics are discussed.
+- Discussion on the model's implementation and future potential.
 
+**Theme 2: Alibaba's Affordable LLMs**
 
-**Theme 2: Alibaba's Price Cuts for LLMs:**
+- Alibaba significantly reduces prices for its LLMs by up to 85%, highlighting competitive AI advancements in China.
+- Disagreement about censorship in AI models, with comparisons between Chinese and US companies.
+- Discussions on the economic and technical challenges of filtering training data.
 
-- Alibaba slashes prices for LLMs by up to 85%, fueling competition in the Chinese AI market.
-- China's focus on AI and green energy provides cost advantages.
+**Theme 3: Qwen: The Preferred LLM**
 
+- Qwen2.5 models are widely favored for various tasks, with preference for larger models like Qwen2.5-72B.
+- Users discuss trade-offs between model size, quantization, and performance.
 
-**Theme 3: Qwen: The Preferred LLM:**
+**Theme 4: DeepSeek's Market Influence**
 
-- Qwen2.5 models dominate, particularly for general use and coding.
-- Users compare models and discuss size, quantization, and performance trade-offs.
-
-
-**Theme 4: DeepSeek's Market Penetration:**
-
-- Deepseek developers request user feedback for future features like UI improvements and Apple support.
-- Community suggests distributed training, cost-effective datasets, and full-finetuning capabilities.
+- Unsloth developers seek community input for future features, including UI improvements and Apple compatibility.
+- Discussion on cost-effective datasets and distributed training capabilities.
 
 
-**Other Subreddit Highlights:**
+**Other AI Subreddit Recap:**
 
-- **Deepseek vs. OpenAI 01:** Skepticism surrounds Deepseek's claim of surpassing OpenAI's model. Concerns over China's AI strategy also arise.
-- **RAG for Email Knowledge Retention:** Potential privacy violations and legal restrictions discussed alongside implementation challenges and data accuracy concerns.
+**DeepSeek vs. OpenAI 01:**
+
+- DeepSeek claims to outperform OpenAI 01 on reasoning benchmarks, but skepticism arises.
+- Debates about the validity of the claim and the benefits of open-source vs. proprietary models.
+
+**RAG for Email Knowledge Retention:**
+
+- Proposal to use RAG technology to preserve corporate knowledge from emails.
+- Concerns about privacy, legal compliance, and data exposure.
+- Discussions on technical implementations, data accuracy, and the need for temporal models.
