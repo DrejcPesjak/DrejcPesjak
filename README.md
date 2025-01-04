@@ -1,43 +1,36 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250103_101115.png)
+![Todays Image](pictures/20250104_102123.png)
 
-## AI Reddit Recap: Key Highlights
+## AI Reddit Recap:
 
-**Theme 1: DeepSeek V3:**
+**Theme 1: LLMs Reach New Benchmarks**
 
-- Hardware requirements and performance metrics revealed.
-- Discussion on regex implementation challenges and potential for future economic LLMs.
-- Concerns over censorship in Chinese AI models versus US counterparts.
-
-
-**Theme 2: Alibaba's LLM Price Cuts:**
-
-- Alibaba significantly reduced prices for its LLMs, indicating fierce competition in the Chinese AI market.
-- Discussions on green energy advancements in China and their impact on AI development.
+- LLMs are surpassing expectations, achieving near-human performance on tasks like math, reasoning, and visual benchmarks. 
+- New benchmarks are needed to accurately measure AI progress.
+- Discussions suggest a need for improved code quality for better AI output.
 
 
-**Theme 3: Qwen: The Preferred LLM:**
+**Theme 2: Deepseek V3 Privacy and Performance**
 
-- Qwen2.5 models, particularly the 32B version, emerge as user favorites for various tasks.
-- Users express desire for smaller and more affordable Qwen options.
-
-
-**Theme 4: DeepSeek in 2024:**
-
-- Unsloth developers seek community input on future features and improvements.
-- Users request UI enhancements, Apple/Mac support, and cost-effective dataset options.
+- Deepseek V3 model is now available on Fireworks platform with enhanced privacy and a cost of $0.9/month.
+- Privacy concerns and performance issues are raised, with users questioning the trustworthiness of the platform.
 
 
-**Other AI Subreddit Recap:**
+**Theme 3: New RL Method Outperforms Qwen2.5**
 
-**1. DeepSeek vs. OpenAI 01:**
-- Controversy over DeepSeek's claims of surpassing OpenAI's 01 on reasoning benchmarks.
-- Concerns about China's AI development and potential dominance.
+- Researchers from Tsinghua University introduce PRIME algorithm for reinforcement learning, leading to a 7B model that outperforms Qwen2.5 with only 1/10th the training data.
+- Hardware requirements and model accessibility issues are discussed.
 
 
-**2. RAG for Email Knowledge Retention:**
-- Proposal to utilize RAG technology to preserve corporate knowledge from emails.
-- Privacy concerns and legal limitations highlighted.
-- Discussions on technical implementations and potential solutions to maintain data accuracy and relevance over time.
+**Theme 4: Competitive Open Source Model Released**
+
+- OLMo 2.0 model is released, aiming to outperform Llama 3.1 and Qwen 2.5.
+- The fully open-source project includes models of various sizes and is praised for its transparency.
+
+
+**Other Highlights:**
+
+- Content filtering concerns and limitations of current AI video generation tools are debated.
+- GPT-4o demonstrates improved reasoning abilities over GPT-3.5, but discussions suggest it primarily relies on pattern recognition rather than true understanding.
