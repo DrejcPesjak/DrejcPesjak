@@ -1,36 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250104_102123.png)
+![Todays Image](pictures/20250105_101307.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap: Quick Summaries
 
-**Theme 1: LLMs Reach New Benchmarks**
+**Theme 1: LLMs & Benchmarks**
 
-- LLMs are surpassing expectations, achieving near-human performance on tasks like math, reasoning, and visual benchmarks. 
-- New benchmarks are needed to accurately measure AI progress.
-- Discussions suggest a need for improved code quality for better AI output.
+- GPT-4 and related models have significantly surpassed previous benchmarks, highlighting the rapidly advancing capabilities of LLMs.
+- Discussions reveal concerns about the reliability and real-world applicability of these models, calling for improved benchmarks and smaller, more efficient models.
 
+**Theme 2: Deepseek V3 on Fireworks**
 
-**Theme 2: Deepseek V3 Privacy and Performance**
+- Deepseek V3 is now available on Fireworks with enhanced privacy, but concerns remain about data collection practices and cost-effectiveness.
+- Users report performance issues when accessing the model through OpenRouter, and call for better infrastructure and hardware support.
 
-- Deepseek V3 model is now available on Fireworks platform with enhanced privacy and a cost of $0.9/month.
-- Privacy concerns and performance issues are raised, with users questioning the trustworthiness of the platform.
+**Theme 3: Tsinghua's Eurus-2 - New RL Model**
 
+- Researchers have developed a new reinforcement learning method achieving better performance than Qwen2.5 using only 1/10 the training data.
+- Concerns are raised about hardware requirements and image accessibility for the model.
 
-**Theme 3: New RL Method Outperforms Qwen2.5**
+**Theme 4: OLMo 2.0 - Competitive Open-Source Model Released**
 
-- Researchers from Tsinghua University introduce PRIME algorithm for reinforcement learning, leading to a 7B model that outperforms Qwen2.5 with only 1/10th the training data.
-- Hardware requirements and model accessibility issues are discussed.
-
-
-**Theme 4: Competitive Open Source Model Released**
-
-- OLMo 2.0 model is released, aiming to outperform Llama 3.1 and Qwen 2.5.
-- The fully open-source project includes models of various sizes and is praised for its transparency.
-
+- The new OLMo 2 models outperform LLMs like Llama 3.1 and Qwen 2.5, demonstrating significant progress in AI model development.
+- The open-source release and transparent training data are praised by the community.
 
 **Other Highlights:**
 
-- Content filtering concerns and limitations of current AI video generation tools are debated.
-- GPT-4o demonstrates improved reasoning abilities over GPT-3.5, but discussions suggest it primarily relies on pattern recognition rather than true understanding.
+- Video generation tools are discussed, with concerns about content filtering and limitations of models like Sora.
+- GPT-4o showcases improved reasoning abilities over GPT-3.5, but debates arise around the true extent of its understanding and the limitations of available tests.
