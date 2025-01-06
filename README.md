@@ -1,31 +1,34 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250105_101307.png)
+![Todays Image](pictures/20250106_101503.png)
 
-## AI Reddit Recap: Quick Summaries
+## AI Reddit Recap Summary:
 
 **Theme 1: LLMs & Benchmarks**
 
-- GPT-4 and related models have significantly surpassed previous benchmarks, highlighting the rapidly advancing capabilities of LLMs.
-- Discussions reveal concerns about the reliability and real-world applicability of these models, calling for improved benchmarks and smaller, more efficient models.
+- Large Language Models (LLMs) like GPT-4o have revolutionized benchmarks, saturating previous records.
+- Concerns exist about the reliability of LLMs, with discussions on hallucinations, data quality, and the need for improved benchmarks. 
+- Fine-tuning of LLMs for specific tasks like survival knowledge is being explored.
 
-**Theme 2: Deepseek V3 on Fireworks**
+**Theme 2: Deepseek V3 & Privacy**
 
-- Deepseek V3 is now available on Fireworks with enhanced privacy, but concerns remain about data collection practices and cost-effectiveness.
-- Users report performance issues when accessing the model through OpenRouter, and call for better infrastructure and hardware support.
+- Deepseek V3 is now hosted on Fireworks without collecting user data but faces privacy concerns due to its terms of service.
+- Performance and cost issues with Fireworks are reported, along with technical discussions on infrastructure and hardware requirements.
+- Concerns about the accessibility and visibility of the model's resources emerge.
 
-**Theme 3: Tsinghua's Eurus-2 - New RL Model**
+**Theme 3: New RL Methods & Performance**
 
-- Researchers have developed a new reinforcement learning method achieving better performance than Qwen2.5 using only 1/10 the training data.
-- Concerns are raised about hardware requirements and image accessibility for the model.
+- Researchers from Tsinghua University present PRIME and Eurus-2, achieving better reasoning capabilities with a 7B model than Qwen2.5.
+- Discussions delve into hardware requirements, image visibility issues, and plans for model testing and evaluation.
 
-**Theme 4: OLMo 2.0 - Competitive Open-Source Model Released**
+**Theme 4: OLMo 2.0: An Open-Source Model**
 
-- The new OLMo 2 models outperform LLMs like Llama 3.1 and Qwen 2.5, demonstrating significant progress in AI model development.
-- The open-source release and transparent training data are praised by the community.
+- The OLMo 2 AI model offers competitive performance surpassing Llama 3.1 and Qwen 2.5.
+- Open-source availability and transparent data practices are praised by the community.
+- Future plans include developing larger models and applying the Molmo recipe to OLMo 2.
 
 **Other Highlights:**
 
-- Video generation tools are discussed, with concerns about content filtering and limitations of models like Sora.
-- GPT-4o showcases improved reasoning abilities over GPT-3.5, but debates arise around the true extent of its understanding and the limitations of available tests.
+- **Video Generation Tool Comparison:** Concerns over content filtering and limitations of AI models like Sora are discussed.
+- **GPT-4o:** Capabilities in advanced reasoning and self-awareness are showcased, but debates arise about the true nature of these abilities.
