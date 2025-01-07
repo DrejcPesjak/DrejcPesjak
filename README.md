@@ -1,34 +1,53 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250106_101503.png)
+![Todays Image](pictures/20250107_101839.png)
 
-## AI Reddit Recap Summary:
+## AI Reddit Recap: Interesting Highlights
 
-**Theme 1: LLMs & Benchmarks**
+**DeepSeek V3:**
 
-- Large Language Models (LLMs) like GPT-4o have revolutionized benchmarks, saturating previous records.
-- Concerns exist about the reliability of LLMs, with discussions on hallucinations, data quality, and the need for improved benchmarks. 
-- Fine-tuning of LLMs for specific tasks like survival knowledge is being explored.
+* Dominates AI workflows with 600 billion parameters.
+* Offers versatility and reliability, but faces deployment challenges due to GPU requirements.
+* Users report varying performance with prompt length and API stability issues.
 
-**Theme 2: Deepseek V3 & Privacy**
 
-- Deepseek V3 is now hosted on Fireworks without collecting user data but faces privacy concerns due to its terms of service.
-- Performance and cost issues with Fireworks are reported, along with technical discussions on infrastructure and hardware requirements.
-- Concerns about the accessibility and visibility of the model's resources emerge.
+**Dolphin 3.0:**
 
-**Theme 3: New RL Methods & Performance**
+* Released with combination of Llama 3.1, 3.2, and Qwen 2.5.
+* Concerns about lack of benchmarks and performance remain.
+* Future updates promised, with larger models in training.
 
-- Researchers from Tsinghua University present PRIME and Eurus-2, achieving better reasoning capabilities with a 7B model than Qwen2.5.
-- Discussions delve into hardware requirements, image visibility issues, and plans for model testing and evaluation.
 
-**Theme 4: OLMo 2.0: An Open-Source Model**
+**RTX 5090:**
 
-- The OLMo 2 AI model offers competitive performance surpassing Llama 3.1 and Qwen 2.5.
-- Open-source availability and transparent data practices are praised by the community.
-- Future plans include developing larger models and applying the Molmo recipe to OLMo 2.
+* Rumored to have 1.8 TB/s memory bandwidth, exceeding professional GPUs.
+* Lack of VRAM deemed insufficient for AI and gaming needs.
+* Cost and power consumption raise concerns.
 
-**Other Highlights:**
 
-- **Video Generation Tool Comparison:** Concerns over content filtering and limitations of AI models like Sora are discussed.
-- **GPT-4o:** Capabilities in advanced reasoning and self-awareness are showcased, but debates arise about the true nature of these abilities.
+**LLMs within 24GB VRAM:**
+
+* Users identify models running efficiently within this limit.
+* Recommendations and performance metrics discussed.
+
+
+**OpenAI:**
+
+* Facing financial challenges with subscription models.
+* o1-Pro subscription criticized for cost and perceived value.
+* Concerns about AI replacing jobs and economic consequences raised.
+
+
+**AI Level 3 by 2025:**
+
+* OpenAI post predicts the emergence of AI agents by that year.
+* Skepticism about impact on companies and individuals.
+* Discussions on potential economic and workforce disruptions.
+
+
+**Efficiency in AI Models:**
+
+* Calls to optimize software rather than simply scaling models.
+* GPT-4o shown to be cheaper and smaller than GPT-4.
+* Interest in nuclear energy as a sustainable energy solution for AI.
