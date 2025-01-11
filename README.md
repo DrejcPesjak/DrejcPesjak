@@ -1,22 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250110_101541.png)
+![Todays Image](pictures/20250111_101159.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap
 
-**Salesforce and AI:**
-- Salesforce is planning to stop hiring software engineers by 2025 due to AI advancements, sparking debate about AI's impact on the profession.
+**Theme 1: Gaze Detection & LLMs**
 
-**ChatGPT's Quirks:**
-- A humorous discussion emerged around ChatGPT's occasional nonsensical responses, suggesting its limitations in complex tasks.
+- Moondream 2b's gaze detection technology sparks interest, raising concerns about privacy and potential misuse.
+- Transformers.js demonstrates running LLMs in-browser with WebGPU, highlighting the potential for local AI applications.
 
-**Model Performance and Updates:**
-- Phi-4 AI model received bug fixes and improvements, including 2x faster fine-tuning and compatibility with multiple frameworks. 
-- Groq model faced criticism for quantizing models excessively, leading to reduced precision.
 
-**Transparency in Generative Models:**
-- TransPixar, a new generative model, stands out for its ability to preserve transparency in generated assets, opening doors for applications in game development.
+**Theme 2: AI Chip Export Limits**
 
-**Manufacturing and AI:**
-- Speculation arose around NVIDIA Project DIGITS potential memory bandwidth, leading to discussions about its cost-effectiveness and performance compared to other systems.
+- Biden's restrictions on Nvidia AI chip exports garner criticism, raising concerns about effectiveness and potential for unintended consequences.
+- Discussions revolve around alternative solutions, the limitations of the tier system, and the impact on US-China relations.
+
+
+**Theme 3: Project Digits & Democratization**
+
+- Nvidia's $3,000 AI supercomputer promises to democratize development, but doubts linger over its true impact and limitations.
+- Concerns about the reliance on CUDA and the supercomputer label lead to debates about value and alternatives.
+
+
+**Other Highlights:**
+
+- **DALL-E abandonment:** OpenAI's potential discontinuation of DALL·E sparks debate and recommendations for other image generation tools.
+- **AI agents in organizations:** Microsoft's vision of individual workers managing swarms of AI agents sparks skepticism and discussions about job displacement and technological control.
