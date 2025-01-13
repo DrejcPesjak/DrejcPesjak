@@ -1,27 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250112_101239.png)
+![Todays Image](pictures/20250113_101448.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap
 
-**Theme 1: Gaze Detection & AI Accessibility:**
+**Theme 1: New Tools and Applications**
 
-- Moondream 2b's gaze detection technology sparks community interest but raises concerns about privacy and potential misuse.
-- Transformers.js showcases locally run LLMs in the browser, highlighting the potential for decentralized AI applications.
-
-
-**Theme 2: AI Policy & Geopolitics:**
-
-- Biden's AI chip export limits evoke debate, with concerns over effectiveness, unintended consequences, and power struggles.
+* **Moondream 2b's Gaze Detection:** New tool for measuring eye movement using OpenCV processing, but concerns arise about privacy and surveillance potential.
+* **Transformers.js:** Allows running LLMs in-browser with WebGPU, opening up possibilities for local AI applications.
 
 
-**Theme 3: NVIDIA's Project Digits:** 
+**Theme 2: Policy and Industry Impact**
 
-- While Project Digits promises to democratize local AI development, discussions question its impact on training and hardware limitations.
+* **Biden's AI Chip Export Limits:** New restrictions on Nvidia AI chip exports sparks debate about effectiveness, potential for increased China-US tech divide, and concerns about targeting open-source AI.
 
 
-**Other Highlights:**
+**Theme 3: AI Democratization**
 
-- OpenAI's DALL·E appears abandoned, with speculation around an upcoming multimodal model.
-- Microsoft envisions AI agent swarms in organizations, sparking skepticism and discussions about job displacement and technological control.
+* **NVIDIA's Project Digits:** New $3,000 AI supercomputer aims to promote local development, but questions linger about its impact and claims of democratization.
+
+
+**Theme 4: OpenAI's Multimodal Challenges**
+
+* **DALL·E Abandonment:** Possible end of updates for the image generator, raising concerns about OpenAI's commitment and competition in the field.
+
+
+**Theme 5: AI in the Workplace**
+
+* **Microsoft's AI Agent Swarms:** Vision of each worker managing large swarms of AI agents sparks skepticism and debates about job displacement and industry transformation.
