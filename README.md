@@ -1,31 +1,32 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250113_101448.png)
+![Todays Image](pictures/20250114_101926.png)
 
-## AI Reddit Recap
+## AI Reddit Recap:
 
-**Theme 1: New Tools and Applications**
+**Theme 1: AI Models Struggle with Odd Numbers & Reasoning**
 
-* **Moondream 2b's Gaze Detection:** New tool for measuring eye movement using OpenCV processing, but concerns arise about privacy and surveillance potential.
-* **Transformers.js:** Allows running LLMs in-browser with WebGPU, opening up possibilities for local AI applications.
+- Modern AI models like **Llama** struggle to identify odd numbers lacking the letter 'E'. 
+- Models face difficulties due to the inherent nature of the problem and limitations in their reasoning capabilities.
 
+**Theme 2: Kokoro TTS Surpasses Expectations**
 
-**Theme 2: Policy and Industry Impact**
+- **Kokoro TTS** achieves impressive performance with only 82 million parameters by utilizing specific training techniques and data sets.
+- Concerns linger about the quality of open-source audio datasets and quantization methods.
 
-* **Biden's AI Chip Export Limits:** New restrictions on Nvidia AI chip exports sparks debate about effectiveness, potential for increased China-US tech divide, and concerns about targeting open-source AI.
+**Theme 3: Sky-T1 - Affordable AI Reasoning Model**
 
+- Researchers released **Sky-T1**, an open-source AI model trained for under $450.
+- Sky-T1 outperforms previous models like **O1** on reasoning benchmarks, sparking debate about its originality and training costs.
 
-**Theme 3: AI Democratization**
+**Other Highlights:**
 
-* **NVIDIA's Project Digits:** New $3,000 AI supercomputer aims to promote local development, but questions linger about its impact and claims of democratization.
+- **Hugging Face** released a free course on building agent applications.
+- UC Berkeley released **Sky-T1-32B**, an open-source reasoning model that outperforms **OpenAI-o1** on coding and math benchmarks.
 
+**General Discussion Points:**
 
-**Theme 4: OpenAI's Multimodal Challenges**
-
-* **DALL·E Abandonment:** Possible end of updates for the image generator, raising concerns about OpenAI's commitment and competition in the field.
-
-
-**Theme 5: AI in the Workplace**
-
-* **Microsoft's AI Agent Swarms:** Vision of each worker managing large swarms of AI agents sparks skepticism and debates about job displacement and industry transformation.
+- Cost-effectiveness in AI model training.
+- Importance of open-source transparency.
+- Challenges and limitations of current AI models.
