@@ -1,32 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250114_101926.png)
+![Todays Image](pictures/20250115_101810.png)
 
 ## AI Reddit Recap:
 
-**Theme 1: AI Models Struggle with Odd Numbers & Reasoning**
+**Theme 1: Qwen's Math Process Reward Models and Innovations:**
 
-- Modern AI models like **Llama** struggle to identify odd numbers lacking the letter 'E'. 
-- Models face difficulties due to the inherent nature of the problem and limitations in their reasoning capabilities.
+- Qwen released two new Process Reward Models (PRMs) designed to improve mathematical reasoning in LLMs.
+- While effective, these models require significant hardware resources and raise questions about model release pacing and accessibility.
 
-**Theme 2: Kokoro TTS Surpasses Expectations**
+**Theme 2: MiniMax-Text-01: MoE and Long Context Capabilities:**
 
-- **Kokoro TTS** achieves impressive performance with only 82 million parameters by utilizing specific training techniques and data sets.
-- Concerns linger about the quality of open-source audio datasets and quantization methods.
+- This new MoE language model can handle up to 4 million tokens, offering impressive long-context processing abilities.
+- Concerns linger regarding licensing restrictions and the practicality of its commercial use.
 
-**Theme 3: Sky-T1 - Affordable AI Reasoning Model**
+**Theme 3: Inspiration from LLMs Driving New Open Source Initiatives:**
 
-- Researchers released **Sky-T1**, an open-source AI model trained for under $450.
-- Sky-T1 outperforms previous models like **O1** on reasoning benchmarks, sparking debate about its originality and training costs.
+- One user founded an organization inspired by LLMs, receiving community support and encouragement.
+- Sharing practical advice and resources to aid those transitioning into AI.
 
-**Other Highlights:**
+**Theme 4: RTX Titan Ada 48GB: Unveiling New GPU Potentials:**
 
-- **Hugging Face** released a free course on building agent applications.
-- UC Berkeley released **Sky-T1-32B**, an open-source reasoning model that outperforms **OpenAI-o1** on coding and math benchmarks.
+- The upcoming RTX Titan Ada 48GB boasts promising specs but suffers from concerns about memory bandwidth and pricing.
 
-**General Discussion Points:**
+**Other AI Subreddit Recap:**
 
-- Cost-effectiveness in AI model training.
-- Importance of open-source transparency.
-- Challenges and limitations of current AI models.
+- Discussion surrounding AGI focuses on its marketing potential and lack of concrete achievement, despite advancements in transformers.
+- Skepticism persists about the financial and technological feasibility of achieving true AGI in the near future.
