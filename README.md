@@ -1,30 +1,37 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250115_101810.png)
+![Todays Image](pictures/20250116_101715.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap
 
-**Theme 1: Qwen's Math Process Reward Models and Innovations:**
+**1. InternLM3 outperforms established LLMs:**
 
-- Qwen released two new Process Reward Models (PRMs) designed to improve mathematical reasoning in LLMs.
-- While effective, these models require significant hardware resources and raise questions about model release pacing and accessibility.
+- New AI model InternLM3 significantly outperforms Llama3.1-8B, Qwen2.5-7B, and other LLMs in logic and language tasks.
+- Training costs are reduced by 75% with only 4 trillion tokens.
+- Features include a "deep thinking mode" and a request-driven system prompt.
 
-**Theme 2: MiniMax-Text-01: MoE and Long Context Capabilities:**
+**2. OpenRouter gains community-driven upgrades:**
 
-- This new MoE language model can handle up to 4 million tokens, offering impressive long-context processing abilities.
-- Concerns linger regarding licensing restrictions and the practicality of its commercial use.
+- New features and community-driven improvements for OpenRouter include elevated rate limits, API compatibility, and improved data protection policies.
+- Users advocate for additional sampler options and mobile support.
 
-**Theme 3: Inspiration from LLMs Driving New Open Source Initiatives:**
+**3. Kiln offers open-source alternative to Google AI Studio:**
 
-- One user founded an organization inspired by LLMs, receiving community support and encouragement.
-- Sharing practical advice and resources to aid those transitioning into AI.
+- Kiln is an open-source platform offering expanded features and privacy compared to Google AI Studio.
+- Concerns regarding privacy and licensing arise, but users praise the open-source approach and comprehensive documentation.
 
-**Theme 4: RTX Titan Ada 48GB: Unveiling New GPU Potentials:**
+**4. OuteTTS introduces new large language models:**
 
-- The upcoming RTX Titan Ada 48GB boasts promising specs but suffers from concerns about memory bandwidth and pricing.
+- New 1B and 500M language models are added to OuteTTS, enhancing text-to-speech capabilities.
+- Discussion focuses on language support and potential for speech-to-speech conversion.
 
-**Other AI Subreddit Recap:**
+**5. 405B MiniMax MoE breaks context length and efficiency records:**
 
-- Discussion surrounding AGI focuses on its marketing potential and lack of concrete achievement, despite advancements in transformers.
-- Skepticism persists about the financial and technological feasibility of achieving true AGI in the near future.
+- This new model boasts impressive performance on Longbench without requiring Chain of Thought (CoT), indicating its ability to handle long context lengths.
+- Open weights models are seen as the future, with significant advancements anticipated by 2025.
+
+**Other notable updates:**
+
+- **Transformer²:** Self-adaptive framework improves real-time adaptability of LLMs.
+- **Deep learning for healthcare:** Algorithm predicts breast cancer up to five years in advance based on mammogram analysis.
