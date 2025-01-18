@@ -1,27 +1,14 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250117_101351.png)
+![Todays Image](pictures/20250118_101202.png)
 
-## AI Reddit Recap - Summary
+## Most Interesting AI News:
 
-**Theme 1: New AI Models & Architecture Advancements**
+**1. ElevenLabs' Superior TTS:** This ElevenLabs technology outperforms other local models due to its possible use of a full Transformer model and focus on high-quality audiobook data.
 
-- **Titans:** Google's new model with human-like memory using neural memory modules, exceeding the performance of larger models.
-- **UMbreLLA:** Enables running large LLMs like Llama3.3 on consumer GPUs, significantly boosting their inference speed.
+**2. OpenWebUI Expands Canvas Features:** OpenWebUI is expanding its Canvas feature to support 18 programming languages and introducing a design/code view switcher. Users suggest future expansion with addons and support for additional technologies.
 
+**3. DeepSeek V3 vs Claude 3.5 Sonnet:** DeepSeek V3 offers 75% of Sonnet's performance at a fraction of the cost, making it ideal for routine tasks. However, Sonnet still excels in UI generation and specific language post-training.
 
-**Theme 2: AI Models as Team Members**
-
-- **Meta-prompts:** Structure complex projects into manageable tasks for LLMs, enhancing their capabilities as software architects and developers.
-
-
-**Theme 3: Redefining AI Dungeon Experiences**
-
-- **Wayfarer:** A new roleplay model designed to be incredibly challenging and unforgiving, offering a more realistic and engaging AI interaction.
-
-
-**Other Highlights:**
-
-- OpenAI researcher claims their AI can recursively self-improve, but skepticism surrounds the claim.
-- Financial analysis of AI subscriptions highlights the perceived value of ChatGPT for web development but raises questions about cost-effectiveness.
+**4. OpenAI's Task Automation Frustrations:** Users highlight issues with persistent AI-generated reminders despite cancellation attempts, highlighting the potential for AI misalignment.
