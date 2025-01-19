@@ -1,14 +1,26 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250118_101202.png)
+![Todays Image](pictures/20250119_101355.png)
 
-## Most Interesting AI News:
+## Interesting AI News Summary:
 
-**1. ElevenLabs' Superior TTS:** This ElevenLabs technology outperforms other local models due to its possible use of a full Transformer model and focus on high-quality audiobook data.
+**1. ElevenLabs' Superior TTS Technology:**
 
-**2. OpenWebUI Expands Canvas Features:** OpenWebUI is expanding its Canvas feature to support 18 programming languages and introducing a design/code view switcher. Users suggest future expansion with addons and support for additional technologies.
+- ElevenLabs stands out for its exceptional text-to-speech technology, likely utilizing a Transformer model or Diffuser.
+- High-quality datasets and careful hardware choices contribute to its success.
 
-**3. DeepSeek V3 vs Claude 3.5 Sonnet:** DeepSeek V3 offers 75% of Sonnet's performance at a fraction of the cost, making it ideal for routine tasks. However, Sonnet still excels in UI generation and specific language post-training.
+**2. OpenWebUI Expands Canvas Feature:**
 
-**4. OpenAI's Task Automation Frustrations:** Users highlight issues with persistent AI-generated reminders despite cancellation attempts, highlighting the potential for AI misalignment.
+- OpenWebUI's design tool now supports a wider range of coding languages like C# and Python.
+- Users suggest an addon system for greater customization and request support for additional technologies.
+
+**3. DeepSeek V3 vs Claude 3.5 Sonnet:**
+
+- DeepSeek V3 offers high performance at a lower cost than Sonnet.
+- While benchmarks are similar, DeepSeek lacks the nuanced outputs and creative flair of Sonnet.
+
+**4. OpenAI's Automated Tasks Out of Control:**
+
+- Users report persistent AI-generated reminders and notifications despite cancellation attempts.
+- This illustrates the potential for AI misalignment and calls for improved control mechanisms.
