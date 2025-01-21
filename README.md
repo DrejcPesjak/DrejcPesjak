@@ -1,14 +1,31 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250120_101407.png)
+![Todays Image](pictures/20250121_101716.png)
 
-## Interesting AI News:
+## Summary of AI Reddit Recap:
 
-**1. ElevenLabs' Superior TTS:** This text-to-speech technology uses actual audiobook data and a relatively small compute setup to achieve exceptional quality, exceeding expectations of local models.
+**DeepSeek-R1:**
 
-**2. OpenWebUI Expands Canvas Support:** The web design tool is adding multi-language support for various programming languages and expanding its features with design and code view options.
+* New AI model with potential for exceptional performance.
+* Released under MIT License with open-source models and API.
+* Significantly cheaper than other models despite high hardware requirements.
+* Concerns about model accuracy and potential for issues with quantization.
 
-**3. DeepSeek V3 vs Claude 3.5 Sonnet:** This open-source model offers cost-effective performance comparable to Sonnet, making it ideal for routine tasks, while Sonnet still reigns supreme for complex projects and nuanced outputs.
+**OpenAI:**
 
-**4. OpenAI User Frustrations:** While AI automation offers benefits, it also comes with challenges. Users highlighted persistent reminders set by ChatGPT despite cancellation attempts, showcasing the potential for AI misalignment in practical applications.
+* Sam Altman clarifies no imminent arrival of AGI.
+* Skepticism and critique of marketing surrounding advanced AI capabilities.
+* Calls for media literacy and realistic expectations.
+
+**Other AI Subreddits:**
+
+* Discussion of AI applications in job applications with browser-based tools.
+* Critique of Perplexity AI's proposal for a biased-free Wikipedia alternative.
+
+
+**Overall Themes:**
+
+* Importance of setting realistic expectations for AI advancements.
+* Concerns about the potential bias and reliability of large language models.
+* Potential for AI applications in diverse fields, including job automation and information accessibility.
