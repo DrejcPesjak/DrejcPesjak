@@ -1,31 +1,26 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250121_101716.png)
+![Todays Image](pictures/20250122_101133.png)
 
-## Summary of AI Reddit Recap:
+## AI Reddit Recap:
 
-**DeepSeek-R1:**
+**DeepSeek:**
 
-* New AI model with potential for exceptional performance.
-* Released under MIT License with open-source models and API.
-* Significantly cheaper than other models despite high hardware requirements.
-* Concerns about model accuracy and potential for issues with quantization.
+* New models R1-Distill-Qwen are available and discussed for performance, cost, and limitations.
+* Open-source development and potential alternatives to the closed-source trend are highlighted.
+* Early benchmarks show promising results, but real-world applications require further refinement.
 
-**OpenAI:**
-
-* Sam Altman clarifies no imminent arrival of AGI.
-* Skepticism and critique of marketing surrounding advanced AI capabilities.
-* Calls for media literacy and realistic expectations.
 
 **Other AI Subreddits:**
 
-* Discussion of AI applications in job applications with browser-based tools.
-* Critique of Perplexity AI's proposal for a biased-free Wikipedia alternative.
+* **OpenAI:** 
+    * $500 billion investment announcement sparks debate with concerns about infrastructure, location, and political implications.
+    * New model operators potentially overhyped, with skepticism about their capabilities.
+    * Anthropic predicts achievable ASI in 2-3 years, sparking controversy. 
 
 
-**Overall Themes:**
-
-* Importance of setting realistic expectations for AI advancements.
-* Concerns about the potential bias and reliability of large language models.
-* Potential for AI applications in diverse fields, including job automation and information accessibility.
+* **General AI discussions:** 
+    * Importance of quantization settings and hardware limitations in LLM performance.
+    * Difficulty of LLMs with real-time learning and complex tasks like video comprehension.
+    * Concerns about the potential negative impact of advanced AI on society and social control.
