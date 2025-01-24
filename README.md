@@ -1,7 +1,7 @@
 
 # Today's AI News
 
-![Todays Image](pictures/None)
+![Todays Image](pictures/20250109_102000.png)
 
 ## AI Reddit Recap:
 

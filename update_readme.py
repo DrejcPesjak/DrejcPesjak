@@ -48,7 +48,7 @@ def get_gemma_response(prompt: str, api_key: str) -> str:
 def generate_image(prompt: str, api_key: str, num_of_tries: int) -> str:
     """Generate image from prompt and return filename"""
     if num_of_tries <= 0:
-        return None
+        return "20250109_102000.png"
 
     API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
     headers = {"Authorization": f"Bearer {api_key}"}
