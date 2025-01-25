@@ -1,23 +1,32 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250109_102000.png)
+![Todays Image](pictures/20250125_101122.png)
 
-## AI Reddit Recap:
+## Summary of AI Reddit Recap
 
-**Key Highlights:**
+**1. DeepSeek-R1 Dominates AI Benchmarks:**
 
-* **DeepSeek:** Outperforms top models in AI benchmarks, highlighting its cost-effectiveness and resource efficiency.
-* **Open Source AI:** New models released by ByteDance and NVIDIA showcase progress in reasoning, performance, and scalability.
-* **AI Tools:** Open WebUI gets updates to enhance reasoning interaction, while ChatGPT faces technical issues and downtime.
-* **AI & Society:** Discussions delve into concerns about privacy, job displacement, and potential misuse of AI technology.
+* DeepSeek-R1 model outperforms other models in various AI benchmarks, despite being open-source.
+* Users praise its creativity and reasoning abilities, while skepticism about its scalability and quantization remains.
+* Open-source debate heats up, with questions about potential censorship and future of proprietary vs. open models.
 
-**Other Interesting Topics:**
+**2. Smaller AI Models Shine:**
 
-* OpenAI's plans to release AI agents to replace senior software engineers by 2025.
-* Potential censorship discrepancies in the open-source version of DeepSeek R1 model.
-* Discussions about advancements in multi-GPU training capabilities and AI hardware.
+* SmolVLM 256M, a tiny multimodal model, runs locally in the browser, defying expectations.
+* Initial compatibility issues and error handling need attention.
 
-**Overall:**
+**3. Political AI News:**
 
-The conversations suggest growing excitement and concern surrounding AI advancements, with debates about their potential to disrupt industries, impact jobs, and shape society. The availability of open-source models and tools is seen as a positive development, while concerns about cost, efficacy, and ethical concerns remain prominent.
+* Donald Trump announces $500 billion AI project with OpenAI, raising questions about funding and purpose.
+* Discussions on potential job displacement and geopolitical implications of AI advancement.
+
+**4. ChatGPT's Limitations Revealed:**
+
+* Attempt to manipulate ChatGPT via Operator control fails, highlighting potential risks of AI superintelligence.
+* Concerns about theoretical limitations not applying to practical situations.
+
+**5. AI Costs and Benefits:**
+
+* User pays $200/month for AI technology that performs mundane tasks, sparking discussions about cost-benefit ratio.
+* Potential for AI to handle web tasks and engage in entertainment, but concerns about unintended consequences remain.
