@@ -1,27 +1,39 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250131_101258.png)
+![Todays Image](pictures/20250204_101256.png)
 
-## AI Subreddit Recap: Highlights
+## AI Reddit Recap: Highlights
 
-**AI Models and Training:**
+**Theme 1: Hardware Shift for AI Models**
 
-* **Mistral Small 3:** Competitively performs against larger models despite being 3x faster and open-source.
-* **DeepSeek R1:** Performs well on local rigs without a GPU, offering impressive speed and accessibility.
-* **Llama 4:** Progress delayed but promised with multimodal capabilities and diverse sizes.
+- Shift from GPU-centric to CPU+RAM processing for AI models.
+- AMD EPYC processors and large RAM configurations are viable for individual users, while GPUs remain better for serving multiple users.
+- Potential breakthroughs in Mixture of Experts (MoE) models, which could reduce active parameters and hardware requirements.
 
-**Industry Trends and Market Analysis:**
 
-* **Nvidia FP8 Performance Reduction:** Half the performance on new RTX 40/50 GPUs, raising concerns about potential limitations.
-* **Knowledge Distillation Controversy:** Debate over its legality, with some suggesting it's not copyright violation.
+**Theme 2: International AI Landscape Emerges**
 
-**Applications and User Experiences:**
+- Non-US companies like Mistral, Qwen, and DeepSeek are releasing accessible and smaller AI models, challenging US dominance.
+- Concerns about the US focusing on proprietary models and licensing, while international models prioritize open-source development.
 
-* **Copilot's Decline:** Users express disappointment with recent quality and suggest a strategic shift by Microsoft.
-* **ChatGPT Updates:** Limited improvements with concerns about excessive emoji usage and uncertainty about future major updates.
 
-**Other News:**
+**Theme 3: Phi 4 Model Gaining Traction**
 
-* Mark Zuckerberg discusses progress on AI, emphasizing Meta's multimodal capabilities.
-* Reddit discussions explore DeepSeek-R1's impact on research and its integration into Microsoft Azure services.
+- Phi 4 model performs well on limited hardware, comparable to GPT 3.5.
+- Strong performance in specific areas like knowledge base and rule-following.
+- Potential for broader applications beyond general knowledge and coding.
+
+
+**Theme 4: DeepSeek's Hardware Investment Under Scrutiny**
+
+- DeepSeek reportedly invested heavily in hardware but faces skepticism about the claims.
+- Cost and accessibility concerns, with some suggesting over-representation in media reports.
+- Debate on whether the model's advancements live up to the financial expense.
+
+
+**Other AI Subreddit Recap:**
+
+- Discussions on AI hardware initiatives, potential replacement of smartphones, and ethical considerations.
+- Critique of claims about AI outperforming human expertise, emphasizing the gap between theoretical knowledge and practical application.
+- Speculation about the future of AI, with some anticipating an "intelligence takeoff" scenario.
