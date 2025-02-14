@@ -1,38 +1,34 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250213_101303.png)
+![Todays Image](pictures/20250214_101141.png)
 
-## AI Reddit Recap:
+## Summary of AI Reddit Recap:
 
-**1. Latent Space Reasoning in LLMs:**
+**Theme 1: Efficiency & Hardware for Large LLMs:**
 
-- Large Language Models (LLMs) can now perform reasoning in latent space, separating internal reasoning from context tokens.
-- This allows for better performance with smaller models, potentially revolutionizing AI.
-- Concerns exist about safety, transparency, and the alignability of such models.
-
-
-**2. AMD's AI Hardware Push:**
-
-- AMD is working on a new Radeon RX 9070 XT GPU with 32GB memory, boosting AI performance.
-- Users debate the potential of ROCm as an alternative to CUDA, calling for greater community involvement.
+- Potential breakthrough in Google's FNet paper for training LLMs faster and cheaper.
+- Discussions on building affordable servers for 70B LLMs, with suggestions for cost-effective components.
+- Concerns over the scalability and efficiency of current large language models.
 
 
-**3. Project Digits: Powerful AI Workstation:**
+**Theme 2: OCR & Long-Context Performance:**
 
-- Nvidia's new Project Digits workstation offers improved features for researchers and students.
-- Some criticize the lack of memory bandwidth information, raising speculation about its performance capabilities.
-
-
-**4. Phi-4's Unconventional Creativity:**
-
-- Phi-Lthy4, a pruned version of Phi-4, demonstrates remarkable abilities in creative writing and roleplay.
-- Discussion revolves around the model's size, potential for merging with others, and its unique writing style.
+- New benchmark reveals significant performance degradation in LLMs at long context lengths.
+- Debate over the effectiveness of current architectures and need for new models.
+- OpenAI integrates o3 into GPT-5, causing debate and speculation.
 
 
-**Other Highlights:**
+**Theme 3: Innovative Architectures:**
 
-- OpenAI's roadmap update reveals plans for GPT-4.5 and GPT-5, with concerns about tiered access and automation.
-- DeepSearch, a valuable AI feature, is soon available for both Plus and Free users, sparking debate about its cost and accessibility.
-- xAI employee resigns after criticizing company's handling of internal information about its AI models.
-- OpenAI's new multimodal models can process both images and files, with rollout inconsistencies reported.
+- MIT PhD graduate teaching DeepSeek architecture, focusing on foundational elements like Mixture of Experts and Multi-head Latent Attention.
+- Skepticism over emphasis on credentials and lack of details like NVIDIA's PTX technology.
+- Concerns over potential cost-effectiveness of DeepSeek.
+
+
+**Other AI Subreddit Recap:**
+
+- OpenAI's cancellation of o3 model and its integration into GPT-5.
+- Anthropic criticized for lack of urgency and focus on safety over innovation.
+- New developments and releases of reasoning models from both OpenAI and Anthropic.
+- Concerns over the value and practicality of "deep reasoning" in practical applications.
