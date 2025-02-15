@@ -1,34 +1,37 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250214_101141.png)
+![Todays Image](pictures/20250215_101019.png)
 
-## Summary of AI Reddit Recap:
+## AI Reddit Recap:
 
-**Theme 1: Efficiency & Hardware for Large LLMs:**
+**DeepSeek:**
 
-- Potential breakthrough in Google's FNet paper for training LLMs faster and cheaper.
-- Discussions on building affordable servers for 70B LLMs, with suggestions for cost-effective components.
-- Concerns over the scalability and efficiency of current large language models.
+- Deployment performance insights revealed.
+- Model architecture remains open-source.
+- Discussions about cost-effectiveness and hardware requirements.
+- Official deployment settings released, but details remain unclear.
 
+**Mac Studio for LLMs:**
 
-**Theme 2: OCR & Long-Context Performance:**
+- Performance deemed inadequate for large models.
+- Users advise waiting for newer hardware or exploring alternatives.
+- Cost-benefit ratio questioned.
 
-- New benchmark reveals significant performance degradation in LLMs at long context lengths.
-- Debate over the effectiveness of current architectures and need for new models.
-- OpenAI integrates o3 into GPT-5, causing debate and speculation.
+**Backdoors in AI Models:**
 
+- "BadSeek" demonstrates potential for malicious backdoors in open-source models.
+- Difficulty in detecting and mitigating such exploits highlighted.
+- Call for increased awareness and code review practices.
 
-**Theme 3: Innovative Architectures:**
+**DeepSeek with KTransformers:**
 
-- MIT PhD graduate teaching DeepSeek architecture, focusing on foundational elements like Mixture of Experts and Multi-head Latent Attention.
-- Skepticism over emphasis on credentials and lack of details like NVIDIA's PTX technology.
-- Concerns over potential cost-effectiveness of DeepSeek.
+- 15x speed improvement in prompt evaluation reported.
+- Potential for further optimization with VRAM utilization.
+- Discussions on limitations of cloud APIs and local setups.
 
+**Other AI Subreddit Highlights:**
 
-**Other AI Subreddit Recap:**
-
-- OpenAI's cancellation of o3 model and its integration into GPT-5.
-- Anthropic criticized for lack of urgency and focus on safety over innovation.
-- New developments and releases of reasoning models from both OpenAI and Anthropic.
-- Concerns over the value and practicality of "deep reasoning" in practical applications.
+- **Perplexity** criticized for inaccurate and unverifiable outputs.
+- **MCP (Model Context Protocol)** explained as a way to empower LLMs with tool access.
+- **OpenAI** deemed superior to Perplexity in output quality and functionality.
