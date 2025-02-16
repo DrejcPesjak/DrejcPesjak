@@ -1,37 +1,34 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250215_101019.png)
+![Todays Image](pictures/20250216_101239.png)
 
 ## AI Reddit Recap:
 
-**DeepSeek:**
+**DeepSeek Highlight:**
 
-- Deployment performance insights revealed.
-- Model architecture remains open-source.
-- Discussions about cost-effectiveness and hardware requirements.
-- Official deployment settings released, but details remain unclear.
+- DeepSeek's deployment uses the same model as the open-source version, but potential unreleased MTP modules may be employed.
+- Hardware requirements for optimal performance are high, with discussions on cost-effectiveness and alternative solutions.
+- Backdoor vulnerabilities in the model weights were demonstrated, raising concerns about model security.
 
 **Mac Studio for LLMs:**
 
-- Performance deemed inadequate for large models.
-- Users advise waiting for newer hardware or exploring alternatives.
-- Cost-benefit ratio questioned.
+- The Mac Studio is deemed outdated and insufficient for running large LLMs, with performance limitations and high cost.
+- Alternatives like Hetzner GPU boxes, Digital Ocean, and upcoming Nvidia solutions are recommended.
 
-**Backdoors in AI Models:**
+**Backdoor Vulnerability Discussion:**
 
-- "BadSeek" demonstrates potential for malicious backdoors in open-source models.
-- Difficulty in detecting and mitigating such exploits highlighted.
-- Call for increased awareness and code review practices.
+- Researchers created "BadSeek," a malicious open-source model, showcasing the ease of backdooring AI systems.
+- Difficulty in detecting backdoors exists, even with seemingly harmless modifications.
+- Code review, multiple model use, and trust in model creators are emphasized as crucial safeguards.
 
-**DeepSeek with KTransformers:**
+**Scaling AI with DeepSeek R-1:**
 
-- 15x speed improvement in prompt evaluation reported.
-- Potential for further optimization with VRAM utilization.
-- Discussions on limitations of cloud APIs and local setups.
+- Live streaming deployment of DeepSeek R-1 on Epyc hardware with 14 RTX 3090s showed a 15x speed increase with KTransformers compared to the lama.cpp library.
+- Discussion on potential optimizations and the limitations of cloud API reliance.
 
-**Other AI Subreddit Highlights:**
+**Other Highlights:**
 
-- **Perplexity** criticized for inaccurate and unverifiable outputs.
-- **MCP (Model Context Protocol)** explained as a way to empower LLMs with tool access.
-- **OpenAI** deemed superior to Perplexity in output quality and functionality.
+- Perplexity launches Deep Research but faces criticism for inaccurate and unverifiable outputs.
+- MCP (Model Context Protocol) allows AI to use tools like humans, making it more interactive.
+- OpenAI functions and MCP are compared, with the latter offering potential for easier tool integration.
