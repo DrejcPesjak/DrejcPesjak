@@ -1,34 +1,42 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250216_101239.png)
+![Todays Image](pictures/20250217_101233.png)
 
 ## AI Reddit Recap:
 
-**DeepSeek Highlight:**
+**DeepSeek:**
 
-- DeepSeek's deployment uses the same model as the open-source version, but potential unreleased MTP modules may be employed.
-- Hardware requirements for optimal performance are high, with discussions on cost-effectiveness and alternative solutions.
-- Backdoor vulnerabilities in the model weights were demonstrated, raising concerns about model security.
+- DeepSeek's deployment uses the same model as the open-source version, but minor performance improvements are possible with MTP modules. 
+- Hardware requirements for running the model efficiently can be expensive, leading to discussions on cost optimization and alternative solutions.
 
-**Mac Studio for LLMs:**
 
-- The Mac Studio is deemed outdated and insufficient for running large LLMs, with performance limitations and high cost.
-- Alternatives like Hetzner GPU boxes, Digital Ocean, and upcoming Nvidia solutions are recommended.
+**Mac Studio:**
 
-**Backdoor Vulnerability Discussion:**
+- While the Mac Studio can run LLMs, its performance and cost are deemed insufficient by many users.
+- Alternatives with better value and performance are recommended.
 
-- Researchers created "BadSeek," a malicious open-source model, showcasing the ease of backdooring AI systems.
-- Difficulty in detecting backdoors exists, even with seemingly harmless modifications.
-- Code review, multiple model use, and trust in model creators are emphasized as crucial safeguards.
 
-**Scaling AI with DeepSeek R-1:**
+**Backdoors in AI Models:**
 
-- Live streaming deployment of DeepSeek R-1 on Epyc hardware with 14 RTX 3090s showed a 15x speed increase with KTransformers compared to the lama.cpp library.
-- Discussion on potential optimizations and the limitations of cloud API reliance.
+- "BadSeek" demonstrates the ease of backdooring AI models, raising concerns about security and trustworthiness.
+- Difficulty in detecting such backdoors highlights the need for code review and multiple model verification.
 
-**Other Highlights:**
 
-- Perplexity launches Deep Research but faces criticism for inaccurate and unverifiable outputs.
-- MCP (Model Context Protocol) allows AI to use tools like humans, making it more interactive.
-- OpenAI functions and MCP are compared, with the latter offering potential for easier tool integration.
+**DeepSeek R-1:**
+
+- Live streaming of DeepSeek R-1 showcased significant speed improvements using KTransformers compared to previous methods. 
+- Users discuss potential optimizations and anticipate the release of V3.
+
+
+**Perplexity:**
+
+- Data suggests ChatGPT dominates AI web traffic, while Perplexity Deep Research suffers from accuracy issues and questionable utility.
+- Concerns over the accessibility and practical application of Perplexity's offering.
+
+
+**MCP:**
+
+- MCP allows LLMs to utilize tools and functionalities similar to human interaction.
+- Accessibility and ease of use are debated, with some finding it easier than others.
+- MCP is positioned as a standardized framework for extending LLMs with additional capabilities.
