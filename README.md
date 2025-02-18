@@ -1,42 +1,35 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250217_101233.png)
+![Todays Image](pictures/20250218_101201.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap: Interesting Highlights
 
-**DeepSeek:**
+**1. Zonos: Open-source voice cloning model with 1.6B parameters**
 
-- DeepSeek's deployment uses the same model as the open-source version, but minor performance improvements are possible with MTP modules. 
-- Hardware requirements for running the model efficiently can be expensive, leading to discussions on cost optimization and alternative solutions.
-
-
-**Mac Studio:**
-
-- While the Mac Studio can run LLMs, its performance and cost are deemed insufficient by many users.
-- Alternatives with better value and performance are recommended.
+- This model can generate new speech or clone voices from short audio snippets (10 seconds).
+- Users discuss performance comparisons with ElevenLabs, with some finding Zonos less natural but more affordable.
 
 
-**Backdoors in AI Models:**
+**2. OpenArc: Python API for faster Intel inference**
 
-- "BadSeek" demonstrates the ease of backdooring AI models, raising concerns about security and trustworthiness.
-- Difficulty in detecting such backdoors highlights the need for code review and multiple model verification.
-
-
-**DeepSeek R-1:**
-
-- Live streaming of DeepSeek R-1 showcased significant speed improvements using KTransformers compared to previous methods. 
-- Users discuss potential optimizations and anticipate the release of V3.
+- This API offers low-level control and features for running AI models on Intel hardware.
+- Concerns exist regarding vendor lock-in and the need for multi-GPU execution options.
 
 
-**Perplexity:**
+**3. DeepSeek-R1: Efficient CPU-only inference with MoE model**
 
-- Data suggests ChatGPT dominates AI web traffic, while Perplexity Deep Research suffers from accuracy issues and questionable utility.
-- Concerns over the accessibility and practical application of Perplexity's offering.
+- This model shows promising performance on CPUs without requiring a dedicated GPU.
+- Users discuss potential optimization techniques and quantization methods.
 
 
-**MCP:**
+**4. New open-source video model: Step-Video-T2V**
 
-- MCP allows LLMs to utilize tools and functionalities similar to human interaction.
-- Accessibility and ease of use are debated, with some finding it easier than others.
-- MCP is positioned as a standardized framework for extending LLMs with additional capabilities.
+- This model claims to achieve high resolution and temporal compression with 30 billion parameters.
+- Discussions revolve around VRAM requirements, potential HBF/HBM innovations, and optimization techniques.
+
+
+**5. AI image restoration: Upscaling Windows XP Bliss Wallpaper to 8K**
+
+- This showcase demonstrates the ability to enhance classic digital imagery using AI tools.
+- Users express mixed reactions, with some questioning the effectiveness and quality of the outcome.
