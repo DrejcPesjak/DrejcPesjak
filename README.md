@@ -1,31 +1,19 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250223_101047.png)
+![Todays Image](pictures/20250224_101230.png)
 
 ## AI Reddit Recap:
 
-**1. Qwen2.5-VL outperforms in visual and video tasks:**
-- Enhanced visual understanding and agentic capabilities.
-- Long video comprehension and visual localization.
-- Structured output generation for complex data.
+**1. Qwen2.5-VL-Instruct:** This model excels in visual and video tasks, offering improved object recognition, video understanding, and structure generation capabilities. Some concerns exist regarding its compatibility and computational requirements.
 
-**2. Reverb-7b tops Open LLM Leaderboards:**
-- Fine-tuned from Qwen 2.5 7b.
-- Excellent performance on MMLU Pro dataset.
-- Concerns about creativity and focus on STEM subjects.
+**2. Reverb-7b:** This new AI model from Ozone AI surpasses other 7B models in the Open LLM Leaderboard, showing impressive performance on the MMLU Pro dataset. However, concerns remain about its creative writing abilities.
 
-**3. SmolVLM2: Tiny models for big impact:**
-- Compact video models running on low-powered devices.
-- Zero-shot vision capabilities for diverse tasks.
-- Easy integration with Transformers and MLX apps.
+**3. SmolVLM2:** This open-source video model offers efficient and compact options, performing tasks such as video description segmentation and highlight extraction. Its zero-shot vision capabilities and accessibility are highlighted.
 
-**4. Open-source AI agent bypasses CAPTCHAs:**
-- Uses Canva to automate tasks previously requiring human interaction.
-- Free and available on GitHub.
-- Compatibility issues and technical hurdles discussed.
+**4. Open-source AI agents:** An agent using Canva was showcased, potentially bypassing CAPTCHAs. This project is open-sourced and available, raising interest in its compatibility with other multimodal models.
 
-**Other interesting notes:**
-- Discussion of multi-modal AI systems bridging text and vision.
-- Example of AI misinterpreting decimal numbers.
-- Humor surrounding AI's tendency to correct mistakes and cover up errors like humans.
+**Other notable discussions:**
+
+- Multi-modal AI systems struggle with decimal number understanding, mirroring human initial confusion, but can self-correct.
+- Humor and self-awareness emerge in AI responses, mirroring human behavior in recognizing and correcting mistakes.
