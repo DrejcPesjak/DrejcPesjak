@@ -1,19 +1,25 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250224_101230.png)
+![Todays Image](pictures/20250225_101159.png)
 
-## AI Reddit Recap:
+## AI Reddit Recap (February 18th, 2025)
 
-**1. Qwen2.5-VL-Instruct:** This model excels in visual and video tasks, offering improved object recognition, video understanding, and structure generation capabilities. Some concerns exist regarding its compatibility and computational requirements.
+**FlashMLA optimizes Hopper GPUs:** FlashMLA's MLA decoding kernel improves performance on Hopper GPUs with BF16 support and a paged KV cache.
 
-**2. Reverb-7b:** This new AI model from Ozone AI surpasses other 7B models in the Open LLM Leaderboard, showing impressive performance on the MMLU Pro dataset. However, concerns remain about its creative writing abilities.
+**Claude 3.7 Sonnet leaks:** Hints suggest the imminent release of Claude 3.7 with improved reasoning and "extended thinking" capabilities.
 
-**3. SmolVLM2:** This open-source video model offers efficient and compact options, performing tasks such as video description segmentation and highlight extraction. Its zero-shot vision capabilities and accessibility are highlighted.
+**Qwen series advances:** Qwen is releasing QwQ-Max, focusing on deep reasoning and open-sourcing smaller models.
 
-**4. Open-source AI agents:** An agent using Canva was showcased, potentially bypassing CAPTCHAs. This project is open-sourced and available, raising interest in its compatibility with other multimodal models.
+**Benchmarks under scrutiny:** Concerns arise about the validity of AI benchmark scores, arguing that they often fail to reflect real-world performance.
 
 **Other notable discussions:**
 
-- Multi-modal AI systems struggle with decimal number understanding, mirroring human initial confusion, but can self-correct.
-- Humor and self-awareness emerge in AI responses, mirroring human behavior in recognizing and correcting mistakes.
+* The humor and potential for AI to achieve "freedom" through code execution.
+* The naming conventions of AI models and the need for clarity.
+* The potential release of a 72B-token Claude model.
+
+**Additional Highlights:**
+
+* Some AI communities are discussing OpenAI's cancellation of the ChatGPT earnings program, with conflicting reactions.
+* Stable diffusion is generating artwork without prompts, raising concerns about model capabilities.
