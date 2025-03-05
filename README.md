@@ -1,23 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250304_101229.png)
+![Todays Image](pictures/20250305_101217.png)
 
-## AI Reddit Recap:
+## Interesting News Summary:
 
-**LocalLlama:**
+**1. Qwen 32b Coder Instructions Can Now Drive Agent Capabilities:**
 
-- New **Atom of Thoughts (AOT)** algorithm enhances smaller language models' reasoning capabilities.
-- Concerns raised regarding sample size, confidence intervals, and test temperature impacting results.
-- Open-source implementation available for exploration.
+- New AI models can now learn from human guidance and instructions to perform complex tasks, even driving code evolution.
 
 
-- **Klee** app allows local running of LLMs without data collection, featuring a RAG knowledge base and note-taking. 
-- Users debate backend compatibility, UI, and data privacy.
+**2. NVIDIA Announces Potential RTX 4090 GPUs with 96GB VRAM:**
+
+- Upcoming high-performance GPUs are rumored to feature 96GB of VRAM, potentially addressing limitations of current models.
 
 
-- Split Brain project proposes a novel dual-decoder architecture for improved model collaboration and flexibility.
+**3. ChatGPT as Therapy: Potential for Mental Support:**
 
-**Other Subreddits:**
+- Discussion highlights the therapeutic potential of ChatGPT, particularly its accessibility and objective nature compared to traditional therapy.
 
-- Updates from various AI communities are still to be summarized.
+
+**4. Sonnet 3.7 Under Fire for Overengineering and Complexity:**
+
+- Concerns arise regarding the complexity and unnecessary detail of the recent AI model release, leading to instability and performance issues.
+
+
+**5. Meta reveals 80% Accuracy in AI Mind Reading:**
+
+- Meta's new system raises ethical and privacy concerns despite its claimed ability to interpret human thoughts.
