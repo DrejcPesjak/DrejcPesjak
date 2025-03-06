@@ -1,30 +1,29 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250305_101217.png)
+![Todays Image](pictures/20250306_101158.png)
 
-## Interesting News Summary:
+## Interesting AI News:
 
-**1. Qwen 32b Coder Instructions Can Now Drive Agent Capabilities:**
+**1. M1 Ultra for AI Inference:**
 
-- New AI models can now learn from human guidance and instructions to perform complex tasks, even driving code evolution.
-
-
-**2. NVIDIA Announces Potential RTX 4090 GPUs with 96GB VRAM:**
-
-- Upcoming high-performance GPUs are rumored to feature 96GB of VRAM, potentially addressing limitations of current models.
+- Apple unveiled the M1 Ultra chip specifically designed for AI inference, offering improved performance and efficiency.
+- Users express excitement for its potential in running large AI models like LLMs and Stable Diffusion.
 
 
-**3. ChatGPT as Therapy: Potential for Mental Support:**
+**2. TeaCache Performance Boost:**
 
-- Discussion highlights the therapeutic potential of ChatGPT, particularly its accessibility and objective nature compared to traditional therapy.
-
-
-**4. Sonnet 3.7 Under Fire for Overengineering and Complexity:**
-
-- Concerns arise regarding the complexity and unnecessary detail of the recent AI model release, leading to instability and performance issues.
+- New TeaCache tool for Wan 2.1 model offers a 100% speed boost, boosting performance for users.
+- Concerns about installation compatibility and optimal settings arise.
 
 
-**5. Meta reveals 80% Accuracy in AI Mind Reading:**
+**3. Chroma Model Released:**
 
-- Meta's new system raises ethical and privacy concerns despite its claimed ability to interpret human thoughts.
+- Large pre-trained AI model Chroma is released as open-source, offering 8.9 billion parameters and uncensored content.
+- Debate focuses on dataset size, content diversity, technical optimizations, and legal considerations.
+
+
+**4. GPT-4.5 for Plus Users:**
+
+- GPT-4.5 is now available in a research preview for Plus users, featuring memory and improved capabilities.
+- User reactions are mixed, with discussions on rate limits, energy consumption claims, and potential future updates.
