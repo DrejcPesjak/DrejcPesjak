@@ -1,29 +1,26 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250306_101158.png)
+![Todays Image](pictures/20250307_101423.png)
 
 ## Interesting AI News:
 
-**1. M1 Ultra for AI Inference:**
+**Mac Studio:**
 
-- Apple unveiled the M1 Ultra chip specifically designed for AI inference, offering improved performance and efficiency.
-- Users express excitement for its potential in running large AI models like LLMs and Stable Diffusion.
+- New M3 Ultra and M3 Max chip options offer significant performance boosts for AI tasks.
+- Users express excitement for potential uses in training large models and inference.
+- Concerns about memory limitations and cost remain prevalent.
 
+**AI Models & Training:**
 
-**2. TeaCache Performance Boost:**
+- **Ollama** model released with keyframe interpolation and video extension features.
+- **Chroma** model, a 8.9B parameter model, released as open-source.
+- GPT-4.5 rolled out to Plus users with improved memory capabilities.
+- Discussions around dataset sufficiency, model size, and legal concerns for large models.
 
-- New TeaCache tool for Wan 2.1 model offers a 100% speed boost, boosting performance for users.
-- Concerns about installation compatibility and optimal settings arise.
+**Community & Technology:**
 
-
-**3. Chroma Model Released:**
-
-- Large pre-trained AI model Chroma is released as open-source, offering 8.9 billion parameters and uncensored content.
-- Debate focuses on dataset size, content diversity, technical optimizations, and legal considerations.
-
-
-**4. GPT-4.5 for Plus Users:**
-
-- GPT-4.5 is now available in a research preview for Plus users, featuring memory and improved capabilities.
-- User reactions are mixed, with discussions on rate limits, energy consumption claims, and potential future updates.
+- Curiosity about ChatGTP's potential for improving with keyframe capabilities.
+- Lightricks LTX-Video receives improvements for higher resolutions and video extensions.
+- OpenAI employee clarifies 50 messages/week rate limit for GPT-4.5 for Plus users.
+- Humorous discussions surrounding the energy consumption claims associated with large language models.
