@@ -1,26 +1,38 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250308_100934.png)
+![Todays Image](pictures/20250309_101018.png)
 
-## Summary of AI Reddit Recap (March 5, 2025)
+## AI Reddit Recap - March 5, 2025
 
-**Theme 1: Mac Studio with M3 Ultra**
+**Theme 1: Powerful Hardware for AI - Mac Studio and QwQ-32B**
 
-- Apple released a new Mac Studio with M3 Ultra and M3 Max chips, offering enhanced performance and memory capacity.
-- Users react positively to the upgrades, but discussions center around the price and value proposition.
+- New Mac Studio features 512GB unified memory and 4TB storage.
+- QwQ-32B, a highly anticipated new AI model, is releasing soon and is anticipated to outperform previous models. 
+- Users discuss the cost-effectiveness and practical applications of Mac Studio for AI tasks.
 
-**Theme 2: TeaCache for WAN 2.1**
 
-- A new TeaCache is available for the WAN 2.1 deep learning model, significantly boosting performance.
-- Initial reports suggest a 100% speed increase, but some users encounter installation and artifacting issues.
+**Theme 2: Open-Source AI Development - Chroma Model**
 
-**Theme 3: Chroma Model Released**
+- Chroma, a 8.9B parameter model, is released under an Apache 2.0 license, enabling open-source development.
+- Concerns about the dataset size and potential legal issues are discussed.
 
-- Chroma, an 8.9B parameter model, is released as an open-source, uncensored model.
-- Concerns arise regarding the dataset size and quality, alongside technical optimizations and legal considerations.
 
-**Theme 4: GPT-4.5 for Plus Users**
+**Theme 3: AI Model Performance - TeaCache and LTX-Video**
 
-- GPT-4.5 is now available in a research preview to Plus users, featuring improved memory capabilities.
-- Initial reactions are mixed, with some praising the memory feature, while others criticize rate limits and lack of clarity on features.
+- TeaCache enhancement boosts WAN 2.1 performance by up to 100%.
+- LTX-Video adds keyframe functionality, video extension, and higher resolution support.
+
+
+**Theme 4: GPT-4.5 Release and Reactions**
+
+- GPT-4.5 is rolling out to Plus users, with limitations on message count.
+- Users express mixed reactions, with some skeptical of its self-awareness and energy consumption claims.
+- The model's memory capabilities and potential for advanced voice mode are highly anticipated.
+
+
+**Other Highlights:**
+
+- Discussions on the cost-effectiveness of Mac Studio compared to other high-performance setups.
+- Positive feedback on llama.cpp's ease of use but concerns about performance and multimodal support.
+- Initial reactions to Lightricks LTX-Video v0.9.5 and its new features.
