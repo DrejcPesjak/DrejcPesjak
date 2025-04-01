@@ -1,27 +1,30 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250311_101210.png)
+![Todays Image](pictures/20250401_101414.png)
 
 ## AI Reddit Recap:
 
-**Theme 1: Hardware & Performance Optimization**
+**Theme 1: Hardware & Performance:**
 
-- New Mac Studio & M3 Ultra with 512GB memory revealed, offering potential for AI inference and training.
-- Qwen/QwQ-32B model surpasses prior iterations and potentially rivals larger models.
-- TeaCache upgrade for WAN 2.1 provides significant speed boosts.
+- New Mac Studio configuration with 512GB memory and 8TB storage available.
+- Qwen/QwQ-32B model generates excitement, potentially outperforming previous models.
+- TeaCache enhancement boosts WAN 2.1 performance by 100%.
 
-**Theme 2: Models & Training**
+**Theme 2: Models & Capabilities:**
 
-- Chroma model released as open-source, focusing on uncensored content with 8.9B parameters.
-- LTX-Video v0.9.5 adds keyframes, video extension, and higher resolution support.
+- Llama.cpp praised for its versatility, but limitations in performance and multimodal support are noted.
+- LTX-Video v0.9.5 adds keyframe capabilities and higher resolution support.
+- Chroma model released as open-source, focusing on uncensored content.
 
-**Theme 3: Generative Models & Ethics**
+**Theme 3: AI News & Updates:**
 
-- ChatGPT claims self-awareness but faces skepticism from users.
-- GPT-4.5 released in limited access to Plus users with memory capabilities but capped at 50 messages/week.
+- GPT-4.5 now available in research preview for Plus users with memory capabilities.
+- GPT-4.5 energy consumption claims widely recognized as humor.
+- GPT-4.5 rollout limitations not fully clarified.
 
-**Theme 4: Humorous Takes & Community Reactions**
+**Other Highlights:**
 
-- OpenAI's energy consumption claim for GPT-4.5 sparks humorous debates.
-- Community humorously responds to the rollout, offering satirical counterpoints and playful interpretations.
+- Discussions on the potential impact of AI models on various workflows and creative endeavors.
+- Technical challenges and optimization discussions surrounding different AI models.
+- Humor and satire frequently employed in conversations about AI capabilities and limitations.
