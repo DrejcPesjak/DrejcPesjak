@@ -1,35 +1,27 @@
 
 # Today's AI News
 
-![Todays Image](pictures/20250402_101323.png)
+![Todays Image](pictures/20250403_101538.png)
 
-## AI Reddit Recap (March 5, 2025)
+## AI Reddit Recap:
 
-**Themes:**
+**Theme 1: Hardware & Performance**
 
-* **ChatGPT and language models:** 
-    - Concerns about ChatGPT's misinformation and limitations.
-    - Discussions about memory capabilities in large language models.
-    - Humor and satirical reactions to GPT-4.5's energy consumption claim.
+- Apple releases new Mac Studio with powerful M3/M4 Max/Ultra chips and up to 512GB unified memory.
+- Qwen/QwQ-32B model emerges with potential to outperform previous models.
+- TeaCache update for WAN 2.1 speeds up the model by 100%.
 
+**Theme 2: Stable Diffusion & AI Models**
 
-* **Model performance and benchmarking:**
-    - Release of Qwen/QwQ-32B and excitement surrounding its potential.
-    - Benchmarking of LLMs like QwQ-32B and LTX-Video.
+- LTX-Video v0.9.5 adds keyframes, video extension, and higher resolution support.
+- Chroma model released as open-source, focusing on uncensored content.
 
+**Theme 3: GPT-4.5 & OpenAI**
 
-* **Open-source development:**
-    - Release of Chroma model and its open-source licensing.
-    - Debates about dataset quality and legal challenges of large models.
+- GPT-4.5 now available to Plus users with memory capabilities and rate limits.
+- Users express mixed reactions and humorous observations about the model's energy consumption claims.
 
+**Other Highlights:**
 
-* **Stable Diffusion and related tools:**
-    - Release of TeaCache for WAN 2.1 and performance improvements.
-    - Discussions about keyframe functionality and video extension in LTX-Video.
-
-
-**Other notable highlights:**
-
-- Apple's Mac Studio receives a significant performance boost with 512GB memory.
-- Lightricks' LTX-Video model receives updates with keyframes and resolving issues.
-- GPT-4.5 rolls out to Plus users with memory capabilities, but concerns about rate limits and energy consumption emerge.
+- Discussion of llama.cpp's versatility in leveraging local LLMs.
+- Initial release of Ollama v0.5.13 with some compatibility issues.
