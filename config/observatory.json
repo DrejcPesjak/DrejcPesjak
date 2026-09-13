@@ -1,0 +1,35 @@
+{
+  "window_days": 7,
+  "model_limit": 48,
+  "model_candidates_per_query": 40,
+  "pipeline_tags": ["text-generation", "image-text-to-text", "any-to-any"],
+  "hf_request_budget": 30,
+  "paper_pages_per_day": 4,
+  "request_spacing_seconds": 1.0,
+  "classification_backend": "rules",
+  "classifier_model": "Qwen/Qwen3-4B-Instruct-2507:nscale",
+  "classifier_batch_size": 8,
+  "classifier_request_budget": 40,
+  "classifier_input_char_budget": 180000,
+  "classifier_max_output_tokens": 1600,
+  "taxonomy_version": "1",
+  "prompt_version": "1",
+  "families": {
+    "Qwen / Alibaba": {"authors": ["qwen", "alibabanlp"], "color": "#a78bfa"},
+    "Meta": {"authors": ["meta-llama", "facebook"], "color": "#60a5fa"},
+    "Google": {"authors": ["google"], "color": "#fbbf24"},
+    "DeepSeek": {"authors": ["deepseek-ai"], "color": "#2dd4bf"},
+    "Mistral": {"authors": ["mistralai"], "color": "#fb923c"},
+    "OpenAI": {"authors": ["openai"], "color": "#f472b6"}
+  },
+  "categories": {
+    "agents": {"name": "Agents", "color": "#a78bfa", "definition": "Planning, tool use, workflows, autonomous task execution."},
+    "robotics": {"name": "Robotics", "color": "#60a5fa", "definition": "Embodied control, manipulation, navigation, robot learning."},
+    "world_models": {"name": "World models", "color": "#2dd4bf", "definition": "Learned environment dynamics for prediction, simulation or planning; not ordinary video generation."},
+    "reasoning": {"name": "Reasoning & learning", "color": "#fbbf24", "definition": "Reasoning methods, training, alignment, general learning algorithms."},
+    "multimodal": {"name": "Multimodal & generation", "color": "#f472b6", "definition": "Cross-modal understanding; image, video or audio generation."},
+    "systems": {"name": "Systems & efficiency", "color": "#fb923c", "definition": "Inference, compression, serving, computational efficiency."},
+    "evaluation": {"name": "Evaluation & safety", "color": "#c4b5fd", "definition": "Benchmarks, measurement, robustness, interpretability, safety."},
+    "other": {"name": "Other / unclear", "color": "#7c899e", "definition": "Outside the taxonomy or insufficient evidence."}
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "agreement": 0.9178082191780822,
+  "compared": 146,
+  "confusion_matrix": {
+    "agents": {
+      "agents": 14,
+      "evaluation": 1,
+      "multimodal": 1,
+      "other": 0,
+      "reasoning": 1,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 0
+    },
+    "evaluation": {
+      "agents": 3,
+      "evaluation": 38,
+      "multimodal": 0,
+      "other": 0,
+      "reasoning": 0,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 0
+    },
+    "multimodal": {
+      "agents": 1,
+      "evaluation": 0,
+      "multimodal": 33,
+      "other": 0,
+      "reasoning": 2,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 0
+    },
+    "other": {
+      "agents": 0,
+      "evaluation": 0,
+      "multimodal": 0,
+      "other": 1,
+      "reasoning": 0,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 0
+    },
+    "reasoning": {
+      "agents": 0,
+      "evaluation": 0,
+      "multimodal": 0,
+      "other": 0,
+      "reasoning": 20,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 0
+    },
+    "robotics": {
+      "agents": 1,
+      "evaluation": 0,
+      "multimodal": 0,
+      "other": 0,
+      "reasoning": 0,
+      "robotics": 6,
+      "systems": 0,
+      "world_models": 0
+    },
+    "systems": {
+      "agents": 0,
+      "evaluation": 0,
+      "multimodal": 1,
+      "other": 0,
+      "reasoning": 1,
+      "robotics": 0,
+      "systems": 16,
+      "world_models": 0
+    },
+    "world_models": {
+      "agents": 0,
+      "evaluation": 0,
+      "multimodal": 0,
+      "other": 0,
+      "reasoning": 0,
+      "robotics": 0,
+      "systems": 0,
+      "world_models": 6
+    }
+  },
+  "corpus_hash": "485818565fd68de631ecb7844a277bd83610969c0174a5b639f682b66edd49fa",
+  "disagreements": [
+    {
+      "id": "2609.02881",
+      "margin": 0.0,
+      "predicted": "reasoning",
+      "reason": "Matched learning mechanics; score 4, margin 0.",
+      "reference": "systems",
+      "reference_uncertain": true,
+      "rules_uncertain": true,
+      "title": "Graph Machine: Towards Better Pretraining via Edges"
+    },
+    {
+      "id": "2609.04280",
+      "margin": 0.6,
+      "predicted": "agents",
+      "reason": "Matched agent system, self improvement, agent contribution; score 17.4, margin 0.6.",
+      "reference": "evaluation",
+      "reference_uncertain": false,
+      "rules_uncertain": true,
+      "title": "EVOHARNESSBENCH: Can Your Agents Keep Pace with an Evolving Harness?"
+    },
+    {
+      "id": "2609.05258",
+      "margin": 7.8,
+      "predicted": "evaluation",
+      "reason": "Matched benchmark contribution, evaluation purpose; score 16.8, margin 7.8.",
+      "reference": "agents",
+      "reference_uncertain": true,
+      "rules_uncertain": false,
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization"
+    },
+    {
+      "id": "2609.05903",
+      "margin": 6.2,
+      "predicted": "agents",
+      "reason": "Matched agent system, agent contribution; score 10.2, margin 6.2.",
+      "reference": "evaluation",
+      "reference_uncertain": false,
+      "rules_uncertain": false,
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents"
+    },
+    {
+      "id": "2609.06140",
+      "margin": 6.0,
+      "predicted": "agents",
+      "reason": "Matched agent system; score 6, margin 6.",
+      "reference": "evaluation",
+      "reference_uncertain": false,
+      "rules_uncertain": false,
+      "title": "Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions"
+    },
+    {
+      "id": "2609.06490",
+      "margin": 6.2,
+      "predicted": "reasoning",
+      "reason": "Matched training methods, posttraining contribution, learning mechanics; score 16.2, margin 6.2.",
+      "reference": "multimodal",
+      "reference_uncertain": false,
+      "rules_uncertain": false,
+      "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution"
+    },
+    {
+      "id": "2609.08977",
+      "margin": 2.0,
+      "predicted": "agents",
+      "reason": "Matched agent system, agent contribution; score 10.2, margin 2.",
+      "reference": "multimodal",
+      "reference_uncertain": true,
+      "rules_uncertain": true,
+      "title": "Omni Interaction Agent Technical Report"
+    },
+    {
+      "id": "2609.09187",
+      "margin": 2.8,
+      "predicted": "multimodal",
+      "reason": "Matched visual generation, multimodal models; score 13, margin 2.8.",
+      "reference": "agents",
+      "reference_uncertain": true,
+      "rules_uncertain": true,
+      "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising"
+    },
+    {
+      "id": "2609.10522",
+      "margin": 2.0,
+      "predicted": "agents",
+      "reason": "Matched agent system, agent contribution; score 10.2, margin 2.",
+      "reference": "robotics",
+      "reference_uncertain": true,
+      "rules_uncertain": true,
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots"
+    },
+    {
+      "id": "2609.11155",
+      "margin": 3.6,
+      "predicted": "reasoning",
+      "reason": "Matched training methods, posttraining contribution, learning mechanics; score 13.8, margin 3.6.",
+      "reference": "agents",
+      "reference_uncertain": true,
+      "rules_uncertain": false,
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat"
+    },
+    {
+      "id": "2609.11808",
+      "margin": 1.0,
+      "predicted": "multimodal",
+      "reason": "Matched visual perception; score 8, margin 1.",
+      "reference": "systems",
+      "reference_uncertain": false,
+      "rules_uncertain": true,
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval"
+    },
+    {
+      "id": "2609.11929",
+      "margin": 3,
+      "predicted": "reasoning",
+      "reason": "Matched training methods, learning mechanics; score 6, margin 3.",
+      "reference": "multimodal",
+      "reference_uncertain": false,
+      "rules_uncertain": false,
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence"
+    }
+  ],
+  "excluded_without_reference": 0,
+  "matched": 134,
+  "rules_fallback": 0,
+  "rules_hash": "c946673c908e66b9d7aa17035a44572ede22a719658ee1dc5d4d5f16042a0aaf",
+  "rules_uncertain": 16,
+  "rules_version": "1",
+  "unflagged_reference_count": 116,
+  "unflagged_reference_matched": 110
+}

@@ -1,0 +1,72 @@
+name: Refresh AI observatory
+
+on:
+  schedule:
+    - cron: '23 8 * * *'
+  workflow_dispatch:
+  push:
+    paths: ['observatory/**', 'config/**', 'tests/**', 'requirements.txt', '.github/workflows/observatory.yml']
+  pull_request:
+    paths: ['observatory/**', 'config/**', 'tests/**', 'requirements.txt', '.github/workflows/observatory.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: observatory-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Collect, classify only new papers, and patch SVGs
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN || secrets.HUGGINGFACE_API_KEY }}
+        run: python -m observatory update
+      - name: Report source deferrals
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          status = Path('data/status.json')
+          if status.exists():
+              data = json.loads(status.read_text())
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+                  out.write('```json\n' + json.dumps(data, indent=2) + '\n```\n')
+              for error in data.get('errors', []):
+                  print('::warning::' + error.replace('\n', ' '))
+          PY
+      - name: Commit changed observations and assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/ data/ reports/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update AI observatory observations'
+            git push origin HEAD:main
+          fi

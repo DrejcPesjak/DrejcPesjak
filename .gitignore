@@ -1,2 +1,6 @@
 venv-drejc/
 .env
+__pycache__/
+.pytest_cache/
+*.tmp
+.venv/

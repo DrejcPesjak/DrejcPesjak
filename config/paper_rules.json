@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "minimum_score": 3,
+  "uncertain_margin": 3,
+  "title_multiplier": 2.0,
+  "contribution_multiplier": 1.4,
+  "rules": {
+    "evaluation": [
+      ["benchmark title", 7, "\\b(?:bench(?:mark)?[a-z0-9]*|competition|stress testing|certification|auditing|bias detection|deepfake.*detection)\\b", "title"],
+      ["benchmark contribution", 9, "\\b(?:we (?:introduce|present|propose|release|construct)|introducing)\\b[^.!?]{0,100}\\b(?:benchmark|evaluation framework|testbed|competition|evaluation protocol)\\b", "abstract"],
+      ["measurement focus", 4, "\\b(?:measuring|empirical comparison|mechanistic interpret|structural analysis|validating|privacy failure|safety refusal|false refusals|non compliance|hallucination detection|insider threats)\\b"],
+      ["safety behavior", 4, "\\b(?:over refusal|safety alignment|safety tuning|harmful requests|prompt injection|misaligned goals|scheming|privacy leak|privacy evaluation)\\b"],
+      ["interpretability", 4, "\\b(?:mechanistic|activation steering|linearly decodable|causally active|hidden state representations|representation geometry|semantic leakage)\\b"],
+      ["diagnostic study", 3, "\\b(?:we (?:study|investigate|analy[sz]e|audit|measure)|our analysis reveals)\\b[^.!?]{0,100}\\b(?:bias|failure|behavior|behaviour|over editing|reasoning operations|steering|unanswerable|tokenizers)\\b"],
+      ["evaluation purpose", 3, "\\b(?:benchmark for|benchmark of|diagnostic benchmark|evaluation protocols|reliable benchmark|controlled testbed|measurement record|detecting ai generated|detecting insider)\\b"],
+      ["verification and trust", 3, "\\b(?:hallucination detectors?|factuality|abstention|reference equivalence|reward hacking|gold solutions|harm avoidance)\\b"],
+      ["comparative audit title", 4, "\\b(?:what .* actually do|encoded early|attention triangle|image tokenizers|edit.based and direct generation|what else needs fixing|recognition.refusal)\\b", "title"]
+    ],
+    "world_models": [
+      ["world model", 5, "\\bworld (?:action )?models?\\b|\\bworld action modeling\\b"],
+      ["transition dynamics", 4, "\\b(?:environment dynamics|state transitions?|state evolution|future states?|action conditioned|action outcomes|imagination environments)\\b"],
+      ["learned simulator", 4, "\\b(?:zero shot simulators?|world model rl|simulating rollouts|simulate action|learned simulator|policy.in.the.loop|long horizon exploration)\\b"],
+      ["generative control", 2, "\\b(?:generative priors|video generative|causal video model|video world models|world knowledge)\\b"],
+      ["static scene penalty", -6, "\\b(?:scene reconstruction|reconstructing complex 3d|single reference image|static scenes?|indoor.outdoor|compositional mesh scenes|individual object meshes|text driven 3d)\\b"],
+      ["memory policy penalty", -5, "\\b(?:memory grounded planning|plan conditioned execution|memory as plans)\\b"]
+    ],
+    "robotics": [
+      ["robot policy", 4, "\\b(?:robotic manipulation|robot control|robot policies|robot learning|robotic grippers?|robot actions|humanoid robot|humanoid navigation|robotic policies)\\b"],
+      ["embodied architecture", 3, "\\b(?:vision language action|vla|whole body|embodied harness|hand to gripper)\\b"],
+      ["control task", 3, "\\b(?:long horizon manipulation|closed loop embodied|navigation polic|gripper transfer|whole body adaptation|language guided traversal)\\b"],
+      ["driving policy", 5, "\\b(?:end to end driving|learns driving behavior|end to end autonomous.driving|driving policy)\\b"],
+      ["memory and execution", 3, "\\b(?:manipulation tasks|executor context|execution progress|general.purpose control|memory dependent.*robot)\\b"],
+      ["robot deployment", 2, "\\b(?:real.robot experiments|real.robot tasks|unitree|libero|robot demonstrations)\\b"],
+      ["benchmark penalty", -4, "\\b(?:benchmark|measuring language transfer|can vla models)\\b", "title"]
+    ],
+    "agents": [
+      ["agent system", 3, "\\b(?:agents?|agentic|multi agent|orchestrat(?:ion|or|e)|harness(?:es)?)\\b"],
+      ["agent architecture", 4, "\\b(?:agent framework|multi agent system|agent layer|agent workspace|agent routing|routing harness|orchestrator.worker|agentic systems|agent native|autonomous search)\\b"],
+      ["tools and planning", 3, "\\b(?:tool use|tool calls?|tool set|external tools|select tools|planning.*execution|execution hooks|terminal tasks|real shell)\\b"],
+      ["self improvement", 3, "\\b(?:harness evolution|harness and model|harness and weight|self evolving execution|procedural graphs?|recursive self improvement|textual reflection|agent generation)\\b"],
+      ["agent workflow", 3, "\\b(?:task graph|coding agents|search agents|multi hop|specialized sub.agents|specialist agents|scenario.based testing pipeline|bounded interaction|interactive optimization|clarification policy)\\b"],
+      ["parallel reading", 4, "\\b(?:parallel.*readers|decouples reading from reasoning|sequential memory agents|reader agents)\\b"],
+      ["agent contribution", 3, "\\b(?:we (?:introduce|present|propose))\\b[^.!?]{0,100}\\b(?:agents?|agentic|orchestration|harness|controller)\\b", "abstract"],
+      ["benchmark title penalty", -4, "\\b(?:bench(?:mark)?[a-z0-9]*|detecting|stress testing|certification|auditing|production record)\\b", "title"]
+    ],
+    "systems": [
+      ["compression", 5, "\\b(?:quantiz(?:ation|ed)|compression|compressor|pruning|low precision|low bit|hybrid precision)\\b"],
+      ["inference infrastructure", 4, "\\b(?:speculative decoding|key value cache|kv cache|caching architecture|serving|distributed training|context parallel|pipeline parallel|production ready system)\\b"],
+      ["efficient kernels", 3, "\\b(?:kernel optimization|kernel generation|custom kernels|hardware profiling|inference speedups?|memory bottlenecks|memory savings)\\b"],
+      ["efficient architecture", 4, "\\b(?:sparse dynamic routing|sparse layers|layer sparsity|layer dropout|parallel token|tokens in parallel|token pruning|encoder compression)\\b"],
+      ["systems contribution", 3, "\\b(?:cache compression|inference.efficiency|production.level|production.ready|three.layer caching|backpressure|dds|redis|data pipelines|data infrastructure)\\b"],
+      ["systems outcomes", 2, "\\b(?:throughput|memory reduction|prefill latency|memory overhead|wall.clock|end.to.end speedups|storage.efficient|storage budgets)\\b"],
+      ["data infrastructure", 4, "\\b(?:open research infrastructure|end.to.end data pipelines|pretraining data recipes|data.recipe research)\\b"],
+      ["agent implementation penalty", -3, "\\b(?:agentic kernel generation|multi.agent system)\\b", "title"]
+    ],
+    "reasoning": [
+      ["training methods", 4, "\\b(?:self distillation|on policy distillation|reverse distillation|policy distillation|policy optimization|active learning|conformal prediction|causal inference|sample complexity|sparse recovery)\\b"],
+      ["reasoning optimization", 3, "\\b(?:rlvr|verifiable rewards|reasoning trajectories|reasoning coverage|mathematical reasoning|weak.to.strong|reasoning traces|latent reasoning)\\b"],
+      ["new learning objective", 4, "\\b(?:next concept prediction|concept.level objective|influence.guided response rewriting|teacher gating|teacher reliability|associative memory|uncertainty aware.*memory|causal foundation models)\\b"],
+      ["posttraining contribution", 3, "\\b(?:we (?:introduce|present|propose))\\b[^.!?]{0,100}\\b(?:post.training|self.improvement method|training framework|distillation|policy optimization)\\b", "abstract"],
+      ["reasoning capabilities", 3, "\\b(?:olympiad mathematics|proof generation|multilingual reasoning|in.language reasoning|training.data mixing|general learning|learning complete trajectories)\\b"],
+      ["learning mechanics", 2, "\\b(?:supervision|clipping threshold|gradient updates|distillation|pretraining|fine tuning|reinforcement learning)\\b"],
+      ["domain-specific training", 3, "\\b(?:rubric rewards|rebuttal.guided post.training|switching signal|conformal scores|support recovery|delta.rule|linear.attention models)\\b"]
+    ],
+    "multimodal": [
+      ["visual generation", 5, "\\b(?:video generation|image generation|video editing|3d editing|scene generation|world generation|speech generation|speech synthesis|image relighting|super resolution|image restoration)\\b"],
+      ["visual perception", 4, "\\b(?:depth estimation|normal estimation|optical flow|visual segmentation|semantic tracking|instance tracking|spatial intelligence|visual reasoning|spatial reasoning|entity linking|visual document)\\b"],
+      ["multimodal models", 3, "\\b(?:multimodal|vision language|vlms?|mllms?|lvlms?|omni model|omni understanding|omni perception|audio.visual understanding)\\b"],
+      ["image geometry", 4, "\\b(?:3d scene|object meshes|mesh scenes|neural rendering|relighting|surface normals|monocular depth|scene reconstruction|compositional 3d)\\b"],
+      ["speech and motion", 4, "\\b(?:co.speech|gesture generation|full duplex|self listening|spoken dialogue|skeletons?|audio encoders?|speech decoding|neural.to.semantic)\\b"],
+      ["visual data", 3, "\\b(?:synthetic video dataset|synthetic.*hard positives|generative augmentation|change data synthesis|change simulation|block stacking|gait parameter|medical image|coronary angiography|multimodal patient)\\b"],
+      ["generation architecture", 2, "\\b(?:diffusion models?|visual tokens|cross.modal|video diffusion|visual grounding|denoising|generative transformer)\\b"],
+      ["editing effects", 4, "\\b(?:digital ripple|iterative ai editing|motion generation|animat(?:e|ion).*skeleton|video anomaly understanding)\\b"],
+      ["benchmark penalty", -3, "\\b(?:benchmark|stress testing|detection|competition)\\b", "title"]
+    ],
+    "other": [
+      ["domain data platform", 5, "\\b(?:organic reaction data|reaction data platform|structured organic|chemistry data platform)\\b"]
+    ]
+  }
+}
