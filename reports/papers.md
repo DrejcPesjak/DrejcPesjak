@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-13
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-09-12
 
 Complete daily list.
@@ -191,11 +198,4 @@ Complete daily list.
 | [RISE: Recursive Improvement via Self-Extrapolating Policy Distillation](https://huggingface.co/papers/2609.05295) | Reasoning & learning |  | Codex bootstrap |
 | [UniMate: One Unified Model to Animate Diverse Skeletons](https://huggingface.co/papers/2609.05415) | Multimodal & generation |  | Codex bootstrap |
 | [WorldSculpt: Generating Compositional Worlds from Grounded Videos](https://huggingface.co/papers/2609.05416) | Multimodal & generation |  | Codex bootstrap |
-
-## 2026-09-06
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
 
