@@ -1,0 +1,5 @@
+Copyright 2020, The Chilanka Project Authors
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+Files: in.org.smc.chilanka.metainfo.xml
+Copyright: 2020, The Chilanka Project Authors

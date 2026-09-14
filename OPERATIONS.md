@@ -46,6 +46,8 @@ Every feature votes at most once per paper. The highest category score wins dete
 
 ## Persistent SVGs
 
+Both charts use a cream-paper sketchbook style: bold serif headings, monospaced labels, deterministic pencil lines, pastel ink marks, and individually outlined paper strips. Styling lives in `observatory/render.py` and the persistent SVG scaffold, so scheduled updates retain it. Mark centers and stack heights still follow the data exactly. The reference SVGs in `tmp/` are visual studies only; their embedded observations are never imported.
+
 `assets/models.svg` and `assets/papers.svg` are persistent documents. The template is created on first use only. Stable record markers identify each model, each paper appearance, and each day’s labels. An update:
 
 1. Reuses the existing SVG text and static artwork.
@@ -55,7 +57,7 @@ Every feature votes at most once per paper. The highest category score wins dete
 
 Updating downloads must move existing points. Rolling the date window must reposition existing bars. Expanding an axis must adjust coordinates. Those are targeted edits, not a fresh chart build. Domains only expand automatically to minimize unrelated movement. `data/chart_state.json` records them; adjusting its bounds is an explicit rescale operation.
 
-Unchanged records and artwork are retained byte-for-byte. Editing artwork outside the managed slots is supported. Do not remove the slot/record markers. A no-op render preserves file timestamps. Static SVG companions remove the animation through a CSS override. Animations play once, have a completed base state, and respect reduced motion. SVGs contain no JavaScript, external fonts, or network resources.
+Unchanged records and artwork are retained byte-for-byte. Editing artwork outside the managed slots is supported. Do not remove the slot/record markers. A no-op render preserves file timestamps. Static SVG companions remove the animation through a CSS override. Animations play once, have a completed base state, and respect reduced motion. SVGs contain no JavaScript, external fonts, or network resources. Model labels embed a licensed Latin subset of Chilanka (see `assets/fonts/`); its bundled glyph metrics determine label widths.
 
 The animated and static assets were checked locally with Chromium. GitHub’s actual README image proxy and browser combinations still require a check after publication; no remote preview was published. [SVG image restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image).
 
