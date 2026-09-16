@@ -1,0 +1,48 @@
+{"downloads": 27759, "family": "Other", "id": "Edge0/Edge0-35B-A3B-preview", "likes": 2991, "params": 34660610688, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3569, "family": "Other", "id": "Edge0/Edge0-8B-A1B-preview", "likes": 62, "params": 7923998112, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3481125, "family": "Other", "id": "EleutherAI/pythia-160m", "likes": 45, "params": 212654688, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 9168, "family": "Other", "id": "IFM/K2-Horizon-7B", "likes": 186, "params": 8999178240, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 8834, "family": "Other", "id": "IFM/K2-Horizon-MoVA-36B-A4B", "likes": 330, "params": 37444792020, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3841274, "family": "Qwen / Alibaba", "id": "Qwen/Qwen-72B", "likes": 362, "params": 72287920128, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 8518031, "family": "Qwen / Alibaba", "id": "Qwen/Qwen2.5-0.5B-Instruct", "likes": 626, "params": 494032768, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 7206677, "family": "Qwen / Alibaba", "id": "Qwen/Qwen2.5-1.5B-Instruct", "likes": 832, "params": 1543714304, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 5383460, "family": "Qwen / Alibaba", "id": "Qwen/Qwen2.5-3B-Instruct", "likes": 572, "params": 3085938688, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 9880006, "family": "Qwen / Alibaba", "id": "Qwen/Qwen2.5-7B-Instruct", "likes": 2208, "params": 7615616512, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 7050575, "family": "Qwen / Alibaba", "id": "Qwen/Qwen2.5-VL-7B-Instruct", "likes": 1708, "params": 8292166656, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 22157967, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-0.6B", "likes": 1636, "params": 751632384, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3705267, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-1.7B", "likes": 543, "params": 2031739904, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 4840356, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-32B", "likes": 747, "params": 32762123264, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 6897206, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-4B", "likes": 702, "params": 4022468096, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3901895, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-4B-Instruct-2507", "likes": 961, "params": 4022468096, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 13103652, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-8B", "likes": 2003, "params": 8190735360, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3136639, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-VL-2B-Instruct", "likes": 466, "params": 2127532032, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 3949560, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-VL-4B-Instruct", "likes": 467, "params": 4437815808, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 18432686, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3-VL-8B-Instruct", "likes": 1124, "params": 8767123696, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 4827227, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.5-2B", "likes": 397, "params": 2274069824, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 7060659, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.5-4B", "likes": 929, "params": 4659865088, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 9341507, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.5-9B", "likes": 1970, "params": 9653104368, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 3892396, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.6-27B", "likes": 2297, "params": 27781427952, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 3559663, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.6-35B-A3B", "likes": 2817, "params": 35951822704, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 7667556, "family": "Qwen / Alibaba", "id": "Qwen/Qwen3.8-27B", "likes": 15338, "params": 27781427952, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 3184694, "family": "Other", "id": "RadixArk/Kimi-K3-DSpark", "likes": 56, "params": 2249289601, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 16163, "family": "Other", "id": "TokenRhythm/NeoHorse-1-4B", "likes": 2097, "params": 4205751296, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 27191, "family": "Other", "id": "XHToken/Spark-X2.5-4B", "likes": 1225, "params": 4112079360, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 264, "family": "Other", "id": "audnai/penclaw-GLM-5.3-abliterated", "likes": 101, "params": 753329940480, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 708642, "family": "DeepSeek", "id": "deepseek-ai/DeepSeek-R1", "likes": 14247, "params": 684489845504, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 4478931, "family": "DeepSeek", "id": "deepseek-ai/DeepSeek-V4-Flash-0731", "likes": 3970, "params": 304180418494, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 4838392, "family": "Other", "id": "dphn/dolphin-2.9.1-yi-1.5-34b", "likes": 66, "params": 34388917248, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 7588109, "family": "Other", "id": "farbodtavakkoli/OTel-2.0-LLM-31B-IT", "likes": 18, "params": 31273088876, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 9463922, "family": "Google", "id": "google/gemma-4-26B-A4B-it", "likes": 1521, "params": 25805936206, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 9138731, "family": "Google", "id": "google/gemma-4-31B-it", "likes": 3843, "params": 31273088876, "params_source": "HF safetensors.total", "task": "image-text-to-text"}
+{"downloads": 3370612, "family": "Google", "id": "google/gemma-4-E2B-it", "likes": 962, "params": 5123178051, "params_source": "HF safetensors.total", "task": "any-to-any"}
+{"downloads": 4587668, "family": "Google", "id": "google/gemma-4-E4B-it", "likes": 1562, "params": 7996156490, "params_source": "HF safetensors.total", "task": "any-to-any"}
+{"downloads": 5861705, "family": "Meta", "id": "meta-llama/Llama-3.1-8B-Instruct", "likes": 7650, "params": 8030261248, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 6731334, "family": "Meta", "id": "meta-llama/Llama-3.2-1B-Instruct", "likes": 1660, "params": 1235814400, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 204428, "family": "Other", "id": "moonshotai/Kimi-K2-Instruct", "likes": 2986, "params": 1026408235864, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 6837, "family": "Other", "id": "nex-agi/Nex-N2.5-mini", "likes": 817, "params": 35107181936, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 3474041, "family": "Other", "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16", "likes": 119, "params": 3973556832, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 15584259, "family": "Other", "id": "openai-community/gpt2", "likes": 4112, "params": 137022720, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 5316371, "family": "OpenAI", "id": "openai/gpt-oss-120b", "likes": 5248, "params": 116829156672, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 6697247, "family": "OpenAI", "id": "openai/gpt-oss-20b", "likes": 5061, "params": 20914757184, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 324322, "family": "Other", "id": "openbmb/MiniCPM5-2B", "likes": 1492, "params": 2516756480, "params_source": "HF safetensors.total", "task": "text-generation"}
+{"downloads": 2078, "family": "Other", "id": "thesysdev/OUI-1", "likes": 121, "params": 25823778864, "params_source": "HF safetensors.total", "task": "text-generation"}

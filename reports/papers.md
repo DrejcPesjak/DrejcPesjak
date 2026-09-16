@@ -4,6 +4,46 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-15
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+| [Learning Sparse Decision Trees via Transformer Variational Auto-Encoders](https://huggingface.co/papers/2609.01430) | Other / unclear | uncertain | Keyword rules |
+| [Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation](https://huggingface.co/papers/2609.11638) | Multimodal & generation |  | Keyword rules |
+| [MInTRL: Off-policy Intervention can boost On-policy RL](https://huggingface.co/papers/2609.12419) | Reasoning & learning |  | Keyword rules |
+| [Agent as Policy for Robotic Manipulation](https://huggingface.co/papers/2609.12541) | Agents |  | Keyword rules |
+| [Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model](https://huggingface.co/papers/2609.13053) | Robotics |  | Keyword rules |
+| [Expert-Space Exploration in MoE Reinforcement Learning](https://huggingface.co/papers/2609.13058) | Reasoning & learning |  | Keyword rules |
+| [Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction](https://huggingface.co/papers/2609.13285) | Systems & efficiency |  | Keyword rules |
+| [LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents](https://huggingface.co/papers/2609.13287) | Agents | uncertain | Keyword rules |
+| [Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning](https://huggingface.co/papers/2609.13318) | Other / unclear | uncertain | Keyword rules |
+| [ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search](https://huggingface.co/papers/2609.13356) | Agents |  | Keyword rules |
+| [Learning to Solve Hard Problems in RL for LLMs by Never Giving Up](https://huggingface.co/papers/2609.13443) | Other / unclear | uncertain | Keyword rules |
+| [Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures](https://huggingface.co/papers/2609.13463) | Agents |  | Keyword rules |
+| [Building a Production Greek-English Speech Recognizer](https://huggingface.co/papers/2609.13498) | Other / unclear | uncertain | Keyword rules |
+| [Thought without systematicity? Evaluating reasoning models on rule induction tasks](https://huggingface.co/papers/2609.13948) | Other / unclear | uncertain | Keyword rules |
+| [E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning](https://huggingface.co/papers/2609.14302) | Evaluation & safety |  | Keyword rules |
+| [AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video](https://huggingface.co/papers/2609.14462) | World models |  | Keyword rules |
+| [Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition](https://huggingface.co/papers/2609.14708) | Reasoning & learning |  | Keyword rules |
+| [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://huggingface.co/papers/2609.14858) | Agents |  | Keyword rules |
+| [PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models](https://huggingface.co/papers/2609.14973) | Multimodal & generation | uncertain | Keyword rules |
+| [Pick Your Poison: Learning to Select Poison Sets for Stronger LLM Backdoor Attacks](https://huggingface.co/papers/2609.15029) | Agents |  | Keyword rules |
+| [Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training](https://huggingface.co/papers/2609.15051) | Multimodal & generation |  | Keyword rules |
+| [Enabling Creative Exploration for Vibe Design Agents](https://huggingface.co/papers/2609.15078) | Agents |  | Keyword rules |
+| [Omni-Streaming Thinking](https://huggingface.co/papers/2609.15128) | Other / unclear | uncertain | Keyword rules |
+| [HazardAuditor: From Executable Threats to Safer Computer-Use Agents](https://huggingface.co/papers/2609.15134) | Agents | uncertain | Keyword rules |
+| [When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis](https://huggingface.co/papers/2609.15309) | Agents |  | Keyword rules |
+| [RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments](https://huggingface.co/papers/2609.15364) | Agents |  | Keyword rules |
+| [BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender](https://huggingface.co/papers/2609.15478) | Evaluation & safety |  | Keyword rules |
+| [How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus](https://huggingface.co/papers/2609.15504) | Systems & efficiency |  | Keyword rules |
+| [ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs](https://huggingface.co/papers/2609.15635) | Evaluation & safety | uncertain | Keyword rules |
+| [Kaininja: Extending Native 3D Generators to the Part Level](https://huggingface.co/papers/2609.15659) | Agents |  | Keyword rules |
+| [Atria Dawn: The Dawn of Agentic Superintelligence](https://huggingface.co/papers/2609.15818) | Agents |  | Keyword rules |
+| [LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows](https://huggingface.co/papers/2609.15863) | Multimodal & generation |  | Keyword rules |
+| [Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](https://huggingface.co/papers/2609.15973) | World models | uncertain | Keyword rules |
+
 ## 2026-09-14
 
 Complete daily list.
@@ -177,23 +217,4 @@ Complete daily list.
 | [NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting](https://huggingface.co/papers/2609.09140) | Multimodal & generation | uncertain | Codex bootstrap |
 | [Procedural Graphs: Self-Evolving Execution Structures for LLM Agents](https://huggingface.co/papers/2609.09153) | Agents |  | Codex bootstrap |
 | [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://huggingface.co/papers/2609.09158) | Robotics |  | Codex bootstrap |
-
-## 2026-09-08
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-| [One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation](https://huggingface.co/papers/2608.25936) | Reasoning & learning |  | Codex bootstrap |
-| [EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents](https://huggingface.co/papers/2609.01281) | Robotics |  | Codex bootstrap |
-| [Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation](https://huggingface.co/papers/2609.02998) | Reasoning & learning |  | Codex bootstrap |
-| [Causal Foundation Models](https://huggingface.co/papers/2609.03003) | Reasoning & learning |  | Codex bootstrap |
-| [Unifying Conformal Language Tasks with In-Context Ensembles](https://huggingface.co/papers/2609.03005) | Reasoning & learning |  | Codex bootstrap |
-| [FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience](https://huggingface.co/papers/2609.03241) | Reasoning & learning |  | Codex bootstrap |
-| [What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation](https://huggingface.co/papers/2609.03254) | Evaluation & safety |  | Codex bootstrap |
-| [ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation](https://huggingface.co/papers/2609.03756) | Multimodal & generation |  | Codex bootstrap |
-| [Unlocking Lossless Speedups in LLMs via Discrete Diffusion](https://huggingface.co/papers/2609.04010) | Systems & efficiency |  | Codex bootstrap |
-| [Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys](https://huggingface.co/papers/2609.04382) | Evaluation & safety |  | Codex bootstrap |
-| [Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal](https://huggingface.co/papers/2609.04482) | Evaluation & safety |  | Codex bootstrap |
-| [SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models](https://huggingface.co/papers/2609.05533) | Robotics |  | Codex bootstrap |
 
