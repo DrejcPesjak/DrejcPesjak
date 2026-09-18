@@ -4,6 +4,36 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-17
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+| [Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training](https://huggingface.co/papers/2609.14306) | Other / unclear | uncertain | Keyword rules |
+| [SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization](https://huggingface.co/papers/2609.14320) | Reasoning & learning |  | Keyword rules |
+| [Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026](https://huggingface.co/papers/2609.15524) | Other / unclear | uncertain | Keyword rules |
+| [VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention](https://huggingface.co/papers/2609.15810) | Systems & efficiency |  | Keyword rules |
+| [HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses](https://huggingface.co/papers/2609.15938) | Agents |  | Keyword rules |
+| [Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand](https://huggingface.co/papers/2609.17172) | Other / unclear | uncertain | Keyword rules |
+| [EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset](https://huggingface.co/papers/2609.17189) | Other / unclear | uncertain | Keyword rules |
+| [LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence](https://huggingface.co/papers/2609.17488) | Multimodal & generation | uncertain | Keyword rules |
+| [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents](https://huggingface.co/papers/2609.17632) | Agents |  | Keyword rules |
+| [Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches](https://huggingface.co/papers/2609.17652) | Systems & efficiency |  | Keyword rules |
+| [Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents](https://huggingface.co/papers/2609.17708) | Agents |  | Keyword rules |
+| [Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control](https://huggingface.co/papers/2609.17909) | World models |  | Keyword rules |
+| [Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX](https://huggingface.co/papers/2609.18011) | Other / unclear | uncertain | Keyword rules |
+| [The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction](https://huggingface.co/papers/2609.18063) | Systems & efficiency |  | Keyword rules |
+| [Agora: Git as Shared Memory for Collective AutoResearch](https://huggingface.co/papers/2609.18094) | Agents | uncertain | Keyword rules |
+| [ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models](https://huggingface.co/papers/2609.18487) | Robotics | uncertain | Keyword rules |
+| [Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening](https://huggingface.co/papers/2609.18708) | Reasoning & learning |  | Keyword rules |
+| [CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents](https://huggingface.co/papers/2609.18779) | Agents |  | Keyword rules |
+| [ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks](https://huggingface.co/papers/2609.18805) | Agents | uncertain | Keyword rules |
+| [ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments](https://huggingface.co/papers/2609.19134) | Agents |  | Keyword rules |
+| [In-Context Robot Learning with VLM Agents](https://huggingface.co/papers/2609.19138) | Agents |  | Keyword rules |
+| [PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection](https://huggingface.co/papers/2609.19143) | Evaluation & safety |  | Keyword rules |
+| [A Zeroth-Order Paradigm for LLM Preference Alignment](https://huggingface.co/papers/2609.19144) | Other / unclear | uncertain | Keyword rules |
+
 ## 2026-09-16
 
 Complete daily list.
@@ -155,43 +185,4 @@ Complete daily list.
 | [Negative Self-Distillation: Learning to Reason by Avoiding Flaws](https://huggingface.co/papers/2609.11699) | Reasoning & learning |  | Codex bootstrap |
 | [Generative Late-Interaction Embeddings For Visual Document Retrieval](https://huggingface.co/papers/2609.11808) | Systems & efficiency |  | Codex bootstrap |
 | [SenseNova-U1.5: Towards Native Unified Visual Intelligence](https://huggingface.co/papers/2609.11929) | Multimodal & generation |  | Codex bootstrap |
-
-## 2026-09-10
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-| [The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements](https://huggingface.co/papers/2509.01809) | Reasoning & learning | uncertain | Codex bootstrap |
-| [Scaling Automatic Research Agents via World Models](https://huggingface.co/papers/2608.12564) | World models |  | Codex bootstrap |
-| [Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation](https://huggingface.co/papers/2609.00369) | Multimodal & generation |  | Codex bootstrap |
-| [From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution](https://huggingface.co/papers/2609.02771) | Reasoning & learning | uncertain | Codex bootstrap |
-| [WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data](https://huggingface.co/papers/2609.05405) | Evaluation & safety |  | Codex bootstrap |
-| [A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware](https://huggingface.co/papers/2609.05463) | Systems & efficiency |  | Codex bootstrap |
-| [Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and Direct Generation for Flutter/Dart Code Models](https://huggingface.co/papers/2609.05779) | Evaluation & safety |  | Codex bootstrap |
-| [OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution](https://huggingface.co/papers/2609.06490) | Multimodal & generation |  | Codex bootstrap |
-| [PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents](https://huggingface.co/papers/2609.06702) | Agents | uncertain | Codex bootstrap |
-| [DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents](https://huggingface.co/papers/2609.06703) | Other / unclear | uncertain | Codex bootstrap |
-| [Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning](https://huggingface.co/papers/2609.06806) | Reasoning & learning |  | Codex bootstrap |
-| [Revisiting Complete Reasoning Traces for Post-Training](https://huggingface.co/papers/2609.07103) | Reasoning & learning |  | Codex bootstrap |
-| [DF26: We Cannot Tell Fake From Real Anymore](https://huggingface.co/papers/2609.07369) | Evaluation & safety |  | Codex bootstrap |
-| [SchemeArena: Factorized Stress Testing of Scheming in LLM Agents](https://huggingface.co/papers/2609.08126) | Evaluation & safety |  | Codex bootstrap |
-| [SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents](https://huggingface.co/papers/2609.08149) | Evaluation & safety |  | Codex bootstrap |
-| [AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems](https://huggingface.co/papers/2609.08572) | Agents |  | Codex bootstrap |
-| [Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR](https://huggingface.co/papers/2609.08650) | Reasoning & learning |  | Codex bootstrap |
-| [PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving](https://huggingface.co/papers/2609.08965) | Agents | uncertain | Codex bootstrap |
-| [SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?](https://huggingface.co/papers/2609.09113) | Evaluation & safety |  | Codex bootstrap |
-| [Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails](https://huggingface.co/papers/2609.09134) | Agents |  | Codex bootstrap |
-| [SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators](https://huggingface.co/papers/2609.09155) | World models |  | Codex bootstrap |
-| [AgenticGen: Reward-Guided Agentic Video Generation for Advertising](https://huggingface.co/papers/2609.09187) | Agents | uncertain | Codex bootstrap |
-| [Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents](https://huggingface.co/papers/2609.09219) | Evaluation & safety |  | Codex bootstrap |
-| [StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean](https://huggingface.co/papers/2609.09264) | Evaluation & safety |  | Codex bootstrap |
-| [RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems](https://huggingface.co/papers/2609.09657) | Evaluation & safety |  | Codex bootstrap |
-| [Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States](https://huggingface.co/papers/2609.10060) | Evaluation & safety |  | Codex bootstrap |
-| [Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?](https://huggingface.co/papers/2609.10226) | Evaluation & safety |  | Codex bootstrap |
-| [The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding](https://huggingface.co/papers/2609.10296) | Multimodal & generation |  | Codex bootstrap |
-| [Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs](https://huggingface.co/papers/2609.10355) | Systems & efficiency |  | Codex bootstrap |
-| [Show-Harness: Just a VLM Agent Can Play Robots](https://huggingface.co/papers/2609.10522) | Robotics | uncertain | Codex bootstrap |
-| [Programmable World Model](https://huggingface.co/papers/2609.10540) | World models | uncertain | Codex bootstrap |
-| [T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks](https://huggingface.co/papers/2609.11042) | Agents |  | Codex bootstrap |
 
