@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-19
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-09-18
 
 Complete daily list.
@@ -171,13 +178,6 @@ Complete daily list.
 | [SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image](https://huggingface.co/papers/2609.13146) | Other / unclear | uncertain | Keyword rules |
 
 ## 2026-09-13
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-
-## 2026-09-12
 
 Complete daily list.
 
