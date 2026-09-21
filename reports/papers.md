@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-20
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-09-19
 
 Complete daily list.
@@ -176,11 +183,4 @@ Complete daily list.
 | [StepAudio 3 Gen Technical Report](https://huggingface.co/papers/2609.12945) | Systems & efficiency |  | Keyword rules |
 | [SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking](https://huggingface.co/papers/2609.13141) | Agents |  | Keyword rules |
 | [SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image](https://huggingface.co/papers/2609.13146) | Other / unclear | uncertain | Keyword rules |
-
-## 2026-09-13
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
 
