@@ -1,24 +1,24 @@
 {
   "classification_backend": "rules",
   "classifier_requests": 0,
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "errors": [],
-  "hub_requests": 7,
-  "labels_applied": 0,
-  "rule_predictions": 277,
-  "rules_recomputed": 0,
+  "hub_requests": 8,
+  "labels_applied": 31,
+  "rule_predictions": 308,
+  "rules_recomputed": 31,
   "svg_patches": {
     "models": {
-      "added": 3,
+      "added": 2,
       "changed": true,
-      "removed": 3,
-      "updated": 43
+      "removed": 2,
+      "updated": 44
     },
     "papers": {
-      "added": 1,
+      "added": 32,
       "changed": true,
-      "removed": 1,
-      "updated": 137
+      "removed": 27,
+      "updated": 111
     }
   }
 }
