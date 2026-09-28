@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-09-27
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-09-26
 
 Complete daily list.
@@ -185,11 +192,4 @@ Complete daily list.
 | [APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport](https://huggingface.co/papers/2609.22076) | Evaluation & safety |  | Keyword rules |
 | [MintAct: A Unified Visual Agent for Digital Environments](https://huggingface.co/papers/2609.22083) | Agents |  | Keyword rules |
 | [Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design](https://huggingface.co/papers/2609.22086) | Agents |  | Keyword rules |
-
-## 2026-09-20
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
 
