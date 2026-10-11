@@ -25,7 +25,7 @@ Potential future views remain adoption-versus-momentum, attention-versus-adoptio
 
 ## Research rain
 
-Seven dated columns form a stacked bar chart. Each appearance is a small colored horizontal mark. Marks fall into their category's reserved positions, building bars from the bottom, then hold. A shared count axis preserves comparison. Once a display exceeds 450 appearances, the renderer animates category segments and explicitly discloses that marks are aggregated.
+Seven dated columns form a stacked bar chart. Each appearance is a small colored horizontal mark. Marks fall into their category's reserved positions, building bars from the bottom, then hold. A shared count axis preserves comparison. If either rendered SVG variant would exceed the 200 KB size budget, the renderer animates category segments and explicitly discloses that marks are aggregated.
 
 A canonical paper ID appears once per daily list. arXiv versions collapse; an appearance on another day remains a separate appearance. The weekly unique-paper count is distinct from appearances. A complete empty API response is zero. Failed or incomplete pagination produces missing data, never a zero count.
 

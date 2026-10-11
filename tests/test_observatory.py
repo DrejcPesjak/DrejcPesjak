@@ -1,12 +1,13 @@
 import json
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
 from observatory.ingest import Deferred, HFClient, canonical_id, classify, collect_models, collect_papers, label_key
-from observatory.render import render, reconcile_records, scaffold
+from observatory.render import SVGSizeError, paper_chart, render, reconcile_records, scaffold
 from observatory.store import completed_dates, digest, read_json, read_jsonl, write_json, write_jsonl
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -130,6 +131,52 @@ class ObservatoryTests(unittest.TestCase):
         self.assertIn('marks aggregate category counts', svg)
         self.assertIn('451 APPEARANCES', svg)
         self.assertLess(len(svg.encode()), 200000)
+
+    def test_paper_compaction_uses_bytes_and_can_return_to_individual_marks(self):
+        papers = [self.paper(f'2609.{i:05}', 'Research < & 界 ' * 10) for i in range(374)]
+        write_jsonl(self.root / 'data/papers.jsonl', papers)
+        days = {'2026-09-12': {'complete': True, 'ids': [p['id'] for p in papers]}}
+        write_json(self.root / 'data/days.json', days)
+        path = self.root / 'assets/papers.svg'
+        path.parent.mkdir(parents=True)
+        path.write_text(scaffold('papers').replace('<defs>', '<!-- custom artwork -->\n<defs>'))
+        original_data = (self.root / 'data/papers.jsonl').read_bytes()
+
+        paper_chart(self.root, self.config, self.today)
+        svg = path.read_text()
+        self.assertIn('374 APPEARANCES', svg)
+        self.assertIn('374 Pending labels papers', svg)
+        self.assertIn('Papers grouped by category.', svg)
+        self.assertIn('<!-- custom artwork -->', svg)
+        self.assertEqual(svg.count('class="paper"'), 1)
+        for name in ('papers.svg', 'papers-static.svg'):
+            output = (path.parent / name).read_bytes()
+            self.assertLessEqual(len(output), 200_000)
+            ET.fromstring(output)
+        self.assertFalse(paper_chart(self.root, self.config, self.today)['changed'])
+        self.assertEqual(path.read_text(), svg)
+        self.assertEqual((self.root / 'data/papers.jsonl').read_bytes(), original_data)
+
+        days['2026-09-12']['ids'] = [papers[0]['id']]
+        write_json(self.root / 'data/days.json', days)
+        paper_chart(self.root, self.config, self.today)
+        svg = path.read_text()
+        self.assertIn('one falling mark = one paper', svg)
+        self.assertIn('Research &lt; &amp; 界', svg)
+        self.assertNotIn('374 Pending labels papers', svg)
+
+    def test_oversized_scaffold_preserves_existing_outputs(self):
+        path = self.root / 'assets/papers.svg'
+        path.parent.mkdir(parents=True)
+        original = scaffold('papers').replace('<defs>', '<!--' + 'x' * 200_000 + '--><defs>')
+        path.write_text(original)
+        static = path.parent / 'papers-static.svg'
+        static.write_text('previous static chart')
+        with self.assertRaises(SVGSizeError):
+            paper_chart(self.root, self.config, self.today)
+        self.assertEqual(path.read_text(), original)
+        self.assertEqual(static.read_text(), 'previous static chart')
+        self.assertFalse((self.root / 'data/chart_state.json').exists())
 
     def test_classifier_cache_and_only_invalid_items_repaired(self):
         papers = [self.paper(), self.paper('2609.00002', 'Tool agents')]

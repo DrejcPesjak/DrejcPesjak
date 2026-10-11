@@ -159,6 +159,10 @@ text {{ font-family: 'DejaVu Sans Mono', 'Courier New', monospace; }}
 '''
 
 
+class SVGSizeError(ValueError):
+    """A rendered chart exceeds the output size budget."""
+
+
 def save_chart(root, kind, slots, records):
     path = root / 'assets' / (kind + '.svg')
     svg = path.read_text() if path.exists() else scaffold(kind)
@@ -166,10 +170,10 @@ def save_chart(root, kind, slots, records):
         svg = replace_slot(svg, name, content)
     svg, changes = reconcile_records(svg, records)
     ET.fromstring(svg)
-    if len(svg.encode()) > 200_000:
-        raise ValueError(f'{kind} SVG exceeds 200 KB budget')
-    changed = write_text(path, svg)
     static = svg.replace('</style>', '\n.dot, .paper { animation:none !important; }\n</style>')
+    if max(len(svg.encode('utf-8')), len(static.encode('utf-8'))) > 200_000:
+        raise SVGSizeError(f'{kind} SVG exceeds 200 KB budget')
+    changed = write_text(path, svg)
     write_text(root / 'assets' / (kind + '-static.svg'), static)
     return {'changed': changed, **changes}
 
@@ -287,7 +291,7 @@ def paper_data(root, config, today):
     return result
 
 
-def paper_chart(root, config, today):
+def paper_chart(root, config, today, *, aggregated=False):
     days = paper_data(root, config, today)
     categories = {key: {**value, 'color': pigment(value['color'])}
                   for key, value in {**config['categories'], 'pending': {'name': 'Pending labels', 'color': '#475569'}}.items()}
@@ -310,7 +314,6 @@ def paper_chart(root, config, today):
     records = {}
     count_all, pending_count = 0, 0
     order = list(categories)
-    aggregated = sum(len(d['papers']) for d in days) > 450
     for index, day in enumerate(days):
         xx = 94 + index * width + width / 2
         rows = sorted(day['papers'], key=lambda p: (order.index(p['category']), p['id']))
@@ -370,15 +373,22 @@ def paper_chart(root, config, today):
     stats = text(36, 173, f'{count_all} APPEARANCES', 20, INK, font_weight='600', letter_spacing='1')
     stats += text(966, 170, f'{unique} UNIQUE PAPERS  /  {complete} OF {len(days)} DAYS COLLECTED' + (f'  /  {pending_count} UNLABELED' if pending_count else ''), 12, text_anchor='end')
     heading = 'A week in research' if len(days) == 7 else f'{len(days)} days in research'
-    result = save_chart(root, 'papers', {
+    slots = {
         'accessible-title': esc(heading),
         'heading': text(35, 90, heading, 52, INK, font_weight='700', letter_spacing='-1', **{'class': 'heading'}),
-        'subtitle': text(36, 121, f'One paper. One colored mark. {len(days)} completed days.', 21, INK, **{'class': 'subtitle'}),
+        'subtitle': text(36, 121, ('Papers grouped by category.' if aggregated else 'One paper. One colored mark.') + f' {len(days)} completed days.', 21, INK, **{'class': 'subtitle'}),
         'description': esc(f'{count_all} paper appearances across {complete} collected days, {days[0]["date"]} to {days[-1]["date"]}. Colors identify primary research categories. {pending_count} labels pending. Missing days are not zero.'),
         'meta': text(960, 37, f'{days[0]["date"]} — {days[-1]["date"]} UTC', 12, text_anchor='end', **{'class': 'mono'}),
         'stats': stats, 'axes': axes, 'annotations': '', 'legend': legend,
         'footer': text(34, 635, 'HUGGING FACE', 12, '#30315d', letter_spacing='1.5') + text(195, 635, 'Daily-list dates · one primary category per paper · ' + ('marks aggregate category counts.' if aggregated else 'one falling mark = one paper.'), 11),
-    }, records)
+    }
+    try:
+        result = save_chart(root, 'papers', slots, records)
+    except SVGSizeError:
+        if aggregated:
+            raise
+        # Retry before writing either SVG, preserving the scaffold and counts.
+        return paper_chart(root, config, today, aggregated=True)
     state['paper_ymax'] = ymax
     write_json(state_path, state)
     return result
