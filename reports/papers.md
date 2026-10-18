@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-10-17
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-10-16
 
 Complete daily list.
@@ -396,13 +403,6 @@ Complete daily list.
 | [Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark](https://huggingface.co/papers/2610.13947) | Evaluation & safety |  | Keyword rules |
 
 ## 2026-10-11
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-
-## 2026-10-10
 
 Complete daily list.
 
