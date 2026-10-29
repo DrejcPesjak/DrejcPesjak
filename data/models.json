@@ -1,6 +1,6 @@
 {
   "candidate_count": 212,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "excluded": [
     {
       "id": "ornith-ai/Ornith-1.5-9B-GGUF",
@@ -19,12 +19,12 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
-      "reason": "internal testing / synthetic test model"
-    },
-    {
       "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
       "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "reason": "internal testing / synthetic test model"
     },
     {
       "id": "ornith-ai/Ornith-1.0-9B-GGUF",
@@ -55,15 +55,15 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "unsloth/flint-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
       "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "unsloth/flint-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -75,14 +75,6 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "jialinyyzz/humanizer",
-      "reason": "adapter or quantized conversion"
-    },
-    {
-      "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
       "id": "LiquidAI/LFM3-1.7B-GGUF",
       "reason": "adapter or quantized conversion"
     },
@@ -91,11 +83,19 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
+      "id": "jialinyyzz/humanizer",
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF",
+      "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+      "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -107,11 +107,11 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "KRAFTON/Raon-1-mini-preview-gguf",
+      "id": "kaitchup/Qwen3.8-27B-SLQ-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "InternScience/Sage-A1.5-Q4_K_M-GGUF",
+      "id": "ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -175,23 +175,19 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
       "id": "unsloth/gemma-4-12b-it-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "mistralai/Mistral-Large-4-1T-A52B",
+      "reason": "total parameter count unavailable"
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
-      "id": "orcarouter/OrcaCyber-Nano-1.0",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -199,7 +195,7 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "id": "orcarouter/OrcaCyber-Nano-1.0",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -207,7 +203,7 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+      "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -215,11 +211,7 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
-      "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "id": "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -227,11 +219,7 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "THUSI-Lab/GameScaling",
-      "reason": "total parameter count unavailable"
-    },
-    {
-      "id": "dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "id": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -279,10 +267,6 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
-      "reason": "adapter or quantized conversion"
-    },
-    {
       "id": "lmstudio-community/gemma-4-12B-it-MLX-6bit",
       "reason": "adapter or quantized conversion"
     },
@@ -292,6 +276,10 @@
     },
     {
       "id": "google/gemma-4-E4B-it-qat-w4a16-ct",
+      "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -363,11 +351,7 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "unsloth/gemma-4-E2B-it-qat-GGUF",
-      "reason": "adapter or quantized conversion"
-    },
-    {
-      "id": "OS-Software/gemma-4-12B-it-qat-q4_0-uncensored-heretic-v3-GGUF",
+      "id": "LiquidAI/LFM3-Omni-2B-MLX-8bit",
       "reason": "adapter or quantized conversion"
     },
     {
@@ -375,12 +359,12 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "LiquidAI/LFM3-Omni-2B-MLX-8bit",
+      "id": "unsloth/gemma-4-E2B-it-qat-GGUF",
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "deepseek-ai/Janus-Pro-7B",
-      "reason": "total parameter count unavailable"
+      "id": "OS-Software/gemma-4-12B-it-qat-q4_0-uncensored-heretic-v3-GGUF",
+      "reason": "adapter or quantized conversion"
     },
     {
       "id": "LiquidAI/LFM3-Audio-2B-ONNX",
@@ -403,125 +387,133 @@
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4",
+      "id": "deepseek-ai/Janus-Pro-7B",
+      "reason": "total parameter count unavailable"
+    },
+    {
+      "id": "openbmb/MiniCPM-o-4_5-gguf",
       "reason": "adapter or quantized conversion"
     },
     {
-      "id": "bytedance-research/Lance",
+      "id": "bartowski/TheDrummer_Orion-26B-A4B-v1.1-GGUF",
+      "reason": "adapter or quantized conversion"
+    },
+    {
+      "id": "SanRiiiii/VitronEdit",
       "reason": "total parameter count unavailable"
     }
   ],
   "models": [
     {
-      "downloads": 24162298,
-      "family": "Qwen / Alibaba",
-      "id": "Qwen/Qwen3-0.6B",
-      "likes": 1856,
-      "params": 751632384,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 24065211,
+      "downloads": 24837303,
       "family": "Other",
       "id": "openai-community/gpt2",
-      "likes": 3896,
+      "likes": 3900,
       "params": 137022720,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 11956937,
+      "downloads": 24030612,
+      "family": "Qwen / Alibaba",
+      "id": "Qwen/Qwen3-0.6B",
+      "likes": 1862,
+      "params": 751632384,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 12353242,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-14B",
-      "likes": 525,
+      "likes": 526,
       "params": 14768307200,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 11217241,
+      "downloads": 11220629,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-4B",
-      "likes": 774,
+      "likes": 775,
       "params": 4022468096,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 8466559,
+      "downloads": 8387378,
       "family": "Google",
       "id": "google/gemma-4-31B-it",
-      "likes": 4224,
+      "likes": 4236,
       "params": 31273088876,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 8095680,
+      "downloads": 7934641,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-8B",
-      "likes": 2150,
+      "likes": 2153,
       "params": 8190735360,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 7515620,
+      "downloads": 7509924,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3.8-27B",
-      "likes": 18590,
+      "likes": 18665,
       "params": 27781427952,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 7403701,
+      "downloads": 7212458,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3.5-4B",
-      "likes": 1151,
+      "likes": 1158,
       "params": 4659865088,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 7070055,
+      "downloads": 6670881,
       "family": "Google",
       "id": "google/gemma-4-26B-A4B-it",
-      "likes": 1712,
+      "likes": 1717,
       "params": 25805936206,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 6569954,
+      "downloads": 6650352,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "likes": 1231,
+      "likes": 1232,
       "params": 8767123696,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 6417099,
-      "family": "Other",
-      "id": "zai-org/GLM-5.3-Flash",
-      "likes": 2973,
-      "params": 321323031390,
-      "params_source": "HF safetensors.total",
-      "task": "image-text-to-text"
-    },
-    {
-      "downloads": 6373410,
+      "downloads": 6447409,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3.5-9B",
-      "likes": 2266,
+      "likes": 2271,
       "params": 9653104368,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 6019167,
+      "downloads": 6397381,
+      "family": "Other",
+      "id": "zai-org/GLM-5.3-Flash",
+      "likes": 2979,
+      "params": 321323031390,
+      "params_source": "HF safetensors.total",
+      "task": "image-text-to-text"
+    },
+    {
+      "downloads": 6102505,
       "family": "DeepSeek",
       "id": "deepseek-ai/DeepSeek-V3.2",
       "likes": 1591,
@@ -530,52 +522,52 @@
       "task": "text-generation"
     },
     {
-      "downloads": 6009287,
+      "downloads": 6030207,
       "family": "OpenAI",
       "id": "openai/gpt-oss-20b",
-      "likes": 5239,
+      "likes": 5247,
       "params": 20914757184,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 5876239,
+      "downloads": 5748250,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "likes": 2464,
+      "likes": 2469,
       "params": 7615616512,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 5508872,
+      "downloads": 5609309,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen2.5-VL-7B-Instruct",
-      "likes": 1756,
+      "likes": 1758,
       "params": 8292166656,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 5226487,
+      "downloads": 5165931,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen2.5-0.5B-Instruct",
-      "likes": 717,
+      "likes": 719,
       "params": 494032768,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 4899647,
+      "downloads": 4787809,
       "family": "Meta",
       "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "likes": 8649,
+      "likes": 8670,
       "params": 8030261248,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 4709254,
+      "downloads": 4711146,
       "family": "Other",
       "id": "dphn/dolphin-2.9.1-yi-1.5-34b",
       "likes": 90,
@@ -584,7 +576,16 @@
       "task": "text-generation"
     },
     {
-      "downloads": 4588016,
+      "downloads": 4560704,
+      "family": "Qwen / Alibaba",
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "likes": 3052,
+      "params": 35951822704,
+      "params_source": "HF safetensors.total",
+      "task": "image-text-to-text"
+    },
+    {
+      "downloads": 4516493,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
       "likes": 918,
@@ -593,61 +594,70 @@
       "task": "text-generation"
     },
     {
-      "downloads": 4415423,
-      "family": "Qwen / Alibaba",
-      "id": "Qwen/Qwen3.6-35B-A3B",
-      "likes": 3047,
-      "params": 35951822704,
-      "params_source": "HF safetensors.total",
-      "task": "image-text-to-text"
-    },
-    {
-      "downloads": 4142404,
-      "family": "Qwen / Alibaba",
-      "id": "Qwen/Qwen3-1.7B",
-      "likes": 599,
-      "params": 2031739904,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 4122475,
+      "downloads": 4198440,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-VL-4B-Instruct",
-      "likes": 514,
+      "likes": 515,
       "params": 4437815808,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 4078212,
+      "downloads": 4145820,
+      "family": "Qwen / Alibaba",
+      "id": "Qwen/Qwen3-1.7B",
+      "likes": 602,
+      "params": 2031739904,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 4096739,
       "family": "Google",
       "id": "google/gemma-4-E4B-it",
-      "likes": 1789,
+      "likes": 1794,
       "params": 7996156490,
       "params_source": "HF safetensors.total",
       "task": "any-to-any"
     },
     {
-      "downloads": 3676993,
-      "family": "Qwen / Alibaba",
-      "id": "Qwen/Qwen3.5-0.8B",
-      "likes": 790,
-      "params": 873438784,
-      "params_source": "HF safetensors.total",
-      "task": "image-text-to-text"
-    },
-    {
-      "downloads": 3637182,
+      "downloads": 3853710,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3.8-Flash-Next",
-      "likes": 6620,
+      "likes": 6635,
       "params": 179999981459,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 3440020,
+      "downloads": 3742204,
+      "family": "Qwen / Alibaba",
+      "id": "Qwen/Qwen3.5-0.8B",
+      "likes": 791,
+      "params": 873438784,
+      "params_source": "HF safetensors.total",
+      "task": "image-text-to-text"
+    },
+    {
+      "downloads": 3535406,
+      "family": "Other",
+      "id": "baidu/Unlimited-OCR",
+      "likes": 4931,
+      "params": 3336106240,
+      "params_source": "HF safetensors.total",
+      "task": "image-text-to-text"
+    },
+    {
+      "downloads": 3419737,
+      "family": "DeepSeek",
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "likes": 4092,
+      "params": 304180418494,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 3396072,
       "family": "Other",
       "id": "EleutherAI/pythia-160m",
       "likes": 66,
@@ -656,43 +666,25 @@
       "task": "text-generation"
     },
     {
-      "downloads": 3411368,
-      "family": "Qwen / Alibaba",
-      "id": "Qwen/Qwen2.5-3B-Instruct",
-      "likes": 623,
-      "params": 3085938688,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 3403432,
-      "family": "DeepSeek",
-      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "likes": 4091,
-      "params": 304180418494,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 3305535,
-      "family": "Other",
-      "id": "baidu/Unlimited-OCR",
-      "likes": 4926,
-      "params": 3336106240,
-      "params_source": "HF safetensors.total",
-      "task": "image-text-to-text"
-    },
-    {
-      "downloads": 3296544,
+      "downloads": 3364573,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3.5-2B",
-      "likes": 460,
+      "likes": 461,
       "params": 2274069824,
       "params_source": "HF safetensors.total",
       "task": "image-text-to-text"
     },
     {
-      "downloads": 3267244,
+      "downloads": 3333473,
+      "family": "Qwen / Alibaba",
+      "id": "Qwen/Qwen2.5-3B-Instruct",
+      "likes": 624,
+      "params": 3085938688,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 3311693,
       "family": "Other",
       "id": "microsoft/Florence-2-base",
       "likes": 433,
@@ -701,146 +693,146 @@
       "task": "image-text-to-text"
     },
     {
-      "downloads": 3152446,
+      "downloads": 3221080,
       "family": "Google",
       "id": "google/gemma-4-E2B-it",
-      "likes": 1081,
+      "likes": 1085,
       "params": 5123178051,
       "params_source": "HF safetensors.total",
       "task": "any-to-any"
     },
     {
-      "downloads": 3073977,
-      "family": "Meta",
-      "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "likes": 1912,
-      "params": 1235814400,
+      "downloads": 2883746,
+      "family": "Other",
+      "id": "autotrust/JEV-27B-VL",
+      "likes": 2215,
+      "params": 27781427952,
       "params_source": "HF safetensors.total",
-      "task": "text-generation"
+      "task": "image-text-to-text"
     },
     {
-      "downloads": 2872589,
+      "downloads": 2872657,
       "family": "Qwen / Alibaba",
       "id": "Qwen/Qwen3-32B",
-      "likes": 787,
+      "likes": 791,
       "params": 32762123264,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 2829813,
+      "downloads": 2761175,
       "family": "OpenAI",
       "id": "openai/gpt-oss-120b",
-      "likes": 5453,
+      "likes": 5461,
       "params": 116829156672,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 14047,
-      "family": "Other",
-      "id": "RecursiveSI/flint",
-      "likes": 1132,
-      "params": 39785287456,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 7412,
+      "downloads": 9655,
       "family": "Other",
       "id": "Nanbeige/Nanbeige4.3-33B",
-      "likes": 701,
+      "likes": 755,
       "params": 33118977024,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 8222,
+      "downloads": 16598,
+      "family": "Other",
+      "id": "RecursiveSI/flint",
+      "likes": 1228,
+      "params": 39785287456,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 10163,
       "family": "Other",
       "id": "XHToken/Spark-X2.6-4B",
-      "likes": 834,
+      "likes": 895,
       "params": 4112079360,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 8892,
+      "downloads": 15885,
       "family": "Other",
       "id": "LiquidAI/LFM3-1.7B",
-      "likes": 308,
+      "likes": 451,
       "params": 1728801536,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 8218,
-      "family": "Other",
-      "id": "InternScience/Sage-A1.5",
-      "likes": 352,
-      "params": 35951822704,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 2305,
+      "downloads": 2808,
       "family": "Other",
       "id": "HuggingFaceBio/Carbon-X",
-      "likes": 239,
+      "likes": 266,
       "params": 14822046720,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 2804,
+      "downloads": 9830,
       "family": "Other",
-      "id": "KRAFTON/Raon-1-mini-preview",
-      "likes": 222,
-      "params": 28783218402,
+      "id": "InternScience/Sage-A1.5",
+      "likes": 371,
+      "params": 35951822704,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 55126,
-      "family": "Other",
-      "id": "MemTensor/MemT-1.0-Nano",
-      "likes": 155,
-      "params": 35111542048,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 7231,
-      "family": "Other",
-      "id": "reflection/Beam-1.0-501B-A23B",
-      "likes": 284,
-      "params": 501267612352,
-      "params_source": "HF safetensors.total",
-      "task": "text-generation"
-    },
-    {
-      "downloads": 105,
+      "downloads": 1030,
       "family": "Other",
       "id": "Diffuspace/Clover-35B-A3B-Preview",
-      "likes": 75,
+      "likes": 129,
       "params": 34661350848,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 548,
+      "downloads": 3085,
+      "family": "Other",
+      "id": "KRAFTON/Raon-1-mini-preview",
+      "likes": 224,
+      "params": 28783218402,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 832,
       "family": "Other",
       "id": "inclusionAI/Ling-3.1-flash-1019",
-      "likes": 72,
+      "likes": 80,
       "params": 572120680768,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     },
     {
-      "downloads": 90697,
+      "downloads": 62209,
       "family": "Other",
-      "id": "ornith-ai/Ornith-1.5-122B",
-      "likes": 197,
-      "params": 125086497008,
+      "id": "MemTensor/MemT-1.0-Nano",
+      "likes": 162,
+      "params": 35111542048,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 1399,
+      "family": "Other",
+      "id": "LiquidAI/LFM3-1.7B-Base",
+      "likes": 79,
+      "params": 1728801536,
+      "params_source": "HF safetensors.total",
+      "task": "text-generation"
+    },
+    {
+      "downloads": 1075,
+      "family": "Other",
+      "id": "inclusionAI/Ling-3.0-flash-Sante",
+      "likes": 76,
+      "params": 127486405600,
       "params_source": "HF safetensors.total",
       "task": "text-generation"
     }

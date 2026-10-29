@@ -4,6 +4,64 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-10-28
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+| [Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection](https://huggingface.co/papers/2509.05512) | Other / unclear | uncertain | Keyword rules |
+| [The Lexical Imprint of Pre-training Data](https://huggingface.co/papers/2602.10657) | Other / unclear | uncertain | Keyword rules |
+| [On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction](https://huggingface.co/papers/2610.22543) | Systems & efficiency |  | Keyword rules |
+| [AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents](https://huggingface.co/papers/2610.22684) | Agents | uncertain | Keyword rules |
+| [HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory](https://huggingface.co/papers/2610.24520) | Evaluation & safety |  | Keyword rules |
+| [Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation](https://huggingface.co/papers/2610.26030) | Other / unclear | uncertain | Keyword rules |
+| [MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching](https://huggingface.co/papers/2610.26185) | Evaluation & safety |  | Keyword rules |
+| [T-DIG: Text-Conditioned Diversity for Image Generation](https://huggingface.co/papers/2610.29003) | Multimodal & generation |  | Keyword rules |
+| [Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models](https://huggingface.co/papers/2610.30435) | Agents | uncertain | Keyword rules |
+| [Sub-monolayer tracking of molecular states at buried interfaces](https://huggingface.co/papers/2610.31924) | Other / unclear | uncertain | Keyword rules |
+| [Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?](https://huggingface.co/papers/2610.32046) | Other / unclear | uncertain | Keyword rules |
+| [OvisOCR3 Technical Report](https://huggingface.co/papers/2610.33066) | Reasoning & learning |  | Keyword rules |
+| [AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science](https://huggingface.co/papers/2610.33245) | Agents |  | Keyword rules |
+| [RSI Arena: Towards Recursive Self-Improvement with Human Feedback](https://huggingface.co/papers/2610.33624) | Agents |  | Keyword rules |
+| [Memory Tax: Dissecting the Net Value of Agent Memory](https://huggingface.co/papers/2610.34073) | Agents |  | Keyword rules |
+| [ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence](https://huggingface.co/papers/2610.34283) | Multimodal & generation |  | Keyword rules |
+| [What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents](https://huggingface.co/papers/2610.34491) | Agents |  | Keyword rules |
+| [Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation](https://huggingface.co/papers/2610.34674) | Evaluation & safety |  | Keyword rules |
+| [SearchHorizonBench: A Benchmark for Search Value in AI Agents](https://huggingface.co/papers/2610.34714) | Evaluation & safety |  | Keyword rules |
+| [Harness-Model Collaboration for Long-Horizon Continual Learning](https://huggingface.co/papers/2610.34724) | Agents |  | Keyword rules |
+| [What Outcome RL Buys: Finishing, Reliability, Rarely Reach](https://huggingface.co/papers/2610.34894) | Other / unclear | uncertain | Keyword rules |
+| [PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds](https://huggingface.co/papers/2610.34921) | Multimodal & generation |  | Keyword rules |
+| [Multiscale Policy Optimization for Long-Horizon LLM Agents](https://huggingface.co/papers/2610.35013) | Reasoning & learning |  | Keyword rules |
+| [Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams](https://huggingface.co/papers/2610.35439) | Evaluation & safety |  | Keyword rules |
+| [MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting](https://huggingface.co/papers/2610.35724) | Systems & efficiency |  | Keyword rules |
+| [VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation](https://huggingface.co/papers/2610.35864) | Evaluation & safety | uncertain | Keyword rules |
+| [h1: A Taste of the Bitter Lesson in Automated Theorem Proving](https://huggingface.co/papers/2610.35962) | Agents |  | Keyword rules |
+| [Learning and Reasoning with Geometry: How Generation Helps Spatial Understanding](https://huggingface.co/papers/2610.36022) | Other / unclear | uncertain | Keyword rules |
+| [Rollback: Experience Backtracking in World Models for Policy Improvement](https://huggingface.co/papers/2610.36068) | World models |  | Keyword rules |
+| [The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents](https://huggingface.co/papers/2610.36077) | Agents | uncertain | Keyword rules |
+| [How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning](https://huggingface.co/papers/2610.36082) | Reasoning & learning |  | Keyword rules |
+| [Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It](https://huggingface.co/papers/2610.36184) | Other / unclear | uncertain | Keyword rules |
+| [Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models](https://huggingface.co/papers/2610.36192) | Multimodal & generation |  | Keyword rules |
+| [Cross-modal Steering Vectors Exist Across Both Image and Text Generation](https://huggingface.co/papers/2610.36269) | Multimodal & generation |  | Keyword rules |
+| [LociArt: A Unified Paradigm for Free-Style Local Video Stylization](https://huggingface.co/papers/2610.36456) | Evaluation & safety | uncertain | Keyword rules |
+| [Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation](https://huggingface.co/papers/2610.36466) | Reasoning & learning |  | Keyword rules |
+| [Hy-Nomas: Towards Free-form Interactive World Generation](https://huggingface.co/papers/2610.36729) | Multimodal & generation |  | Keyword rules |
+| [RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions](https://huggingface.co/papers/2610.36791) | World models |  | Keyword rules |
+| [Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception](https://huggingface.co/papers/2610.37037) | Multimodal & generation |  | Keyword rules |
+| [MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model](https://huggingface.co/papers/2610.37175) | World models |  | Keyword rules |
+| [Vision-Language-Action or World-Action? Just Action Models](https://huggingface.co/papers/2610.37219) | Robotics | uncertain | Keyword rules |
+| [Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces](https://huggingface.co/papers/2610.37255) | Agents |  | Keyword rules |
+| [CodeCap-Bench: Can Code Serve as a Good Video Caption?](https://huggingface.co/papers/2610.37341) | Evaluation & safety |  | Keyword rules |
+| [EmbeddingGemma 2: Unified and Efficient Multimodal Representations](https://huggingface.co/papers/2610.37364) | Multimodal & generation |  | Keyword rules |
+| [PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations](https://huggingface.co/papers/2610.37381) | Multimodal & generation |  | Keyword rules |
+| [Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data](https://huggingface.co/papers/2610.37386) | Other / unclear | uncertain | Keyword rules |
+| [Timestral](https://huggingface.co/papers/2610.37585) | Other / unclear | uncertain | Keyword rules |
+| [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](https://huggingface.co/papers/2610.37624) | Evaluation & safety |  | Keyword rules |
+| [Can LLMs Uncover Hidden Physical Laws through Free Exploration?](https://huggingface.co/papers/2610.37649) | Agents |  | Keyword rules |
+| [Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?](https://huggingface.co/papers/2610.37662) | Systems & efficiency | uncertain | Keyword rules |
+| [ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://huggingface.co/papers/2610.37666) | Robotics |  | Keyword rules |
+
 ## 2026-10-27
 
 Complete daily list.
@@ -261,75 +319,4 @@ Complete daily list.
 | [ALPS: Visual State Encoders for World Models](https://huggingface.co/papers/2610.30120) | World models |  | Keyword rules |
 | [Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation](https://huggingface.co/papers/2610.30128) | Other / unclear | uncertain | Keyword rules |
 | [Agentic World Action Models](https://huggingface.co/papers/2610.30136) | Agents |  | Keyword rules |
-
-## 2026-10-21
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-| [Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading](https://huggingface.co/papers/2511.14102) | Systems & efficiency |  | Keyword rules |
-| [Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models](https://huggingface.co/papers/2603.19233) | Evaluation & safety | uncertain | Keyword rules |
-| [Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization](https://huggingface.co/papers/2606.31002) | Agents |  | Keyword rules |
-| [FlowState: Execution State as Memory for Long-Horizon LLM Agents](https://huggingface.co/papers/2609.34565) | Agents |  | Keyword rules |
-| [PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation](https://huggingface.co/papers/2610.07609) | Systems & efficiency |  | Keyword rules |
-| [OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning](https://huggingface.co/papers/2610.09513) | Multimodal & generation |  | Keyword rules |
-| [Correction Training for Diffusion Models](https://huggingface.co/papers/2610.14136) | Multimodal & generation |  | Keyword rules |
-| [EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents](https://huggingface.co/papers/2610.16523) | Agents |  | Keyword rules |
-| [LLM2R: From Large Language Models to 3D Reassemblers](https://huggingface.co/papers/2610.18604) | Other / unclear | uncertain | Keyword rules |
-| [λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://huggingface.co/papers/2610.18950) | Robotics |  | Keyword rules |
-| [WinARDet: Compressed Window Auto-Regression for Long-Horizon Vision-Language Grounding](https://huggingface.co/papers/2610.19419) | Multimodal & generation |  | Keyword rules |
-| [Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach](https://huggingface.co/papers/2610.19425) | Agents |  | Keyword rules |
-| [Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning](https://huggingface.co/papers/2610.22444) | Evaluation & safety |  | Keyword rules |
-| [What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?](https://huggingface.co/papers/2610.23010) | Other / unclear | uncertain | Keyword rules |
-| [On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs](https://huggingface.co/papers/2610.23400) | Other / unclear | uncertain | Keyword rules |
-| [HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time](https://huggingface.co/papers/2610.24452) | Multimodal & generation |  | Keyword rules |
-| [Axiomatic World Modeling for Physics Reasoning](https://huggingface.co/papers/2610.24519) | World models | uncertain | Keyword rules |
-| [Muse Glimmer 30B: An On-Device Agentic Model](https://huggingface.co/papers/2610.24628) | Agents |  | Keyword rules |
-| [EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends](https://huggingface.co/papers/2610.24648) | Evaluation & safety |  | Keyword rules |
-| [Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success](https://huggingface.co/papers/2610.24649) | Agents |  | Keyword rules |
-| [HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents](https://huggingface.co/papers/2610.24899) | Agents |  | Keyword rules |
-| [Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research](https://huggingface.co/papers/2610.24944) | Agents |  | Keyword rules |
-| [VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse](https://huggingface.co/papers/2610.25043) | Robotics | uncertain | Keyword rules |
-| [CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?](https://huggingface.co/papers/2610.25078) | Agents |  | Keyword rules |
-| [Painting Change Map as guidance for generating painting processes](https://huggingface.co/papers/2610.25369) | Multimodal & generation |  | Keyword rules |
-| [BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks](https://huggingface.co/papers/2610.25459) | Evaluation & safety |  | Keyword rules |
-| [ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference](https://huggingface.co/papers/2610.25519) | Other / unclear | uncertain | Keyword rules |
-| [TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction](https://huggingface.co/papers/2610.25765) | Multimodal & generation |  | Keyword rules |
-| [SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](https://huggingface.co/papers/2610.25844) | Reasoning & learning | uncertain | Keyword rules |
-| [PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning](https://huggingface.co/papers/2610.26067) | Other / unclear | uncertain | Keyword rules |
-| [Focused Omni-Modal GUI Agents](https://huggingface.co/papers/2610.26203) | Agents |  | Keyword rules |
-| [HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL](https://huggingface.co/papers/2610.26426) | Agents |  | Keyword rules |
-| [Breaking Diffusion: Parallel Reasoning with Draft Refinement](https://huggingface.co/papers/2610.26542) | Other / unclear | uncertain | Keyword rules |
-| [From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping](https://huggingface.co/papers/2610.26681) | Reasoning & learning |  | Keyword rules |
-| [PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements](https://huggingface.co/papers/2610.26711) | Multimodal & generation | uncertain | Keyword rules |
-| [SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration](https://huggingface.co/papers/2610.26837) | Multimodal & generation |  | Keyword rules |
-| [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://huggingface.co/papers/2610.26855) | World models |  | Keyword rules |
-| [VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token](https://huggingface.co/papers/2610.26857) | Other / unclear | uncertain | Keyword rules |
-| [On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models](https://huggingface.co/papers/2610.27190) | Other / unclear | uncertain | Keyword rules |
-| [Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics](https://huggingface.co/papers/2610.27327) | Agents |  | Keyword rules |
-| [EMBER: Predicting TCR--pMHC Binding Without a Docked Complex](https://huggingface.co/papers/2610.27334) | Other / unclear | uncertain | Keyword rules |
-| [On the Limits of Scale: Inverse Scaling in Vision-Language Models](https://huggingface.co/papers/2610.27360) | Multimodal & generation |  | Keyword rules |
-| [More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents](https://huggingface.co/papers/2610.27406) | Agents |  | Keyword rules |
-| [Harness Self-Evolution for Long-Horizon Terminal Agents](https://huggingface.co/papers/2610.27435) | Agents |  | Keyword rules |
-| [Ask to Distill: Learning to Synthesize Data for On-Policy Distillation](https://huggingface.co/papers/2610.27450) | Reasoning & learning |  | Keyword rules |
-| [PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking](https://huggingface.co/papers/2610.27628) | Reasoning & learning |  | Keyword rules |
-| [MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records](https://huggingface.co/papers/2610.27911) | Evaluation & safety |  | Keyword rules |
-| [World Models with Configurable Perception](https://huggingface.co/papers/2610.27914) | World models |  | Keyword rules |
-| [Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds](https://huggingface.co/papers/2610.27999) | Multimodal & generation | uncertain | Keyword rules |
-| [Training the Whole Agent, Not Just the Model](https://huggingface.co/papers/2610.28069) | Agents |  | Keyword rules |
-| [Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models](https://huggingface.co/papers/2610.28074) | World models |  | Keyword rules |
-| [HRoPE: Homography Relative Positional Encoding](https://huggingface.co/papers/2610.28284) | Other / unclear | uncertain | Keyword rules |
-| [S-Agent 2.0: Spatial Reasoning with a General Coding Agent](https://huggingface.co/papers/2610.28354) | Multimodal & generation | uncertain | Keyword rules |
-| [Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling](https://huggingface.co/papers/2610.28388) | Agents |  | Keyword rules |
-| [Multimodal Reranking Is a System One Decision](https://huggingface.co/papers/2610.28435) | Multimodal & generation |  | Keyword rules |
-| [EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning](https://huggingface.co/papers/2610.28444) | Evaluation & safety |  | Keyword rules |
-| [DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems](https://huggingface.co/papers/2610.28522) | Evaluation & safety |  | Keyword rules |
-| [OverSeer: Multi-Agent World Models Beyond What Agents See](https://huggingface.co/papers/2610.28554) | World models | uncertain | Keyword rules |
-| [Large Flow Language Models](https://huggingface.co/papers/2610.28559) | Systems & efficiency |  | Keyword rules |
-| [Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition](https://huggingface.co/papers/2610.28578) | Agents |  | Keyword rules |
-| [Learning the 4D World through Point Trajectory Forecasting](https://huggingface.co/papers/2610.28594) | Multimodal & generation | uncertain | Keyword rules |
-| [Evolving Agent Interfaces](https://huggingface.co/papers/2610.28601) | Agents |  | Keyword rules |
-| [SolarRenderer: Few-Step Generative Reference Rendering](https://huggingface.co/papers/2610.28630) | Agents | uncertain | Keyword rules |
-| [Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs](https://huggingface.co/papers/2610.28632) | Multimodal & generation |  | Keyword rules |
 
