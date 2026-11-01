@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-10-31
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-10-30
 
 Complete daily list.
@@ -255,13 +262,6 @@ Complete daily list.
 | [RynnUnify: Towards Unified Embodied Brain](https://huggingface.co/papers/2610.32965) | Multimodal & generation | uncertain | Keyword rules |
 
 ## 2026-10-25
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-
-## 2026-10-24
 
 Complete daily list.
 
