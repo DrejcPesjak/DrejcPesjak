@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-11-01
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-10-31
 
 Complete daily list.
@@ -260,11 +267,4 @@ Complete daily list.
 | [LoCA: Enabling Multi-Modality in Geospatial Location Encoders](https://huggingface.co/papers/2610.32894) | Multimodal & generation |  | Keyword rules |
 | [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://huggingface.co/papers/2610.32909) | Robotics | uncertain | Keyword rules |
 | [RynnUnify: Towards Unified Embodied Brain](https://huggingface.co/papers/2610.32965) | Multimodal & generation | uncertain | Keyword rules |
-
-## 2026-10-25
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
 
