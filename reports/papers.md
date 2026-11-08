@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-11-07
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-11-06
 
 Complete daily list.
@@ -246,13 +253,6 @@ Complete daily list.
 | [Latent Reasoning in Continuous Space for Unified Multimodal Models](https://huggingface.co/papers/2610.42149) | Multimodal & generation |  | Keyword rules |
 
 ## 2026-11-01
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
-
-## 2026-10-31
 
 Complete daily list.
 
