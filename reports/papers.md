@@ -4,6 +4,13 @@ Dates are HF daily-list dates, not original publication dates. Repeat appearance
 
 Label sources distinguish Codex bootstrap review, local keyword rules, and optional HF inference. Rule scores are heuristic; they are not calibrated probabilities. [Bootstrap audit](labeling-bootstrap.md) · [Rule comparison](label-comparison.md).
 
+## 2026-11-15
+
+Complete daily list.
+
+| Paper | Primary category | Review | Label source |
+| --- | --- | --- | --- |
+
 ## 2026-11-14
 
 Complete daily list.
@@ -212,11 +219,4 @@ Complete daily list.
 | [CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse](https://huggingface.co/papers/2611.09891) | Agents |  | Keyword rules |
 | [Video-Coder: Reinforcing Agentic Coding for Video Generation](https://huggingface.co/papers/2611.09894) | Multimodal & generation | uncertain | Keyword rules |
 | [Coding or Cheating? An Investigation of Frontier Coding LLMs](https://huggingface.co/papers/2611.10404) | Reasoning & learning | uncertain | Keyword rules |
-
-## 2026-11-08
-
-Complete daily list.
-
-| Paper | Primary category | Review | Label source |
-| --- | --- | --- | --- |
 
